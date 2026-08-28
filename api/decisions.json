@@ -218,13 +218,13 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-08-28T09:07:30+00:00",
+  "generated_at": "2026-08-28T09:23:32+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T08:40:17+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json",
   "withheld": []
 }

@@ -2,6 +2,17 @@
   "active": [
     {
       "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-28T09:09:29+00:00",
+      "mission_id": "msn-89ce1baf2d6c",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "WTC candidate simulation - pre-registered offline variants on certified replica"
+    },
+    {
+      "active": true,
       "business": "CAS",
       "created_at": "2026-08-28T08:18:06+00:00",
       "mission_id": "msn-a9e21769260f",
@@ -30,7 +41,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
     },
     {
@@ -129,7 +140,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "CSO",
-      "status": "REPORTED",
+      "status": "OPEN",
       "title": "CSO commercial review"
     },
     {
@@ -145,22 +156,34 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "2d0fbb7dd574dced8e8cdfbba1a03204dcfe65bd54a6795b856c2866cf9dcabd",
-  "count": 58,
+  "content_sha256": "47c2a2ab04462b49df43e82bb6244ad986dea93830d954f2fe0ab5a559d8d5de",
+  "count": 59,
   "counts_by_business": {
     "CAS": 39,
-    "TRADING": 19
+    "TRADING": 20
   },
   "counts_by_status": {
     "ABANDONED": 26,
+    "CLAIMED": 2,
     "CLOSED": 18,
     "COMPLETE": 1,
     "OPEN": 9,
-    "REPORTED": 4
+    "REPORTED": 3
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-08-28T09:07:30+00:00",
+  "generated_at": "2026-08-28T09:23:32+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-28T09:09:29+00:00",
+      "mission_id": "msn-89ce1baf2d6c",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "WTC candidate simulation - pre-registered offline variants on certified replica"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -191,7 +214,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
     },
     {
@@ -565,7 +588,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "CSO",
-      "status": "REPORTED",
+      "status": "OPEN",
       "title": "CSO commercial review"
     },
     {
@@ -805,7 +828,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T09:07:30+00:00",
+  "updated_at": "2026-08-28T09:23:14+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

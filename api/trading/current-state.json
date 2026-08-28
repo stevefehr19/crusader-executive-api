@@ -184,7 +184,7 @@
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "b287b8ce90b5a9dc0814a29816e3fb1ee15dcba67b2f48737a8577594a85c2ad",
+  "content_sha256": "d2d45cba3d0914dbcf07d241cad5005d7cc761778bbb48e423de0983e20b7cfa",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -273,17 +273,17 @@
     ],
     "withheld": []
   },
-  "documents_indexed": 503,
+  "documents_indexed": 507,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 3.3,
-    "indexed_at": "2026-08-28T09:20:16+00:00",
+    "age_minutes": 4.0,
+    "indexed_at": "2026-08-28T09:35:32+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-28T09:23:32+00:00",
+  "generated_at": "2026-08-28T09:39:34+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -475,7 +475,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -499,7 +499,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,
@@ -512,6 +512,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-08-28T09:30:31+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

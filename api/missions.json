@@ -19,19 +19,8 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "OPEN",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T08:18:04+00:00",
-      "mission_id": "msn-152191940c18",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
       "active": true,
@@ -43,17 +32,6 @@
       "role": "BUILDER",
       "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T07:23:10+00:00",
-      "mission_id": "msn-258e29105a33",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
     },
     {
       "active": true,
@@ -135,28 +113,17 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-08-24T17:37:53+00:00",
-      "mission_id": "msn-9362a3d8306b",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "CSO",
-      "status": "OPEN",
-      "title": "CSO commercial review"
-    },
-    {
-      "active": true,
-      "business": "CAS",
       "created_at": "2026-08-24T17:37:43+00:00",
       "mission_id": "msn-52d77ad8d6cd",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "Commander state review"
     }
   ],
   "business": "BOTH",
-  "content_sha256": "47c2a2ab04462b49df43e82bb6244ad986dea93830d954f2fe0ab5a559d8d5de",
+  "content_sha256": "1d62298f52d327baa646ae9564835ad6152f97b2b4d80a10a2b71ad3dbb4a96d",
   "count": 59,
   "counts_by_business": {
     "CAS": 39,
@@ -164,14 +131,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 26,
-    "CLAIMED": 2,
-    "CLOSED": 18,
+    "CLAIMED": 3,
+    "CLOSED": 21,
     "COMPLETE": 1,
-    "OPEN": 9,
-    "REPORTED": 3
+    "OPEN": 8
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-08-28T09:23:32+00:00",
+  "generated_at": "2026-08-28T09:39:34+00:00",
   "missions": [
     {
       "active": true,
@@ -192,18 +158,18 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "OPEN",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-08-28T08:18:04+00:00",
       "mission_id": "msn-152191940c18",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "CLOSED",
       "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
@@ -273,14 +239,14 @@
       "title": "CAS-OVERNIGHT-PILOT-PACK \u2014 first Pilot delivery readiness"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-08-28T07:23:10+00:00",
       "mission_id": "msn-258e29105a33",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "CLOSED",
       "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
     },
     {
@@ -581,14 +547,14 @@
       "title": "Certification fresh-agent drill"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-08-24T17:37:53+00:00",
       "mission_id": "msn-9362a3d8306b",
       "officer": "cso",
       "report_to": "CSO",
       "role": "CSO",
-      "status": "OPEN",
+      "status": "CLOSED",
       "title": "CSO commercial review"
     },
     {
@@ -599,7 +565,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "Commander state review"
     },
     {
@@ -828,7 +794,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T09:23:14+00:00",
+  "updated_at": "2026-08-28T09:39:15+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

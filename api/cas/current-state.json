@@ -134,7 +134,7 @@
     }
   ],
   "business": "CAS",
-  "content_sha256": "c7b3de9553802bb1ea02ba8a42f1eebf4cf263255faf7adec1cdee2c93879d9e",
+  "content_sha256": "4ce02e4c53725b4402a0e0cb3288ae834f3a148422c884602fb0d4e966492e6e",
   "decisions_open": {
     "count": 12,
     "items": [
@@ -264,14 +264,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 1.2,
-    "indexed_at": "2026-08-28T09:22:23+00:00",
+    "age_minutes": 0.7,
+    "indexed_at": "2026-08-28T09:38:51+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-28T09:23:32+00:00",
+  "generated_at": "2026-08-28T09:39:34+00:00",
   "missions": {
     "active": [
       {
@@ -282,19 +282,8 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "REPORTED",
+        "status": "OPEN",
         "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
-      },
-      {
-        "active": true,
-        "business": "CAS",
-        "created_at": "2026-08-28T08:18:04+00:00",
-        "mission_id": "msn-152191940c18",
-        "officer": "commander",
-        "report_to": "COMMANDER",
-        "role": "BUILDER",
-        "status": "REPORTED",
-        "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
       },
       {
         "active": true,
@@ -310,43 +299,20 @@
       {
         "active": true,
         "business": "CAS",
-        "created_at": "2026-08-28T07:23:10+00:00",
-        "mission_id": "msn-258e29105a33",
-        "officer": "commander",
-        "report_to": "COMMANDER",
-        "role": "BUILDER",
-        "status": "REPORTED",
-        "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
-      },
-      {
-        "active": true,
-        "business": "CAS",
-        "created_at": "2026-08-24T17:37:53+00:00",
-        "mission_id": "msn-9362a3d8306b",
-        "officer": "cso",
-        "report_to": "CSO",
-        "role": "CSO",
-        "status": "OPEN",
-        "title": "CSO commercial review"
-      },
-      {
-        "active": true,
-        "business": "CAS",
         "created_at": "2026-08-24T17:37:43+00:00",
         "mission_id": "msn-52d77ad8d6cd",
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "COMMANDER",
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "Commander state review"
       }
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLAIMED": 1,
-      "CLOSED": 18,
-      "OPEN": 2,
-      "REPORTED": 3
+      "CLAIMED": 2,
+      "CLOSED": 21,
+      "OPEN": 1
     },
     "withheld": []
   },
@@ -372,7 +338,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -397,7 +363,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -422,7 +388,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -446,7 +412,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-08-28T09:23:14+00:00",
+        "published_at": "2026-08-28T09:39:15+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -459,6 +425,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T09:23:14+00:00",
+  "updated_at": "2026-08-28T09:39:15+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

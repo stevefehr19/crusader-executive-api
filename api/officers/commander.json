@@ -19,19 +19,8 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "OPEN",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T08:18:04+00:00",
-      "mission_id": "msn-152191940c18",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
       "active": true,
@@ -43,17 +32,6 @@
       "role": "BUILDER",
       "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T07:23:10+00:00",
-      "mission_id": "msn-258e29105a33",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
     },
     {
       "active": true,
@@ -135,23 +113,12 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-08-24T17:37:53+00:00",
-      "mission_id": "msn-9362a3d8306b",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "CSO",
-      "status": "OPEN",
-      "title": "CSO commercial review"
-    },
-    {
-      "active": true,
-      "business": "CAS",
       "created_at": "2026-08-24T17:37:43+00:00",
       "mission_id": "msn-52d77ad8d6cd",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "Commander state review"
     }
   ],
@@ -199,28 +166,27 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 1.2,
-      "indexed_at": "2026-08-28T09:22:23+00:00",
+      "age_minutes": 0.7,
+      "indexed_at": "2026-08-28T09:38:51+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     },
     "missions": {
-      "active_count": 6,
+      "active_count": 3,
       "counts": {
         "ABANDONED": 15,
-        "CLAIMED": 1,
-        "CLOSED": 18,
-        "OPEN": 2,
-        "REPORTED": 3
+        "CLAIMED": 2,
+        "CLOSED": 21,
+        "OPEN": 1
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "3072bab329d15f31c49e1406cce034db64e4f322f4b74f181c84b63d08acf80b",
+  "content_sha256": "34b6e70b83dd44b9d8af4cd3311f8c34bce7d56a8b8281817c8d33e76c820d0f",
   "decisions_open": [
     {
       "business": "CAS",
@@ -384,7 +350,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-08-28T09:23:32+00:00",
+  "generated_at": "2026-08-28T09:39:34+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -412,13 +378,13 @@
         "authority_conflicts": 1,
         "decisions_open": 12,
         "documents_indexed": 1662,
-        "missions_active": 6,
+        "missions_active": 3,
         "reports_published": 4
       },
       "TRADING": {
         "authority_conflicts": 0,
         "decisions_open": 4,
-        "documents_indexed": 503,
+        "documents_indexed": 507,
         "hard_gates": {
           "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
           "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -433,8 +399,8 @@
     "decisions_awaiting_steve": 4,
     "freshness": {
       "cas": {
-        "age_minutes": 1.2,
-        "indexed_at": "2026-08-28T09:22:23+00:00",
+        "age_minutes": 0.7,
+        "indexed_at": "2026-08-28T09:38:51+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -442,8 +408,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 3.3,
-        "indexed_at": "2026-08-28T09:20:16+00:00",
+        "age_minutes": 4.0,
+        "indexed_at": "2026-08-28T09:35:32+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -474,7 +440,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-08-28T09:23:14+00:00",
+      "published_at": "2026-08-28T09:39:15+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -499,7 +465,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-08-28T09:23:14+00:00",
+      "published_at": "2026-08-28T09:39:15+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -524,7 +490,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-08-28T09:23:14+00:00",
+      "published_at": "2026-08-28T09:39:15+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -548,7 +514,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-08-28T09:23:14+00:00",
+      "published_at": "2026-08-28T09:39:15+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -568,10 +534,10 @@
     "business": "TRADING",
     "decisions_open_count": 4,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
-    "documents_indexed": 503,
+    "documents_indexed": 507,
     "freshness": {
-      "age_minutes": 3.3,
-      "indexed_at": "2026-08-28T09:20:16+00:00",
+      "age_minutes": 4.0,
+      "indexed_at": "2026-08-28T09:35:32+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -661,6 +627,6 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-08-28T09:23:32+00:00",
+  "updated_at": "2026-08-28T09:39:34+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

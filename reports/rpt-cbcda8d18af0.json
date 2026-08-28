@@ -1,0 +1,34 @@
+{
+  "agent": null,
+  "author_role": null,
+  "business": "CAS",
+  "canonical_record_id": "CAS:rpt-cbcda8d18af0",
+  "classification": "PUBLIC_RELEASABLE",
+  "conclusion": null,
+  "created_at": "2026-08-28T08:52:27+00:00",
+  "html_url": "/reports/rpt-cbcda8d18af0.html",
+  "json_url": "/reports/rpt-cbcda8d18af0.json",
+  "mission_id": null,
+  "operational": true,
+  "public_url": "/cas/rpt-cbcda8d18af0.html",
+  "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
+  "published_at": "2026-08-28T08:52:33+00:00",
+  "recipient": [
+    "COMMANDER",
+    "CSO"
+  ],
+  "recipient_roles": [
+    "COMMANDER",
+    "CSO"
+  ],
+  "report_id": "rpt-cbcda8d18af0",
+  "review_state": "UNREVIEWED",
+  "sha256": "37193ee0778754c1db45ffffb413d27331c5b680e77363b81e3717b82665d760",
+  "status": "OPEN",
+  "summary": null,
+  "supersedes": null,
+  "synthetic": false,
+  "text_url": "/reports/rpt-cbcda8d18af0.txt",
+  "title": "CC-ACCESS-02 \u2014 OpenAI retrieval acceptance (public edition)",
+  "updated_at": "2026-08-28T08:52:27+00:00"
+}

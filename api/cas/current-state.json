@@ -134,7 +134,7 @@
     }
   ],
   "business": "CAS",
-  "content_sha256": "b49a5c6a95e161b8105c8365b5ba60538ad056b9647b768d6aa4065224fa1504",
+  "content_sha256": "897bc5832b954a91c37f832cb84b80d2c6e9ab12f3720681a2846f6b302aca9d",
   "decisions_open": {
     "count": 12,
     "items": [
@@ -264,14 +264,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 0.3,
-    "indexed_at": "2026-08-28T08:48:16+00:00",
+    "age_minutes": 0.4,
+    "indexed_at": "2026-08-28T08:52:28+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-28T08:48:35+00:00",
+  "generated_at": "2026-08-28T08:52:50+00:00",
   "missions": {
     "active": [
       {
@@ -282,7 +282,7 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "CLAIMED",
+        "status": "OPEN",
         "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
       },
       {
@@ -293,7 +293,7 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "CLAIMED",
+        "status": "OPEN",
         "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
       },
       {
@@ -304,7 +304,7 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "CLAIMED",
+        "status": "OPEN",
         "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
       },
       {
@@ -326,7 +326,7 @@
         "officer": "cso",
         "report_to": "CSO",
         "role": "CSO",
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "CSO commercial review"
       },
       {
@@ -343,9 +343,9 @@
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLAIMED": 3,
+      "CLAIMED": 1,
       "CLOSED": 18,
-      "OPEN": 3
+      "OPEN": 5
     },
     "withheld": []
   },
@@ -354,8 +354,33 @@
   "purpose": "Current operational state of the CAS business.",
   "read_only": true,
   "reports_published": {
-    "count": 3,
+    "count": 4,
     "items": [
+      {
+        "agent": null,
+        "base_commit": null,
+        "branch": null,
+        "business": "CAS",
+        "canonical_sha256": "37193ee0778754c1db45ffffb413d27331c5b680e77363b81e3717b82665d760",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-28T08:52:27+00:00",
+        "html_url": "/cas/rpt-cbcda8d18af0.html",
+        "mission": null,
+        "officers": [
+          "commander",
+          "cso"
+        ],
+        "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
+        "published_at": "2026-08-28T08:52:33+00:00",
+        "report_id": "rpt-cbcda8d18af0",
+        "repository": null,
+        "review_state": "UNREVIEWED",
+        "status": "OPEN",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": false,
+        "title": "CC-ACCESS-02 \u2014 OpenAI retrieval acceptance (public edition)"
+      },
       {
         "agent": null,
         "base_commit": null,
@@ -371,7 +396,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-08-28T08:48:17+00:00",
+        "published_at": "2026-08-28T08:52:33+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -396,7 +421,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-08-28T08:48:17+00:00",
+        "published_at": "2026-08-28T08:52:33+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -420,7 +445,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-08-28T08:48:17+00:00",
+        "published_at": "2026-08-28T08:52:33+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -433,6 +458,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T08:48:17+00:00",
+  "updated_at": "2026-08-28T08:52:29+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

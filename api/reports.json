@@ -1,15 +1,40 @@
 {
   "business": "BOTH",
-  "content_sha256": "963c1130d0326c6f103fe95041182a8f5539b74419780b389a6307b6cd193cc5",
-  "count": 5,
+  "content_sha256": "55c364bc6255bf3007544a3d7152a7642acaf09b43360ca19e719e3be1aade9e",
+  "count": 6,
   "endpoint": "/api/reports.json",
-  "generated_at": "2026-08-28T08:48:35+00:00",
+  "generated_at": "2026-08-28T08:52:50+00:00",
   "mutable": false,
   "name": "reports",
   "publication_gate": "a report appears here only if its own body carries CLASSIFICATION: PUBLIC_RELEASABLE and it passes the publication scanner",
   "purpose": "Every report published to this portal, newest first, with pre-computed discovery slices.",
   "read_only": true,
   "reports": [
+    {
+      "agent": null,
+      "base_commit": null,
+      "branch": null,
+      "business": "CAS",
+      "canonical_sha256": "37193ee0778754c1db45ffffb413d27331c5b680e77363b81e3717b82665d760",
+      "classification": "PUBLIC_RELEASABLE",
+      "created_at": "2026-08-28T08:52:27+00:00",
+      "html_url": "/cas/rpt-cbcda8d18af0.html",
+      "mission": null,
+      "officers": [
+        "commander",
+        "cso"
+      ],
+      "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
+      "published_at": "2026-08-28T08:52:33+00:00",
+      "report_id": "rpt-cbcda8d18af0",
+      "repository": null,
+      "review_state": "UNREVIEWED",
+      "status": "OPEN",
+      "superseded": false,
+      "supersedes": null,
+      "synthetic": false,
+      "title": "CC-ACCESS-02 \u2014 OpenAI retrieval acceptance (public edition)"
+    },
     {
       "agent": null,
       "base_commit": null,
@@ -25,7 +50,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-08-28T08:48:17+00:00",
+      "published_at": "2026-08-28T08:52:33+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -50,7 +75,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-08-28T08:48:17+00:00",
+      "published_at": "2026-08-28T08:52:33+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -74,7 +99,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-08-28T08:48:17+00:00",
+      "published_at": "2026-08-28T08:52:33+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -98,7 +123,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-08-28T08:48:17+00:00",
+      "published_at": "2026-08-28T08:52:33+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -122,7 +147,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-08-28T08:48:17+00:00",
+      "published_at": "2026-08-28T08:52:33+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -135,11 +160,12 @@
   ],
   "source": "Crusader Command Center (read-only projection)",
   "synthetic_rule": "title contains SYNTHETIC or ACCEPTANCE TEST, or begins with TEST_ \u2014 declared by the report's own title, not inferred",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-08-28T08:52:29+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/reports.json",
   "views": {
     "by_business": {
       "CAS": [
+        "rpt-cbcda8d18af0",
         "rpt-5b2c633579b2",
         "rpt-9d3161c43e6e",
         "rpt-ca5e3895becc"
@@ -162,11 +188,13 @@
     },
     "by_officer": {
       "commander": [
+        "rpt-cbcda8d18af0",
         "rpt-5b2c633579b2",
         "rpt-9d3161c43e6e",
         "rpt-ca5e3895becc"
       ],
       "cso": [
+        "rpt-cbcda8d18af0",
         "rpt-5b2c633579b2",
         "rpt-9d3161c43e6e"
       ],
@@ -179,7 +207,8 @@
       "UNREVIEWED": [
         "rpt-5b2c633579b2",
         "rpt-9d3161c43e6e",
-        "rpt-ca5e3895becc"
+        "rpt-ca5e3895becc",
+        "rpt-cbcda8d18af0"
       ],
       "UNSET": [
         "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
@@ -187,17 +216,22 @@
       ]
     },
     "current": [
+      "rpt-cbcda8d18af0",
       "rpt-5b2c633579b2",
       "rpt-9d3161c43e6e",
       "rpt-ca5e3895becc",
       "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f"
     ],
-    "last_24h": [],
+    "last_24h": [
+      "rpt-cbcda8d18af0"
+    ],
     "last_48h": [
+      "rpt-cbcda8d18af0",
       "rpt-5b2c633579b2"
     ],
     "newest": [
+      "rpt-cbcda8d18af0",
       "rpt-5b2c633579b2",
       "rpt-9d3161c43e6e",
       "rpt-ca5e3895becc",
@@ -205,6 +239,7 @@
       "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f"
     ],
     "operational": [
+      "rpt-cbcda8d18af0",
       "rpt-5b2c633579b2"
     ],
     "superseded": [],

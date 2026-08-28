@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "95a50acc161c1d2e7400a3dcc375ac54cbe4e406dbbc53633df3b5583ca2b490",
+  "content_sha256": "6edba5846dd4b7c1b34e4c95550e3aceec718d4c5d4d0a7d574cf98ead96afc8",
   "count": 12,
   "endpoints": [
     {
@@ -55,7 +55,7 @@
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
       "sha256": "166a27819ddbd0f6e85622c5d549d26b7f708f85deaf04b7a699fd8f10cdb282",
-      "updated_at": "2026-08-28T17:38:56+00:00",
+      "updated_at": "2026-08-28T17:54:57+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -81,8 +81,8 @@
       "name": "reports",
       "path": "/api/reports.json",
       "purpose": "Published reports with pre-computed discovery slices.",
-      "sha256": "55c364bc6255bf3007544a3d7152a7642acaf09b43360ca19e719e3be1aade9e",
-      "updated_at": "2026-01-01T00:00:00+00:00",
+      "sha256": "3fa19805823e705efcdbe8002d24feedd7339b503b4a2738c39ee459da4d2d12",
+      "updated_at": "2026-08-28T17:48:00+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/reports.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-08-28T17:38:56+00:00",
+  "generated_at": "2026-08-28T17:54:57+00:00",
   "methods": [
     "GET"
   ],

@@ -3,3 +3,5 @@
 # publication, not by hiding a URL.
 User-agent: *
 Allow: /
+
+Sitemap: https://stevefehr19.github.io/crusader-executive-api/sitemap.xml

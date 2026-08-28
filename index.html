@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Crusader Public Executive API</title>
+  <meta name="description" content="Read-only, sanitized Crusader executive JSON feeds for ChatGPT and other public retrieval clients.">
+  <style>
+    :root{color-scheme:dark;background:#0c1016;color:#edf2f7;font:16px/1.6 system-ui,sans-serif}
+    body{max-width:840px;margin:0 auto;padding:48px 20px}h1{line-height:1.1}p{color:#aeb9c7}
+    a{color:#8bd3ff}li{margin:.65rem 0}code{font-size:.9em}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Crusader Public Executive API</h1>
+    <p>Read-only, sanitized static JSON. The local Crusader control planes remain canonical. Check <code>generated_at</code> before relying on a value; if it is old, treat the public copy as stale.</p>
+    <ul>
+      <li><a href="api/ping.json">Service probe — /api/ping.json</a></li>
+      <li><a href="api/index.json">Machine index — /api/index.json</a></li>
+      <li><a href="api/officers/commander.json">Commander feed</a></li>
+      <li><a href="api/officers/cso.json">Chief Strategy Officer feed</a></li>
+      <li><a href="api/officers/trading-director.json">Trading Director feed</a></li>
+      <li><a href="api/">Human-readable endpoint index</a></li>
+    </ul>
+  </main>
+</body>
+</html>

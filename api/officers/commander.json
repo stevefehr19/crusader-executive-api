@@ -8,7 +8,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
     },
     {
@@ -19,7 +19,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
@@ -41,7 +41,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
     },
     {
@@ -129,7 +129,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "CSO",
-      "status": "CLAIMED",
+      "status": "REPORTED",
       "title": "CSO commercial review"
     },
     {
@@ -188,8 +188,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 0.4,
-      "indexed_at": "2026-08-28T08:52:28+00:00",
+      "age_minutes": 0.0,
+      "indexed_at": "2026-08-28T09:07:30+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -199,16 +199,16 @@
       "active_count": 6,
       "counts": {
         "ABANDONED": 15,
-        "CLAIMED": 1,
         "CLOSED": 18,
-        "OPEN": 5
+        "OPEN": 2,
+        "REPORTED": 4
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "6ee2f60f07c9f74b66af1c8da1f0c38cd6291caef2e9f270d5f81e32515d0ce0",
+  "content_sha256": "cb2ef8980bd9d2fd20678f2d5340220c0e3e49f0d191c71c6d41f5b15a825a14",
   "decisions_open": [
     {
       "business": "CAS",
@@ -372,7 +372,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-08-28T08:52:50+00:00",
+  "generated_at": "2026-08-28T09:07:30+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -421,8 +421,8 @@
     "decisions_awaiting_steve": 4,
     "freshness": {
       "cas": {
-        "age_minutes": 0.4,
-        "indexed_at": "2026-08-28T08:52:28+00:00",
+        "age_minutes": 0.0,
+        "indexed_at": "2026-08-28T09:07:30+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -430,8 +430,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 0.4,
-        "indexed_at": "2026-08-28T08:52:28+00:00",
+        "age_minutes": 2.3,
+        "indexed_at": "2026-08-28T09:05:10+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -462,7 +462,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-08-28T08:52:33+00:00",
+      "published_at": "2026-08-28T09:06:46+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -487,7 +487,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-08-28T08:52:33+00:00",
+      "published_at": "2026-08-28T09:06:46+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -512,7 +512,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-08-28T08:52:33+00:00",
+      "published_at": "2026-08-28T09:06:46+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -536,7 +536,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-08-28T08:52:33+00:00",
+      "published_at": "2026-08-28T09:06:46+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -558,8 +558,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
     "documents_indexed": 502,
     "freshness": {
-      "age_minutes": 0.4,
-      "indexed_at": "2026-08-28T08:52:28+00:00",
+      "age_minutes": 2.3,
+      "indexed_at": "2026-08-28T09:05:10+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -648,6 +648,6 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-08-28T08:52:50+00:00",
+  "updated_at": "2026-08-28T09:07:30+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

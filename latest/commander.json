@@ -1,5 +1,5 @@
 {
-  "built": "2026-08-28T13:23:55+00:00",
+  "built": "2026-08-28T13:39:56+00:00",
   "latest": {
     "agent": null,
     "author_role": null,
@@ -14,7 +14,7 @@
     "operational": true,
     "public_url": "/cas/rpt-cbcda8d18af0.html",
     "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-    "published_at": "2026-08-28T13:23:55+00:00",
+    "published_at": "2026-08-28T13:39:56+00:00",
     "recipient": [
       "COMMANDER",
       "CSO"

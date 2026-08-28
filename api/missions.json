@@ -126,7 +126,7 @@
     "OPEN": 8
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-08-28T10:27:39+00:00",
+  "generated_at": "2026-08-28T10:43:40+00:00",
   "missions": [
     {
       "active": false,
@@ -783,7 +783,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T10:27:21+00:00",
+  "updated_at": "2026-08-28T10:43:23+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

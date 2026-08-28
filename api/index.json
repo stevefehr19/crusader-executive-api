@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "6b884b9102cd2928de621efdce3f41165eaae9fd99475cc88fa356fb2447cd23",
+  "content_sha256": "ecf8c0e26db4103a46deecb099414aaff46bd0984c55f11a3a3940fe2b7c3544",
   "count": 12,
   "endpoints": [
     {
@@ -18,8 +18,8 @@
       "name": "cas-current-state",
       "path": "/api/cas/current-state.json",
       "purpose": "CAS authority, missions, open decisions and published reports.",
-      "sha256": "4ce02e4c53725b4402a0e0cb3288ae834f3a148422c884602fb0d4e966492e6e",
-      "updated_at": "2026-08-28T09:55:17+00:00",
+      "sha256": "066cd3e50ebf1d48d564be7248bb9e99a297d0c920cc8c47ceb384222098e86e",
+      "updated_at": "2026-08-28T10:10:43+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
     },
     {
@@ -37,7 +37,7 @@
       "path": "/api/global-status.json",
       "purpose": "Headline state of both businesses, index freshness and blockers.",
       "sha256": "4e998847d4c30c6a1819bc3490d7f9c8ab65f1a799007aa01590996d3a97f99b",
-      "updated_at": "2026-08-28T09:55:17+00:00",
+      "updated_at": "2026-08-28T10:10:43+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
     },
     {
@@ -45,8 +45,8 @@
       "name": "missions",
       "path": "/api/missions.json",
       "purpose": "Every indexed mission, with active set and status counts.",
-      "sha256": "c34c214c9579fbd2735baedb493e166f2de158e8081d2096296d8e0c9f86a69e",
-      "updated_at": "2026-08-28T09:55:17+00:00",
+      "sha256": "dbfce8820407c3ec215ed00b5879fd4a0f0f64737f3fe7d9f7d705c9d5949e16",
+      "updated_at": "2026-08-28T10:05:41+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json"
     },
     {
@@ -54,8 +54,8 @@
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "ee473b3cf10c353547a8e6bf6a93ef913b588d68a21c95150c913b041ff57506",
-      "updated_at": "2026-08-28T09:55:36+00:00",
+      "sha256": "a812b0fefaef4b9fc4c9304b6a875d99d95dddc4c9d2a8b3b66917dd110da109",
+      "updated_at": "2026-08-28T10:11:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -64,7 +64,7 @@
       "path": "/api/officers/cso.json",
       "purpose": "Executive feed for GPT Chief Strategy Officer.",
       "sha256": "f5a3888e46b5825597a682e0a55772f40b83191e967d3157af005d14bd9c85bb",
-      "updated_at": "2026-08-28T09:55:17+00:00",
+      "updated_at": "2026-08-28T10:10:43+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
     },
     {
@@ -73,7 +73,7 @@
       "path": "/api/officers/trading-director.json",
       "purpose": "Executive feed for GPT Trading Director / Quant Architect.",
       "sha256": "8ebba691a7919ee9ca4fe6bdfcbbc19411bbf8e0750506551cf268468921ca78",
-      "updated_at": "2026-08-28T09:40:34+00:00",
+      "updated_at": "2026-08-28T10:05:41+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
     },
     {
@@ -100,7 +100,7 @@
       "path": "/api/trading/current-state.json",
       "purpose": "Trading authority, hard gates, research state and published reports.",
       "sha256": "d0a9417e0857c09aeba9adee876e65a15ef4dfe6da7ecddded65b6bfbf7b90af",
-      "updated_at": "2026-08-28T09:40:34+00:00",
+      "updated_at": "2026-08-28T10:05:41+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-08-28T09:55:36+00:00",
+  "generated_at": "2026-08-28T10:11:38+00:00",
   "methods": [
     "GET"
   ],

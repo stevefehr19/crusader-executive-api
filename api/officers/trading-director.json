@@ -4,7 +4,7 @@
   "businesses_in_scope": [
     "TRADING"
   ],
-  "content_sha256": "607fffce88e362fd4775c9285af8bf842212a3a917000edde475760f1b509034",
+  "content_sha256": "f41b5bd33404357c7aba71365ae71b4aaa0822e95c3ebc6d17b455b348f3da30",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -114,7 +114,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-08-28T10:59:41+00:00",
+  "generated_at": "2026-08-28T11:15:42+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -221,25 +221,25 @@
       "title": "WTC Carry Geometry R2 paired measurement and report"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:01:59+00:00",
       "mission_id": "msn-4b96c38dafe7",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC Carry Geometry R2 targeted DOA repair"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T05:39:23+00:00",
       "mission_id": "msn-26edc5b27097",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC carry-forward terminal research candidate v1"
     },
     {
@@ -254,14 +254,14 @@
       "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T04:17:25+00:00",
       "mission_id": "msn-c9afc0f80ea6",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC executive progress and instant-loss review \u2014 2026-08-27"
     },
     {
@@ -428,7 +428,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -452,7 +452,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -648,13 +648,13 @@
     }
   ],
   "trading_freshness": {
-    "age_minutes": 2.5,
-    "indexed_at": "2026-08-28T10:57:14+00:00",
+    "age_minutes": 4.7,
+    "indexed_at": "2026-08-28T11:11:02+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-08-28T11:11:02+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
 }

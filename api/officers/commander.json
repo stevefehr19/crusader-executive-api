@@ -36,28 +36,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-08-28T07:01:59+00:00",
-      "mission_id": "msn-4b96c38dafe7",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC Carry Geometry R2 targeted DOA repair"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T05:39:23+00:00",
-      "mission_id": "msn-26edc5b27097",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC carry-forward terminal research candidate v1"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-08-28T05:10:58+00:00",
       "mission_id": "msn-69eeeae83d59",
       "officer": "trading-director",
@@ -65,17 +43,6 @@
       "role": null,
       "status": "OPEN",
       "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T04:17:25+00:00",
-      "mission_id": "msn-c9afc0f80ea6",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC executive progress and instant-loss review \u2014 2026-08-27"
     },
     {
       "active": true,
@@ -144,8 +111,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 0.2,
-      "indexed_at": "2026-08-28T10:59:27+00:00",
+      "age_minutes": 4.7,
+      "indexed_at": "2026-08-28T11:11:02+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -163,7 +130,7 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "8a5943978b14ddead9a68589c28f7d1d78161a829654ed68afc313d5e4e9d8e9",
+  "content_sha256": "166a27819ddbd0f6e85622c5d549d26b7f708f85deaf04b7a699fd8f10cdb282",
   "decisions_open": [
     {
       "business": "CAS",
@@ -327,7 +294,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-08-28T10:59:41+00:00",
+  "generated_at": "2026-08-28T11:15:42+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -369,15 +336,15 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 7,
+        "missions_active": 4,
         "reports_published": 2
       }
     },
     "decisions_awaiting_steve": 4,
     "freshness": {
       "cas": {
-        "age_minutes": 0.2,
-        "indexed_at": "2026-08-28T10:59:27+00:00",
+        "age_minutes": 4.7,
+        "indexed_at": "2026-08-28T11:11:02+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -385,8 +352,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 2.5,
-        "indexed_at": "2026-08-28T10:57:14+00:00",
+        "age_minutes": 4.7,
+        "indexed_at": "2026-08-28T11:11:02+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -417,7 +384,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -442,7 +409,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -467,7 +434,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -491,7 +458,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-08-28T10:59:24+00:00",
+      "published_at": "2026-08-28T11:15:25+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -513,8 +480,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
     "documents_indexed": 507,
     "freshness": {
-      "age_minutes": 2.5,
-      "indexed_at": "2026-08-28T10:57:14+00:00",
+      "age_minutes": 4.7,
+      "indexed_at": "2026-08-28T11:11:02+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -592,17 +559,17 @@
       }
     },
     "missions": {
-      "active_count": 7,
+      "active_count": 4,
       "counts": {
-        "ABANDONED": 11,
+        "ABANDONED": 14,
         "COMPLETE": 2,
-        "OPEN": 7
+        "OPEN": 4
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-08-28T10:59:41+00:00",
+  "updated_at": "2026-08-28T11:15:42+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

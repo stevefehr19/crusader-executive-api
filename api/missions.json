@@ -36,28 +36,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-08-28T07:01:59+00:00",
-      "mission_id": "msn-4b96c38dafe7",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC Carry Geometry R2 targeted DOA repair"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T05:39:23+00:00",
-      "mission_id": "msn-26edc5b27097",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC carry-forward terminal research candidate v1"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-08-28T05:10:58+00:00",
       "mission_id": "msn-69eeeae83d59",
       "officer": "trading-director",
@@ -65,17 +43,6 @@
       "role": null,
       "status": "OPEN",
       "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T04:17:25+00:00",
-      "mission_id": "msn-c9afc0f80ea6",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC executive progress and instant-loss review \u2014 2026-08-27"
     },
     {
       "active": true,
@@ -101,20 +68,20 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "53ac13894c43524c351732c365560129f5c7e310fd3b5134af66e0a1b495796c",
+  "content_sha256": "105e6b9842f82d38fee51b0b42c987bdb360050ca732bf0a5d8c05c847ac0c15",
   "count": 59,
   "counts_by_business": {
     "CAS": 39,
     "TRADING": 20
   },
   "counts_by_status": {
-    "ABANDONED": 26,
+    "ABANDONED": 29,
     "CLOSED": 22,
     "COMPLETE": 2,
-    "OPEN": 9
+    "OPEN": 6
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-08-28T10:59:41+00:00",
+  "generated_at": "2026-08-28T11:15:42+00:00",
   "missions": [
     {
       "active": false,
@@ -304,25 +271,25 @@
       "title": "WTC Carry Geometry R2 paired measurement and report"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:01:59+00:00",
       "mission_id": "msn-4b96c38dafe7",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC Carry Geometry R2 targeted DOA repair"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T05:39:23+00:00",
       "mission_id": "msn-26edc5b27097",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC carry-forward terminal research candidate v1"
     },
     {
@@ -337,14 +304,14 @@
       "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T04:17:25+00:00",
       "mission_id": "msn-c9afc0f80ea6",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "WTC executive progress and instant-loss review \u2014 2026-08-27"
     },
     {
@@ -771,7 +738,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T10:59:41+00:00",
+  "updated_at": "2026-08-28T11:11:02+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

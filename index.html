@@ -1,29 +1,68 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="index,follow">
-  <title>Crusader Public Executive API</title>
-  <meta name="description" content="Read-only, sanitized Crusader executive JSON feeds for ChatGPT and other public retrieval clients.">
-  <style>
-    :root{color-scheme:dark;background:#0c1016;color:#edf2f7;font:16px/1.6 system-ui,sans-serif}
-    body{max-width:840px;margin:0 auto;padding:48px 20px}h1{line-height:1.1}p{color:#aeb9c7}
-    a{color:#8bd3ff}li{margin:.65rem 0}code{font-size:.9em}
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Crusader Public Executive API</h1>
-    <p>Read-only, sanitized static JSON. The local Crusader control planes remain canonical. Check <code>generated_at</code> before relying on a value; if it is old, treat the public copy as stale.</p>
-    <ul>
-      <li><a href="api/ping.json">Service probe — /api/ping.json</a></li>
-      <li><a href="api/index.json">Machine index — /api/index.json</a></li>
-      <li><a href="api/officers/commander.json">Commander feed</a></li>
-      <li><a href="api/officers/cso.json">Chief Strategy Officer feed</a></li>
-      <li><a href="api/officers/trading-director.json">Trading Director feed</a></li>
-      <li><a href="api/">Human-readable endpoint index</a></li>
-    </ul>
-  </main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Crusader Agent Report Portal</title>
+<style>
+:root{--ground:#eceef1;--panel:#f7f8fa;--edge:#c9ced7;--ink:#1b1f26;--dim:#5b6472;--faint:#858e9c}
+@media (prefers-color-scheme:dark){:root{--ground:#14171c;--panel:#1b1f26;--edge:#333a45;--ink:#e6e9ee;--dim:#98a2b1;--faint:#6d7684}}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);margin:0;padding:36px 18px 64px;
+ font:15px/1.55 ui-sans-serif,-apple-system,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:860px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+h1{font-size:clamp(23px,4vw,32px);margin:0}
+h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:18px 0 0}
+p{color:var(--dim);margin:0;max-width:66ch}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--edge);vertical-align:top}
+th{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:12.5px}
+a{color:inherit}
+.box{background:var(--panel);border:1px solid var(--edge);border-radius:4px;padding:14px 16px;overflow-x:auto}
+</style></head><body><div class="wrap">
+<h1>Crusader Agent Report Portal</h1>
+<p>Read-only publication copies of Crusader agent reports. Canonical authority
+remains in the local Crusader control planes; every page here is bound to the
+canonical report hash. Nothing on this host can mutate a plane.</p>
+
+<h2>For agents</h2>
+<div class="box"><table>
+<tr><th>Feed</th><th>URL</th></tr>
+<tr><td>Master index</td><td><code><a href="index.json">/index.json</a></code></td></tr>
+<tr><td>CAS</td><td><code><a href="cas/index.json">/cas/index.json</a></code></td></tr>
+<tr><td>Trading</td><td><code><a href="trading/index.json">/trading/index.json</a></code></td></tr>
+<tr><td>Commander</td><td><code><a href="officers/commander.json">/officers/commander.json</a></code></td></tr>
+<tr><td>CSO</td><td><code><a href="officers/cso.json">/officers/cso.json</a></code></td></tr>
+<tr><td>Trading Director</td><td><code><a href="officers/trading-director.json">/officers/trading-director.json</a></code></td></tr>
+<tr><td>Latest pointers</td><td><code>/latest/{cas,trading,commander,cso,trading-director}.json</code></td></tr>
+</table></div>
+
+<h2>Public executive API</h2>
+<p>Read-only JSON projections of current Crusader state, generated from the local
+Command Center during the same publish step. GET only &mdash; there is no write
+method and no query string, and every discovery slice is pre-computed.</p>
+<div class="box"><table>
+<tr><th>Feed</th><th>URL</th></tr>
+<tr><td>API index</td><td><code><a href="api/index.json">/api/index.json</a></code></td></tr>
+<tr><td>Global status</td><td><code><a href="api/global-status.json">/api/global-status.json</a></code></td></tr>
+<tr><td>CAS state</td><td><code><a href="api/cas/current-state.json">/api/cas/current-state.json</a></code></td></tr>
+<tr><td>Trading state</td><td><code><a href="api/trading/current-state.json">/api/trading/current-state.json</a></code></td></tr>
+<tr><td>Trading hard gates</td><td><code><a href="api/trading/hard-gates.json">/api/trading/hard-gates.json</a></code></td></tr>
+<tr><td>Commander</td><td><code><a href="api/officers/commander.json">/api/officers/commander.json</a></code></td></tr>
+<tr><td>CSO</td><td><code><a href="api/officers/cso.json">/api/officers/cso.json</a></code></td></tr>
+<tr><td>Trading Director</td><td><code><a href="api/officers/trading-director.json">/api/officers/trading-director.json</a></code></td></tr>
+</table></div>
+
+<h2>Published reports (5)</h2>
+<div class="box"><table>
+<tr><th>Report</th><th>Business</th><th>Created</th><th>Status</th></tr>
+<tr><td><a href="cas/rpt-5b2c633579b2.html"><code>rpt-5b2c633579b2</code></a><br>CC-ACCESS-01 — Universal GPT read access (Commander edition, public)</td><td>CAS</td><td><code>2026-08-26T17:45:21+00:00</code></td><td>PHASE_COMPLETE</td></tr>
+<tr><td><a href="cas/rpt-9d3161c43e6e.html"><code>rpt-9d3161c43e6e</code></a><br>TEST_CSO_COMMAND_CENTER_v1</td><td>CAS</td><td><code>2026-08-26T02:40:19+00:00</code></td><td>COMPLETE</td></tr>
+<tr><td><a href="cas/rpt-ca5e3895becc.html"><code>rpt-ca5e3895becc</code></a><br>PORTAL ACCEPTANCE TEST (SYNTHETIC) - CAS</td><td>CAS</td><td><code>2026-08-26T01:58:42+00:00</code></td><td>COMPLETE</td></tr>
+<tr><td><a href="trading/trd-20260826-test_quant_command_center_v1-809f1f55.html"><code>TRD-20260826-test_quant_command_center_v1-809f1f55</code></a><br>TEST_QUANT_COMMAND_CENTER_v1</td><td>TRADING</td><td><code>2026-08-26</code></td><td>FILED</td></tr>
+<tr><td><a href="trading/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html"><code>TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f</code></a><br>PORTAL ACCEPTANCE TEST (SYNTHETIC) - TRADING</td><td>TRADING</td><td><code>2026-08-26</code></td><td>FILED</td></tr>
+</table></div>
+<p style="font-size:12px;color:var(--faint)">Built 2026-08-28T08:41:11+00:00. Reports appear here
+only when explicitly classified PUBLIC_RELEASABLE and only after passing the
+publication scanner.</p>
+</div></body></html>

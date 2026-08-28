@@ -1,26 +1,352 @@
 {
-  "authority": [],
-  "authority_conflicts": [],
+  "authority": [
+    {
+      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+      "domain": "CLAIMS",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "domain": "COMMERCIAL",
+      "effective_date": null,
+      "is_current_authority": false,
+      "owner": "CSO",
+      "requires_ruling": true,
+      "status": "CONFLICT_REQUIRES_AUTHORITY"
+    },
+    {
+      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
+      "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
+      "domain": "DELIVERY",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "f5ce0063de1350d6a19a435301ba678aa027fd81ed3b061d7e56fe5ad91aa181",
+      "document": "CLAUDE.md",
+      "domain": "GOVERNANCE",
+      "effective_date": "2026-08-23",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
+      "domain": "OUTREACH",
+      "effective_date": "2026-08-21",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
+      "domain": "PILOT",
+      "effective_date": "2026-08-21",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
+      "document": "PROPOSAL_STANDARDS.md",
+      "domain": "PRICING",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+      "domain": "PRODUCT",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "809698094c4e8d4cfa3c8908b1c4ef4428d1bd05cdbddc5b92c16d0c79876c4d",
+      "document": "rig",
+      "domain": "REFERENCE_IMPLEMENTATION",
+      "effective_date": "2026-08-21",
+      "is_current_authority": false,
+      "owner": "COMMANDER",
+      "requires_ruling": false,
+      "status": "CURRENT_OPERATIONAL_STATE"
+    },
+    {
+      "content_sha256": "2ce5ff523fbccb1608e1707ec29c51bce2d54185c3baf77d43cc9744334d4991",
+      "document": "EXECUTIVE_HANDOFF_PROTOCOL.md",
+      "domain": "REPORTING",
+      "effective_date": "2026-08-23",
+      "is_current_authority": true,
+      "owner": "COMMANDER",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
+      "document": "PROPOSAL_STANDARDS.md",
+      "domain": "SALES",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "026d2e798e1fb66b4f75c655d40ff565786e690ba6758e6f918953d852048dcc",
+      "document": "compliance.md",
+      "domain": "SECURITY",
+      "effective_date": "2026-08-21",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    }
+  ],
+  "authority_conflicts": [
+    {
+      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "domain": "COMMERCIAL",
+      "effective_date": null,
+      "is_current_authority": false,
+      "owner": "CSO",
+      "requires_ruling": true,
+      "status": "CONFLICT_REQUIRES_AUTHORITY"
+    }
+  ],
   "business": "CAS",
-  "content_sha256": "1a5aa4b6a0de5108ca40dcfc096fe3a3d7c7f44b65af8af89ce3c2301f82b7b4",
+  "content_sha256": "3f8ccabeab1d5f129683d406afd09b5e67ac0a0978151b04c69b3d0462720c7d",
   "decisions_open": {
-    "count": 0,
-    "items": [],
+    "count": 12,
+    "items": [
+      {
+        "business": "CAS",
+        "decision_id": "dec-ec4932aa39fe",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "The report bus cannot carry four of the eleven fields the reporting standard requires \u2014 branch, SHA, next action and html_path are unrepresentable",
+        "raised_at": "2026-08-28T07:52:09+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-9ebecf54adc7",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "The public officer feed shows three reports and is three hours stale \u2014 a GPT officer reading it would conclude nothing happened tonight",
+        "raised_at": "2026-08-28T07:51:36+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-6709a2eb2975",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "Three loaded launchd jobs are failing every run, one of them a ghost with no plist, and git replication of main has been queued and never completing",
+        "raised_at": "2026-08-28T07:50:30+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-420ef66688ce",
+        "officer": null,
+        "owner": "STEVE",
+        "question": "The uptime probe was never scheduled \u2014 its launch agent has never been installed, and the plist warning about exactly this cites a prior instance that is also still uninstalled",
+        "raised_at": "2026-08-28T07:48:45+00:00",
+        "state": "OPEN",
+        "steve_only": true
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-24ed605618cf",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "REFERENCE_IMPLEMENTATION authority hash drifted with a known, benign cause \u2014 re-certification is one action",
+        "raised_at": "2026-08-28T07:22:52+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-1ba3c87b3931",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "The dry-run custody gate demands a file the security rule forbids committing \u2014 all nine stages are blocked by a rule contradiction, not by missing evidence",
+        "raised_at": "2026-08-28T07:22:32+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-8c089e8ffb39",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
+        "raised_at": "2026-08-24T04:27:36+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-cf334efeb06b",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
+        "raised_at": "2026-08-24T04:27:00+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-a9cce816b27e",
+        "officer": null,
+        "owner": "STEVE",
+        "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
+        "raised_at": "2026-08-24T04:27:00+00:00",
+        "state": "OPEN",
+        "steve_only": true
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-a0c5960a2598",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
+        "raised_at": "2026-08-24T04:27:00+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-4b7a82841a7f",
+        "officer": "commander",
+        "owner": "COMMANDER",
+        "question": "scripts/cas_mcp_server.py cannot run on this host",
+        "raised_at": "2026-08-24T04:27:00+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "CAS",
+        "decision_id": "dec-20ae86818001",
+        "officer": "cso",
+        "owner": "CSO",
+        "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+        "raised_at": "2026-08-24T04:27:00+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      }
+    ],
     "withheld": []
   },
-  "documents_indexed": null,
+  "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": null,
-    "indexed_at": null,
-    "note": "this business is not present in the Command Center index",
-    "source_changed_since_index": null,
-    "state": "UNKNOWN"
+    "age_minutes": 0.1,
+    "indexed_at": "2026-08-28T08:41:05+00:00",
+    "meaning": "index is current",
+    "source_changed_since_index": false,
+    "stale_after_minutes": 30,
+    "state": "OK"
   },
-  "generated_at": "2026-08-28T04:26:13+00:00",
+  "generated_at": "2026-08-28T08:41:12+00:00",
   "missions": {
-    "active": [],
-    "counts": {},
+    "active": [
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-28T08:18:06+00:00",
+        "mission_id": "msn-a9e21769260f",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "BUILDER",
+        "status": "OPEN",
+        "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-28T08:18:04+00:00",
+        "mission_id": "msn-152191940c18",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "BUILDER",
+        "status": "OPEN",
+        "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-28T08:18:03+00:00",
+        "mission_id": "msn-f6b34117804e",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "BUILDER",
+        "status": "CLAIMED",
+        "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-28T07:23:10+00:00",
+        "mission_id": "msn-258e29105a33",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "BUILDER",
+        "status": "OPEN",
+        "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-24T17:37:53+00:00",
+        "mission_id": "msn-9362a3d8306b",
+        "officer": "cso",
+        "report_to": "CSO",
+        "role": "CSO",
+        "status": "OPEN",
+        "title": "CSO commercial review"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-24T17:37:43+00:00",
+        "mission_id": "msn-52d77ad8d6cd",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "COMMANDER",
+        "status": "OPEN",
+        "title": "Commander state review"
+      }
+    ],
+    "counts": {
+      "ABANDONED": 15,
+      "CLAIMED": 1,
+      "CLOSED": 18,
+      "OPEN": 5
+    },
     "withheld": []
   },
   "mutable": false,
@@ -28,10 +354,85 @@
   "purpose": "Current operational state of the CAS business.",
   "read_only": true,
   "reports_published": {
-    "count": 0,
-    "items": []
+    "count": 3,
+    "items": [
+      {
+        "agent": null,
+        "base_commit": null,
+        "branch": null,
+        "business": "CAS",
+        "canonical_sha256": "536a4a671a13b36d991c28d90b8a5af627c20b142bedf8ecd41835ced0878f29",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-26T17:45:21+00:00",
+        "html_url": "/cas/rpt-5b2c633579b2.html",
+        "mission": "CC-ACCESS-01",
+        "officers": [
+          "commander",
+          "cso"
+        ],
+        "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
+        "published_at": "2026-08-28T08:41:11+00:00",
+        "report_id": "rpt-5b2c633579b2",
+        "repository": "AI Business",
+        "review_state": "UNREVIEWED",
+        "status": "PHASE_COMPLETE",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": false,
+        "title": "CC-ACCESS-01 \u2014 Universal GPT read access (Commander edition, public)"
+      },
+      {
+        "agent": "CSO",
+        "base_commit": "54973ca4452022781fc30b381e5e45f71fecbdd9",
+        "branch": "test/command-center-dual-agent-20260826",
+        "business": "CAS",
+        "canonical_sha256": "691bd9a4c77589306b1ce284112fea2579f55ec2eac42fc2d12b3d0e95103ba2",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-26T02:40:19+00:00",
+        "html_url": "/cas/rpt-9d3161c43e6e.html",
+        "mission": "TEST_CSO_COMMAND_CENTER_v1",
+        "officers": [
+          "commander",
+          "cso"
+        ],
+        "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
+        "published_at": "2026-08-28T08:41:11+00:00",
+        "report_id": "rpt-9d3161c43e6e",
+        "repository": "AI Business",
+        "review_state": "UNREVIEWED",
+        "status": "COMPLETE",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": true,
+        "title": "TEST_CSO_COMMAND_CENTER_v1"
+      },
+      {
+        "agent": null,
+        "base_commit": null,
+        "branch": null,
+        "business": "CAS",
+        "canonical_sha256": "76be28dfabab92c249457138d35c184f0071a228f028937d07b1bd98d33db3be",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-26T01:58:42+00:00",
+        "html_url": "/cas/rpt-ca5e3895becc.html",
+        "mission": null,
+        "officers": [
+          "commander"
+        ],
+        "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
+        "published_at": "2026-08-28T08:41:11+00:00",
+        "report_id": "rpt-ca5e3895becc",
+        "repository": null,
+        "review_state": "UNREVIEWED",
+        "status": "COMPLETE",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": true,
+        "title": "PORTAL ACCEPTANCE TEST (SYNTHETIC) - CAS"
+      }
+    ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:26:13+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

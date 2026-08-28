@@ -1,0 +1,18 @@
+PORTAL ACCEPTANCE TEST (SYNTHETIC) - TRADING
+
+CLASSIFICATION: PUBLIC_RELEASABLE
+
+TO: GPT TRADING DIRECTOR / QUANT ARCHITECT
+
+SYNTHETIC TEST REPORT - Crusader Agent Report Portal acceptance, filed by
+directive CC-REPORT-PORTAL-01 to prove the end-to-end publication path.
+
+It carries no secrets, no customer information and no local filesystem paths.
+It contains NO research result, NO strategy claim, NO experiment outcome and NO
+risk statement, and must not be read as any of those. The five Trading hard
+gates are untouched by this report and remain blocking.
+
+Retained as clearly marked TEST evidence rather than deleted, because the
+control plane treats filed reports as immutable records.
+
+VERDICT: PORTAL ACCEPTANCE - SYNTHETIC

@@ -1,0 +1,32 @@
+{
+  "agent": "cc-report-portal-01",
+  "author_role": "cc-report-portal-01",
+  "business": "TRADING",
+  "canonical_record_id": "TRADING:TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
+  "classification": "PUBLIC_RELEASABLE",
+  "conclusion": null,
+  "created_at": "2026-08-26",
+  "html_url": "/reports/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html",
+  "json_url": "/reports/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.json",
+  "mission_id": null,
+  "operational": false,
+  "public_url": "/trading/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html",
+  "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
+  "published_at": "2026-08-28T08:41:11+00:00",
+  "recipient": [
+    "TRADING_DIRECTOR"
+  ],
+  "recipient_roles": [
+    "TRADING_DIRECTOR"
+  ],
+  "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
+  "review_state": null,
+  "sha256": "a7e69b240cbc52a6243797bbccb657dd2b4feb23178a4d9ca0c9981f14ae18f6",
+  "status": "FILED",
+  "summary": null,
+  "supersedes": null,
+  "synthetic": true,
+  "text_url": "/reports/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.txt",
+  "title": "PORTAL ACCEPTANCE TEST (SYNTHETIC) - TRADING",
+  "updated_at": "2026-08-26"
+}

@@ -1,28 +1,291 @@
 {
-  "authority": [],
+  "authority": [
+    {
+      "content_sha256": "71a374cedb3afd7e3dd0d6d41ee7a485fec499122813a3d61e26a42d9ba4846d",
+      "document": "CURRENT_STATE.md",
+      "domain": "CURRENT_RESEARCH_STATE",
+      "effective_date": "2026-08-23",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    },
+    {
+      "content_sha256": "tree:b351e94ebab85b9877a772690815aa18f0f7585221b4a0f6011289003141931f",
+      "document": "research",
+      "domain": "DATA_AUTHORITY",
+      "effective_date": "2026-08-22",
+      "is_current_authority": true,
+      "owner": "DATA_PIPELINE_ENGINEER",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "d3ce7d64e0cb2f3cea02f793b7bb0afea5f4dfb95c9565bfdfd9504f36dbdd40",
+      "document": "WTC_Execution_Corrected_Control_Manifest_v1.json",
+      "domain": "ECC_AUTHORITY",
+      "effective_date": "2026-08-22",
+      "is_current_authority": true,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "220f527da9a680b552f034399cede20a13ba9d56b76756c8eb1751fa9dc94043",
+      "document": "WTC_Reclaim_Confirmation_Research_v1_BRACKETFIX_2026-08-18.pine",
+      "domain": "EXECUTION_ENGINE",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    },
+    {
+      "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
+      "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
+      "domain": "EXPERIMENT_AUTHORITY",
+      "effective_date": "2026-08-15",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "FROZEN_EXPERIMENT"
+    },
+    {
+      "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
+      "document": "CHART_LOCK.md",
+      "domain": "FORWARD_ALERT",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "PROTECTED_STEVE_ONLY"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "LIVE_TRADING",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "NOT_AUTHORIZED"
+    },
+    {
+      "content_sha256": "244298cfe677cf49a594eaa37a17760c004343c34f803db423e8eb962898e766",
+      "document": "WTC_Reclaim_Measurement_RUNBOOK_v1.md",
+      "domain": "MEASUREMENT_PIPELINE",
+      "effective_date": "2026-08-15",
+      "is_current_authority": true,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "bf7d1f2ad41384baae1f9ec74ffe0b8bf269e26b0cedda2e13f305e88927b67d",
+      "document": "VALIDATION_STANDARD.md",
+      "domain": "OOS_VALIDATION",
+      "effective_date": "2026-08-03",
+      "is_current_authority": true,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "PAPER_TRADING",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "NOT_AUTHORIZED"
+    },
+    {
+      "content_sha256": "tree:8b0a1316acd5fee3c4b705ba3c87fa78c9279829ff87bf5bcd5c444929308591",
+      "document": "Scripts",
+      "domain": "PINE_AUTHORITY",
+      "effective_date": "2026-08-22",
+      "is_current_authority": true,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
+      "document": "PROP_FIRM_RULES.md",
+      "domain": "PROP_FIRM_RULES",
+      "effective_date": "2026-08-03",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "BLOCKING_UNSET"
+    },
+    {
+      "content_sha256": "84ab05bf66be05d970ba98dbd09d2de9011c7dd3fe4367a52a67a6af631fef43",
+      "document": "REPORT_BUS.md",
+      "domain": "REPORTING",
+      "effective_date": "2026-08-23",
+      "is_current_authority": true,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
+      "document": "RISK_RULES.md",
+      "domain": "RISK",
+      "effective_date": "2026-08-03",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "BLOCKING_UNSET"
+    },
+    {
+      "content_sha256": "bf7d1f2ad41384baae1f9ec74ffe0b8bf269e26b0cedda2e13f305e88927b67d",
+      "document": "VALIDATION_STANDARD.md",
+      "domain": "SEARCH_BURDEN",
+      "effective_date": "2026-08-03",
+      "is_current_authority": true,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "19ef97cf461cb251446ceac3bd0a6bf3438872a59d06270bd725108d0256d830",
+      "document": "AGENTS.md",
+      "domain": "TRADING_GOVERNANCE",
+      "effective_date": "2026-08-26",
+      "is_current_authority": true,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "TRADING_RESEARCH",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    },
+    {
+      "content_sha256": "fd3a87754429379720c6320b17355a1e9c85817b084bff5247ab9a2945252409",
+      "document": "WTC_Reclaim_Confirmation_Research_v1_BASE_fd3a8775.pine",
+      "domain": "WTC_CANONICAL",
+      "effective_date": "2026-08-15",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "FROZEN_EXPERIMENT"
+    }
+  ],
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "f8efa066086628c57014ae4ef8e32f0e2fbaa02bc069869d47085955124c6db0",
-  "current_experiment": null,
-  "current_research_state": [],
+  "content_sha256": "db9cfeee1dca77b95c6864e3f943c75f9823ead85bd9dd028e1e766befd8d931",
+  "current_experiment": {
+    "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
+    "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
+    "domain": "EXPERIMENT_AUTHORITY",
+    "effective_date": "2026-08-15",
+    "is_current_authority": false,
+    "owner": "TRADING_QUANT_ARCHITECT",
+    "requires_ruling": false,
+    "status": "FROZEN_EXPERIMENT"
+  },
+  "current_research_state": [
+    {
+      "content_sha256": "71a374cedb3afd7e3dd0d6d41ee7a485fec499122813a3d61e26a42d9ba4846d",
+      "document": "CURRENT_STATE.md",
+      "domain": "CURRENT_RESEARCH_STATE",
+      "effective_date": "2026-08-23",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    },
+    {
+      "content_sha256": "220f527da9a680b552f034399cede20a13ba9d56b76756c8eb1751fa9dc94043",
+      "document": "WTC_Reclaim_Confirmation_Research_v1_BRACKETFIX_2026-08-18.pine",
+      "domain": "EXECUTION_ENGINE",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "TRADING_RESEARCH",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "requires_ruling": false,
+      "status": "CURRENT_RESEARCH_STATE"
+    }
+  ],
   "decisions_open": {
-    "count": 0,
-    "items": [],
+    "count": 4,
+    "items": [
+      {
+        "business": "TRADING",
+        "decision_id": "dec-c37c8daf2477",
+        "officer": "trading-director",
+        "owner": "TRADING_QUANT_ARCHITECT",
+        "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
+        "raised_at": "2026-08-24T04:20:08+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "TRADING",
+        "decision_id": "dec-b1f467e44b8e",
+        "officer": null,
+        "owner": "STEVE_FEHR",
+        "question": "Forward alert has a recorded expiry and one unlogged firing to back-fill as NOT_OBSERVED. Steve-only. No agent and no MCP caller may act on it.",
+        "raised_at": "2026-08-24T04:20:08+00:00",
+        "state": "OPEN",
+        "steve_only": true
+      },
+      {
+        "business": "TRADING",
+        "decision_id": "dec-23708f792f06",
+        "officer": "trading-director",
+        "owner": "TRADING_QUANT_ARCHITECT",
+        "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
+        "raised_at": "2026-08-24T04:20:08+00:00",
+        "state": "OPEN",
+        "steve_only": false
+      },
+      {
+        "business": "TRADING",
+        "decision_id": "dec-117e2e30666f",
+        "officer": null,
+        "owner": "STEVE_FEHR",
+        "question": "Risk/RISK_RULES.md and Risk/PROP_FIRM_RULES.md are BLOCKING_UNSET. No stage advances and no sizing question is answerable while they are unset. Steve-only action.",
+        "raised_at": "2026-08-24T04:20:08+00:00",
+        "state": "OPEN",
+        "steve_only": true
+      }
+    ],
     "withheld": []
   },
-  "documents_indexed": null,
+  "documents_indexed": 491,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": null,
-    "indexed_at": null,
-    "note": "this business is not present in the Command Center index",
-    "source_changed_since_index": null,
-    "state": "UNKNOWN"
+    "age_minutes": 0.1,
+    "indexed_at": "2026-08-28T08:41:05+00:00",
+    "meaning": "index is current",
+    "source_changed_since_index": false,
+    "stale_after_minutes": 30,
+    "state": "OK"
   },
-  "generated_at": "2026-08-28T04:26:13+00:00",
+  "generated_at": "2026-08-28T08:41:12+00:00",
   "hard_gates": {
-    "complete": false,
+    "complete": true,
     "expected": [
       "FORWARD_ALERT",
       "LIVE_TRADING",
@@ -30,20 +293,154 @@
       "PROP_FIRM_RULES",
       "RISK"
     ],
-    "gates": [],
-    "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
-    "missing": [
-      "FORWARD_ALERT",
-      "LIVE_TRADING",
-      "PAPER_TRADING",
-      "PROP_FIRM_RULES",
-      "RISK"
+    "gates": [
+      {
+        "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
+        "document": "CHART_LOCK.md",
+        "domain": "FORWARD_ALERT",
+        "effective_date": "2026-08-22",
+        "is_current_authority": false,
+        "owner": "STEVE_FEHR",
+        "requires_ruling": false,
+        "status": "PROTECTED_STEVE_ONLY"
+      },
+      {
+        "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+        "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+        "domain": "LIVE_TRADING",
+        "effective_date": "2026-08-22",
+        "is_current_authority": false,
+        "owner": "STEVE_FEHR",
+        "requires_ruling": false,
+        "status": "NOT_AUTHORIZED"
+      },
+      {
+        "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+        "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+        "domain": "PAPER_TRADING",
+        "effective_date": "2026-08-22",
+        "is_current_authority": false,
+        "owner": "STEVE_FEHR",
+        "requires_ruling": false,
+        "status": "NOT_AUTHORIZED"
+      },
+      {
+        "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
+        "document": "PROP_FIRM_RULES.md",
+        "domain": "PROP_FIRM_RULES",
+        "effective_date": "2026-08-03",
+        "is_current_authority": false,
+        "owner": "STEVE_FEHR",
+        "requires_ruling": false,
+        "status": "BLOCKING_UNSET"
+      },
+      {
+        "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
+        "document": "RISK_RULES.md",
+        "domain": "RISK",
+        "effective_date": "2026-08-03",
+        "is_current_authority": false,
+        "owner": "STEVE_FEHR",
+        "requires_ruling": false,
+        "status": "BLOCKING_UNSET"
+      }
     ],
-    "summary": {}
+    "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
+    "missing": [],
+    "summary": {
+      "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+      "LIVE_TRADING": "NOT_AUTHORIZED",
+      "PAPER_TRADING": "NOT_AUTHORIZED",
+      "PROP_FIRM_RULES": "BLOCKING_UNSET",
+      "RISK": "BLOCKING_UNSET"
+    }
   },
   "missions": {
-    "active": [],
-    "counts": {},
+    "active": [
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T07:22:56+00:00",
+        "mission_id": "msn-347d651853e8",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC parallel edge improvement - bad-trade forensics and conditional-edge research"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T07:02:50+00:00",
+        "mission_id": "msn-58327b439139",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "CLAIMED",
+        "title": "WTC Carry Geometry R2 paired measurement and report"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T07:01:59+00:00",
+        "mission_id": "msn-4b96c38dafe7",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC Carry Geometry R2 targeted DOA repair"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T05:39:23+00:00",
+        "mission_id": "msn-26edc5b27097",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC carry-forward terminal research candidate v1"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T05:10:58+00:00",
+        "mission_id": "msn-69eeeae83d59",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-28T04:17:25+00:00",
+        "mission_id": "msn-c9afc0f80ea6",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC executive progress and instant-loss review \u2014 2026-08-27"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-08-26T05:11:49+00:00",
+        "mission_id": "msn-484911bb88d9",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "OPEN",
+        "title": "WTC-EXP01-RUNTIME-CENSUS-03 \u2014 Mode A structural runtime gate"
+      }
+    ],
+    "counts": {
+      "ABANDONED": 11,
+      "CLAIMED": 1,
+      "COMPLETE": 1,
+      "OPEN": 6
+    },
     "withheld": []
   },
   "mutable": false,
@@ -51,10 +448,59 @@
   "purpose": "Current operational state of the TRADING business.",
   "read_only": true,
   "reports_published": {
-    "count": 0,
-    "items": []
+    "count": 2,
+    "items": [
+      {
+        "agent": "Quant Architect",
+        "base_commit": "5797f931f28df310487acffb05cbbc31cff8689b",
+        "branch": "test/command-center-dual-agent-20260826",
+        "business": "TRADING",
+        "canonical_sha256": "d18f99c66e6ab82c929b63ba23e10b683eaa00b7bbe05eba80f4d6fbdbff205d",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-26",
+        "html_url": "/trading/trd-20260826-test_quant_command_center_v1-809f1f55.html",
+        "mission": "TEST_QUANT_COMMAND_CENTER_v1",
+        "officers": [
+          "trading-director"
+        ],
+        "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
+        "published_at": "2026-08-28T08:41:11+00:00",
+        "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
+        "repository": "AI Trading",
+        "review_state": null,
+        "status": "FILED",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": true,
+        "title": "TEST_QUANT_COMMAND_CENTER_v1"
+      },
+      {
+        "agent": "cc-report-portal-01",
+        "base_commit": null,
+        "branch": null,
+        "business": "TRADING",
+        "canonical_sha256": "a7e69b240cbc52a6243797bbccb657dd2b4feb23178a4d9ca0c9981f14ae18f6",
+        "classification": "PUBLIC_RELEASABLE",
+        "created_at": "2026-08-26",
+        "html_url": "/trading/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html",
+        "mission": null,
+        "officers": [
+          "trading-director"
+        ],
+        "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
+        "published_at": "2026-08-28T08:41:11+00:00",
+        "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
+        "repository": null,
+        "review_state": null,
+        "status": "FILED",
+        "superseded": false,
+        "supersedes": null,
+        "synthetic": true,
+        "title": "PORTAL ACCEPTANCE TEST (SYNTHETIC) - TRADING"
+      }
+    ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:26:13+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

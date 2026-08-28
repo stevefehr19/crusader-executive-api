@@ -1,7 +1,7 @@
 {
   "business": "TRADING",
-  "complete": false,
-  "content_sha256": "e62db8869d93e44e488d84e74dbf602de62ee1d0a7175edc8da7b8ffac2fcb5a",
+  "complete": true,
+  "content_sha256": "ee94f4eac0462422f48267bb8fafb65c224d50f6f574f612451627213cb953d6",
   "endpoint": "/api/trading/hard-gates.json",
   "expected": [
     "FORWARD_ALERT",
@@ -10,22 +10,73 @@
     "PROP_FIRM_RULES",
     "RISK"
   ],
-  "gates": [],
-  "generated_at": "2026-08-28T04:26:13+00:00",
-  "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
-  "missing": [
-    "FORWARD_ALERT",
-    "LIVE_TRADING",
-    "PAPER_TRADING",
-    "PROP_FIRM_RULES",
-    "RISK"
+  "gates": [
+    {
+      "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
+      "document": "CHART_LOCK.md",
+      "domain": "FORWARD_ALERT",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "PROTECTED_STEVE_ONLY"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "LIVE_TRADING",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "NOT_AUTHORIZED"
+    },
+    {
+      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+      "domain": "PAPER_TRADING",
+      "effective_date": "2026-08-22",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "NOT_AUTHORIZED"
+    },
+    {
+      "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
+      "document": "PROP_FIRM_RULES.md",
+      "domain": "PROP_FIRM_RULES",
+      "effective_date": "2026-08-03",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "BLOCKING_UNSET"
+    },
+    {
+      "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
+      "document": "RISK_RULES.md",
+      "domain": "RISK",
+      "effective_date": "2026-08-03",
+      "is_current_authority": false,
+      "owner": "STEVE_FEHR",
+      "requires_ruling": false,
+      "status": "BLOCKING_UNSET"
+    }
   ],
+  "generated_at": "2026-08-28T08:41:12+00:00",
+  "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
+  "missing": [],
   "mutable": false,
   "name": "trading-hard-gates",
   "purpose": "The five Trading hard gates, always all five.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "summary": {},
-  "updated_at": "2026-08-28T04:26:13+00:00",
+  "summary": {
+    "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+    "LIVE_TRADING": "NOT_AUTHORIZED",
+    "PAPER_TRADING": "NOT_AUTHORIZED",
+    "PROP_FIRM_RULES": "BLOCKING_UNSET",
+    "RISK": "BLOCKING_UNSET"
+  },
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/hard-gates.json"
 }

@@ -1,0 +1,28 @@
+# PORTAL ACCEPTANCE TEST (SYNTHETIC) - CAS
+
+REPORT ID: rpt-ca5e3895becc
+MISSION: -
+AGENT: portal-acceptance
+STATUS: COMPLETE
+VERDICT: SYNTHETIC TEST - NOT AN OPERATIONAL FINDING
+SUBMITTED: 2026-08-26T01:58:42+00:00
+ROUTED TO: COMMANDER
+BODY SHA-256: 1d217fd17f820e0919c41586127360e7d8ae3d152c7d302b444c94a72dcf6476
+
+## SUMMARY
+CLASSIFICATION: PUBLIC_RELEASABLE
+
+SYNTHETIC TEST REPORT - Crusader Agent Report Portal acceptance.
+
+This report was filed by directive CC-REPORT-PORTAL-01 to prove the end-to-end
+publication path: filed once through the local CAS control plane, detected by the
+publication pipeline, scanned, rendered and published as a static artifact that an
+internet client can retrieve without Steve relaying anything.
+
+It carries no secrets, no customer information and no local filesystem paths.
+It asserts nothing about the business and must not be read as an operational
+finding. Retained as clearly marked TEST evidence rather than deleted, because
+the control plane treats filed reports as immutable records.
+
+VERDICT: PORTAL ACCEPTANCE - SYNTHETIC
+

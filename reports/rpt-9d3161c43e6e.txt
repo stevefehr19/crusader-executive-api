@@ -1,0 +1,43 @@
+# TEST_CSO_COMMAND_CENTER_v1
+
+REPORT ID: rpt-9d3161c43e6e
+MISSION: -
+AGENT: cso-test-lane
+STATUS: COMPLETE
+VERDICT: PASS - SYNTHETIC TEST, NOT BUSINESS AUTHORITY
+SUBMITTED: 2026-08-26T02:40:19+00:00
+ROUTED TO: COMMANDER, CSO
+BODY SHA-256: 8ec081d9a369f97616718779a0f6152e0c337591eda21d7cde29e6360c34aca3
+
+## SUMMARY
+SYNTHETIC TEST - NOT BUSINESS AUTHORITY
+
+BANNER: SYNTHETIC TEST - NOT BUSINESS AUTHORITY
+BUSINESS: Crusader Automated Systems
+AGENT: CSO
+MISSION: TEST_CSO_COMMAND_CENTER_v1
+STATUS: PASS
+REPOSITORY: AI Business
+BRANCH: test/command-center-dual-agent-20260826
+BASE COMMIT: 54973ca4452022781fc30b381e5e45f71fecbdd9
+COMMIT SHA: NONE - lane write refused, see GIT WRITE
+GIT WRITE: NOT AUTHORIZED - agent_lane_guard refused: owner mismatch, lane
+ 'lane:cas-control-plane-install' belongs to another session. The refusal is the
+ governance working; it was not bypassed.
+EVIDENCE: artifact prepared, sha256 e6a14586f77cc6e6850f6d31aaca50a25d79ff580eed69c43658dc94c7a7fd08
+BLOCKERS: NONE for this lane's own work; Git commit requires a lane assignment
+NEXT ACTION: COMMANDER RETRIEVAL TEST
+RELEASE CLASSIFICATION: PUBLIC_RELEASABLE
+CLASSIFICATION: PUBLIC_RELEASABLE
+
+RESULT: synthetic test only.
+
+FILES PREPARED (uncommitted):
+ Study_Notes/_command_center_tests/TEST_CSO_COMMAND_CENTER_v1.md
+
+This report proves the CAS CSO lane can complete synthetic work and release a
+report to the Command Center portal for remote Commander retrieval. It changes
+no Product Authority, no pricing, no commercial architecture, no delivery
+authority, no client record and no production system, and it must not be cited
+as authority for anything.
+

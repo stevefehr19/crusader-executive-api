@@ -1,50 +1,77 @@
 {
   "authority_source": "local Crusader control planes via the Command Center index",
-  "blockers": [],
+  "blockers": [
+    {
+      "business": "CAS",
+      "detail": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "id": "COMMERCIAL",
+      "kind": "CONFLICT_REQUIRES_AUTHORITY"
+    },
+    {
+      "business": "TRADING",
+      "detail": "PROP_FIRM_RULES.md",
+      "id": "PROP_FIRM_RULES",
+      "kind": "BLOCKING_UNSET"
+    },
+    {
+      "business": "TRADING",
+      "detail": "RISK_RULES.md",
+      "id": "RISK",
+      "kind": "BLOCKING_UNSET"
+    }
+  ],
   "business": "BOTH",
   "businesses": {
     "CAS": {
-      "authority_conflicts": 0,
-      "decisions_open": 0,
-      "documents_indexed": null,
-      "missions_active": 0,
-      "reports_published": 0
+      "authority_conflicts": 1,
+      "decisions_open": 12,
+      "documents_indexed": 1662,
+      "missions_active": 6,
+      "reports_published": 3
     },
     "TRADING": {
       "authority_conflicts": 0,
-      "decisions_open": 0,
-      "documents_indexed": null,
-      "hard_gates": {},
-      "missions_active": 0,
-      "reports_published": 0
+      "decisions_open": 4,
+      "documents_indexed": 491,
+      "hard_gates": {
+        "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+        "LIVE_TRADING": "NOT_AUTHORIZED",
+        "PAPER_TRADING": "NOT_AUTHORIZED",
+        "PROP_FIRM_RULES": "BLOCKING_UNSET",
+        "RISK": "BLOCKING_UNSET"
+      },
+      "missions_active": 7,
+      "reports_published": 2
     }
   },
-  "content_sha256": "3d67d07f2dc4d7e4164804021a1df0915e78be82153d46f1e76d5ca1c719c176",
-  "decisions_awaiting_steve": 0,
+  "content_sha256": "69b31c448747cee37e21abaee0d5a46cb8896929573118361e6b06bd3f05bd0c",
+  "decisions_awaiting_steve": 4,
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
-      "age_minutes": null,
-      "indexed_at": null,
-      "note": "this business is not present in the Command Center index",
-      "source_changed_since_index": null,
-      "state": "UNKNOWN"
+      "age_minutes": 0.1,
+      "indexed_at": "2026-08-28T08:41:05+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
     },
     "overall": "OK",
     "trading": {
-      "age_minutes": null,
-      "indexed_at": null,
-      "note": "this business is not present in the Command Center index",
-      "source_changed_since_index": null,
-      "state": "UNKNOWN"
+      "age_minutes": 0.1,
+      "indexed_at": "2026-08-28T08:41:05+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
     }
   },
-  "generated_at": "2026-08-28T04:26:13+00:00",
+  "generated_at": "2026-08-28T08:41:12+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:26:13+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

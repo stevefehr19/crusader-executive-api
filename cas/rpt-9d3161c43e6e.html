@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>TEST_CSO_COMMAND_CENTER_v1 &#183; Crusader Agent Report</title>
+<style>
+:root{--ground:#eceef1;--panel:#f7f8fa;--edge:#c9ced7;--ink:#1b1f26;--dim:#5b6472;--faint:#858e9c;--ok:#1f6b45}
+@media (prefers-color-scheme:dark){:root{--ground:#14171c;--panel:#1b1f26;--edge:#333a45;--ink:#e6e9ee;--dim:#98a2b1;--faint:#6d7684;--ok:#5fc290}}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);margin:0;padding:32px 18px 64px;
+ font:15px/1.55 ui-sans-serif,-apple-system,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);font-weight:700}
+h1{font-size:clamp(22px,4vw,31px);margin:0;letter-spacing:-.01em;text-wrap:balance}
+dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;margin:0;
+ background:var(--edge);border:1px solid var(--edge);border-radius:4px;overflow:hidden}
+div.f{background:var(--panel);padding:11px 13px}
+dt{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);font-weight:700}
+dd{margin:3px 0 0;font-family:ui-monospace,Menlo,monospace;font-size:12.5px;word-break:break-word}
+pre{margin:0;padding:18px;background:var(--panel);border:1px solid var(--edge);border-radius:4px;
+ overflow-x:auto;font-family:ui-monospace,Menlo,monospace;font-size:12.5px;line-height:1.6;white-space:pre-wrap}
+footer{color:var(--faint);font-size:12px;border-top:1px solid var(--edge);padding-top:12px}
+a{color:inherit}
+</style></head><body><div class="wrap">
+<div class="eyebrow">Crusader Agent Report Portal &#183; CAS</div>
+<h1>TEST_CSO_COMMAND_CENTER_v1</h1>
+<dl>
+<div class="f"><dt>Report ID</dt><dd>rpt-9d3161c43e6e</dd></div>
+<div class="f"><dt>Created</dt><dd>2026-08-26T02:40:19+00:00</dd></div>
+<div class="f"><dt>Status</dt><dd>COMPLETE</dd></div>
+<div class="f"><dt>Review state</dt><dd>UNREVIEWED</dd></div>
+<div class="f"><dt>Author role</dt><dd></dd></div>
+<div class="f"><dt>Recipients</dt><dd>COMMANDER, CSO</dd></div>
+<div class="f"><dt>Classification</dt><dd>PUBLIC_RELEASABLE</dd></div>
+<div class="f"><dt>Canonical sha256</dt><dd>691bd9a4c77589306b1ce284112fea2579f55ec2eac42fc2d12b3d0e95103ba2</dd></div>
+</dl>
+<pre># TEST_CSO_COMMAND_CENTER_v1
+
+REPORT ID: rpt-9d3161c43e6e
+MISSION: -
+AGENT: cso-test-lane
+STATUS: COMPLETE
+VERDICT: PASS - SYNTHETIC TEST, NOT BUSINESS AUTHORITY
+SUBMITTED: 2026-08-26T02:40:19+00:00
+ROUTED TO: COMMANDER, CSO
+BODY SHA-256: 8ec081d9a369f97616718779a0f6152e0c337591eda21d7cde29e6360c34aca3
+
+## SUMMARY
+SYNTHETIC TEST - NOT BUSINESS AUTHORITY
+
+BANNER: SYNTHETIC TEST - NOT BUSINESS AUTHORITY
+BUSINESS: Crusader Automated Systems
+AGENT: CSO
+MISSION: TEST_CSO_COMMAND_CENTER_v1
+STATUS: PASS
+REPOSITORY: AI Business
+BRANCH: test/command-center-dual-agent-20260826
+BASE COMMIT: 54973ca4452022781fc30b381e5e45f71fecbdd9
+COMMIT SHA: NONE - lane write refused, see GIT WRITE
+GIT WRITE: NOT AUTHORIZED - agent_lane_guard refused: owner mismatch, lane
+ &#x27;lane:cas-control-plane-install&#x27; belongs to another session. The refusal is the
+ governance working; it was not bypassed.
+EVIDENCE: artifact prepared, sha256 e6a14586f77cc6e6850f6d31aaca50a25d79ff580eed69c43658dc94c7a7fd08
+BLOCKERS: NONE for this lane&#x27;s own work; Git commit requires a lane assignment
+NEXT ACTION: COMMANDER RETRIEVAL TEST
+RELEASE CLASSIFICATION: PUBLIC_RELEASABLE
+CLASSIFICATION: PUBLIC_RELEASABLE
+
+RESULT: synthetic test only.
+
+FILES PREPARED (uncommitted):
+ Study_Notes/_command_center_tests/TEST_CSO_COMMAND_CENTER_v1.md
+
+This report proves the CAS CSO lane can complete synthetic work and release a
+report to the Command Center portal for remote Commander retrieval. It changes
+no Product Authority, no pricing, no commercial architecture, no delivery
+authority, no client record and no production system, and it must not be cited
+as authority for anything.
+
+</pre>
+<footer>Publication copy. Canonical authority remains in the local Crusader control
+planes; this page is a distribution artifact bound to the canonical hash above.
+Publication timestamps live in the JSON index.</footer>
+</div></body></html>

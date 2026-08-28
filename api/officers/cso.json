@@ -4,31 +4,245 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": null,
-    "indexed_at": null,
-    "note": "this business is not present in the Command Center index",
-    "source_changed_since_index": null,
-    "state": "UNKNOWN"
+    "age_minutes": 0.1,
+    "indexed_at": "2026-08-28T08:41:05+00:00",
+    "meaning": "index is current",
+    "source_changed_since_index": false,
+    "stale_after_minutes": 30,
+    "state": "OK"
   },
-  "claims_authority": null,
-  "commercial_authority": null,
-  "commercial_authority_set": [],
-  "commercial_conflict": [],
-  "content_sha256": "f2374fd02aa38b3bea7def36df03c9e65847eae3744225c095a5757278a1aa5b",
-  "decisions": [],
+  "claims_authority": {
+    "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+    "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+    "domain": "CLAIMS",
+    "effective_date": "2026-08-18",
+    "is_current_authority": true,
+    "owner": "STEVE",
+    "requires_ruling": false,
+    "status": "CURRENT_AUTHORITY"
+  },
+  "commercial_authority": {
+    "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+    "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+    "domain": "COMMERCIAL",
+    "effective_date": null,
+    "is_current_authority": false,
+    "owner": "CSO",
+    "requires_ruling": true,
+    "status": "CONFLICT_REQUIRES_AUTHORITY"
+  },
+  "commercial_authority_set": [
+    {
+      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+      "domain": "CLAIMS",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "domain": "COMMERCIAL",
+      "effective_date": null,
+      "is_current_authority": false,
+      "owner": "CSO",
+      "requires_ruling": true,
+      "status": "CONFLICT_REQUIRES_AUTHORITY"
+    },
+    {
+      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
+      "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
+      "domain": "DELIVERY",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
+      "domain": "OUTREACH",
+      "effective_date": "2026-08-21",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
+      "domain": "PILOT",
+      "effective_date": "2026-08-21",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
+      "document": "PROPOSAL_STANDARDS.md",
+      "domain": "PRICING",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+      "domain": "PRODUCT",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    },
+    {
+      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
+      "document": "PROPOSAL_STANDARDS.md",
+      "domain": "SALES",
+      "effective_date": "2026-08-18",
+      "is_current_authority": true,
+      "owner": "STEVE",
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
+    }
+  ],
+  "commercial_conflict": [
+    {
+      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "domain": "COMMERCIAL",
+      "effective_date": null,
+      "is_current_authority": false,
+      "owner": "CSO",
+      "requires_ruling": true,
+      "status": "CONFLICT_REQUIRES_AUTHORITY"
+    }
+  ],
+  "content_sha256": "8a06ece8248a7c3250779605fb7da011a0e02d7406e9ba95169b63f887f88198",
+  "decisions": [
+    {
+      "business": "CAS",
+      "decision_id": "dec-20ae86818001",
+      "officer": "cso",
+      "owner": "CSO",
+      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    }
+  ],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-08-28T04:26:13+00:00",
-  "missions": [],
+  "generated_at": "2026-08-28T08:41:12+00:00",
+  "missions": [
+    {
+      "active": false,
+      "business": "CAS",
+      "created_at": "2026-08-28T07:41:05+00:00",
+      "mission_id": "msn-0989e4925f4a",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "ABANDONED",
+      "title": "CAS-OVERNIGHT-COMMERCIAL-FIX \u2014 close REVIEWER 1 findings"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T17:37:53+00:00",
+      "mission_id": "msn-9362a3d8306b",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "CSO",
+      "status": "OPEN",
+      "title": "CSO commercial review"
+    }
+  ],
   "mutable": false,
   "name": "officer-cso",
   "officer": "GPT Chief Strategy Officer",
-  "pricing_authority": null,
-  "product_authority": null,
+  "pricing_authority": {
+    "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
+    "document": "PROPOSAL_STANDARDS.md",
+    "domain": "PRICING",
+    "effective_date": "2026-08-18",
+    "is_current_authority": true,
+    "owner": "STEVE",
+    "requires_ruling": false,
+    "status": "CURRENT_AUTHORITY"
+  },
+  "product_authority": {
+    "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
+    "document": "CAS_PRODUCT_AUTHORITY_v1.md",
+    "domain": "PRODUCT",
+    "effective_date": "2026-08-18",
+    "is_current_authority": true,
+    "owner": "STEVE",
+    "requires_ruling": false,
+    "status": "CURRENT_AUTHORITY"
+  },
   "purpose": "Executive read feed for GPT Chief Strategy Officer.",
   "read_only": true,
-  "reports": [],
+  "reports": [
+    {
+      "agent": null,
+      "base_commit": null,
+      "branch": null,
+      "business": "CAS",
+      "canonical_sha256": "536a4a671a13b36d991c28d90b8a5af627c20b142bedf8ecd41835ced0878f29",
+      "classification": "PUBLIC_RELEASABLE",
+      "created_at": "2026-08-26T17:45:21+00:00",
+      "html_url": "/cas/rpt-5b2c633579b2.html",
+      "mission": "CC-ACCESS-01",
+      "officers": [
+        "commander",
+        "cso"
+      ],
+      "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
+      "published_at": "2026-08-28T08:41:11+00:00",
+      "report_id": "rpt-5b2c633579b2",
+      "repository": "AI Business",
+      "review_state": "UNREVIEWED",
+      "status": "PHASE_COMPLETE",
+      "superseded": false,
+      "supersedes": null,
+      "synthetic": false,
+      "title": "CC-ACCESS-01 \u2014 Universal GPT read access (Commander edition, public)"
+    },
+    {
+      "agent": "CSO",
+      "base_commit": "54973ca4452022781fc30b381e5e45f71fecbdd9",
+      "branch": "test/command-center-dual-agent-20260826",
+      "business": "CAS",
+      "canonical_sha256": "691bd9a4c77589306b1ce284112fea2579f55ec2eac42fc2d12b3d0e95103ba2",
+      "classification": "PUBLIC_RELEASABLE",
+      "created_at": "2026-08-26T02:40:19+00:00",
+      "html_url": "/cas/rpt-9d3161c43e6e.html",
+      "mission": "TEST_CSO_COMMAND_CENTER_v1",
+      "officers": [
+        "commander",
+        "cso"
+      ],
+      "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
+      "published_at": "2026-08-28T08:41:11+00:00",
+      "report_id": "rpt-9d3161c43e6e",
+      "repository": "AI Business",
+      "review_state": "UNREVIEWED",
+      "status": "COMPLETE",
+      "superseded": false,
+      "supersedes": null,
+      "synthetic": true,
+      "title": "TEST_CSO_COMMAND_CENTER_v1"
+    }
+  ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:26:13+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

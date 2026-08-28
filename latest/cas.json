@@ -1,0 +1,46 @@
+{
+  "built": "2026-08-28T08:41:11+00:00",
+  "business": "CAS",
+  "latest": {
+    "agent": null,
+    "author_role": null,
+    "banner": "Commander edition. One section of the internal report is withheld from",
+    "business": "CAS",
+    "canonical_record_id": "CAS:rpt-5b2c633579b2",
+    "classification": "PUBLIC_RELEASABLE",
+    "conclusion": "PUBLIC API ROOT:\nhttps://crusader-agent-reports.netlify.app/api/\n\nPUBLIC INDEX:\nhttps://crusader-agent-reports.netlify.app/api/index.json\n\nCOMMANDER FEED:\nhttps://crusader-agent-reports.netlify.app/api/officers/commander.json\n\nCSO FEED:\nhttps://crusader-agent-reports.netlify.app/api/officers/cso.json\n\nTRADING DIRECTOR FEED:\nhttps://crusader-agent-reports.netlify.app/api/officers/trading-director.json\n\nENDPOINT TESTS:\nPASS. 13 of 13 live endpoints returned HTTP 200, byte-identical to the shipped\nbuild, carrying the exact sha256 the public index promises, and matching the\ncurrent local rebuild. The entry points /api/, /api and /robots.txt answer 200 to\na plain reader and to ChatGPT-User and OAI-SearchBot alike. Local suites: API\n38/38, report portal 26/26, Command Center 40/40, CAS 80/80, Trading 116/116.\n300 tests, 0 failures.\n\nSECURITY TESTS:\nPASS. 158 checks against the live public host, 0 failures. Write methods refused,\nnon-published paths refused, directory listings refused, unclassified reports\nrefused, query strings inert, every live byte swept for credentials, personal\ndata, client names, local paths and live markup with zero findings, officer\nisolation verified, all five Tr",
+    "created_at": "2026-08-26T17:45:21+00:00",
+    "declared_business": "CAS",
+    "declared_classification": "PUBLIC_RELEASABLE",
+    "declared_status": "PHASE_COMPLETE",
+    "evidence": "the live sweep of all public URLs found zero credentials",
+    "git_write": "NONE",
+    "html_url": "/reports/rpt-5b2c633579b2.html",
+    "json_url": "/reports/rpt-5b2c633579b2.json",
+    "mission": "CC-ACCESS-01",
+    "mission_id": "CC-ACCESS-01",
+    "operational": true,
+    "public_url": "/cas/rpt-5b2c633579b2.html",
+    "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
+    "published_at": "2026-08-28T08:41:11+00:00",
+    "recipient": [
+      "COMMANDER",
+      "CSO"
+    ],
+    "recipient_roles": [
+      "COMMANDER",
+      "CSO"
+    ],
+    "report_id": "rpt-5b2c633579b2",
+    "repository": "AI Business",
+    "review_state": "UNREVIEWED",
+    "sha256": "536a4a671a13b36d991c28d90b8a5af627c20b142bedf8ecd41835ced0878f29",
+    "status": "PHASE_COMPLETE",
+    "summary": null,
+    "supersedes": null,
+    "synthetic": false,
+    "text_url": "/reports/rpt-5b2c633579b2.txt",
+    "title": "CC-ACCESS-01 \u2014 Universal GPT read access (Commander edition, public)",
+    "updated_at": "2026-08-26T17:45:21+00:00"
+  }
+}

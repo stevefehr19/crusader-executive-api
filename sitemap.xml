@@ -4,7 +4,21 @@
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/</loc></url>
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/ping.json</loc></url>
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/index.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/cas/authority.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/decisions.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/global-status.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/missions.json</loc></url>
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json</loc></url>
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json</loc></url>
   <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/reports.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/trading/authority.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/api/trading/hard-gates.json</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/cas/rpt-5b2c633579b2.html</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/cas/rpt-9d3161c43e6e.html</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/cas/rpt-ca5e3895becc.html</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/trading/trd-20260826-test_quant_command_center_v1-809f1f55.html</loc></url>
+  <url><loc>https://stevefehr19.github.io/crusader-executive-api/trading/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html</loc></url>
 </urlset>

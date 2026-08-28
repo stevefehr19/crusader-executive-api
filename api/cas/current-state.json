@@ -134,7 +134,7 @@
     }
   ],
   "business": "CAS",
-  "content_sha256": "066cd3e50ebf1d48d564be7248bb9e99a297d0c920cc8c47ceb384222098e86e",
+  "content_sha256": "16542048337b6f23b9e11b22a82971215d2463ee6b44c5ab623d1f7121f0f767",
   "decisions_open": {
     "count": 12,
     "items": [
@@ -264,27 +264,16 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 0.9,
-    "indexed_at": "2026-08-28T10:10:43+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-08-28T10:27:39+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-28T10:11:38+00:00",
+  "generated_at": "2026-08-28T10:27:39+00:00",
   "missions": {
     "active": [
-      {
-        "active": true,
-        "business": "CAS",
-        "created_at": "2026-08-28T08:18:06+00:00",
-        "mission_id": "msn-a9e21769260f",
-        "officer": "commander",
-        "report_to": "COMMANDER",
-        "role": "BUILDER",
-        "status": "CLAIMED",
-        "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
-      },
       {
         "active": true,
         "business": "CAS",
@@ -293,8 +282,19 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "CLAIMED",
+        "status": "OPEN",
         "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-08-28T07:33:17+00:00",
+        "mission_id": "msn-b8c0d1c4e4c4",
+        "officer": "commander",
+        "report_to": "COMMANDER",
+        "role": "BUILDER",
+        "status": "CLAIMED",
+        "title": "CAS-OVERNIGHT-B1 \u2014 KB lifecycle: draft, approved, superseded, version"
       },
       {
         "active": true,
@@ -310,8 +310,9 @@
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLAIMED": 3,
-      "CLOSED": 21
+      "CLAIMED": 2,
+      "CLOSED": 21,
+      "OPEN": 1
     },
     "withheld": []
   },
@@ -337,7 +338,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-08-28T10:11:19+00:00",
+        "published_at": "2026-08-28T10:27:21+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -362,7 +363,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-08-28T10:11:19+00:00",
+        "published_at": "2026-08-28T10:27:21+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -387,7 +388,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-08-28T10:11:19+00:00",
+        "published_at": "2026-08-28T10:27:21+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -411,7 +412,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-08-28T10:11:19+00:00",
+        "published_at": "2026-08-28T10:27:21+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -424,6 +425,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T10:10:43+00:00",
+  "updated_at": "2026-08-28T10:27:21+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

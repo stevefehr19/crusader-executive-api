@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "c7bf8cb11b8548008aff1795d989fed63cd014eace99234c9899db4586173de5",
+  "content_sha256": "fce083130245c5d20f317a70cefb8b5f89b059e3b0ee1bf93f23bf0473f589c1",
   "count": 12,
   "endpoints": [
     {
@@ -9,72 +9,72 @@
       "name": "cas-authority",
       "path": "/api/cas/authority.json",
       "purpose": "What currently governs CAS, by domain.",
-      "sha256": "05155980f76129c4ffba7b1486f6ce821490f3679533260c392b872fb1381ea6",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/cas/authority.json"
+      "sha256": "36fdbee7f82fb077f71d764be6d0412d0c0adee7b31698056c0b726b1035ad55",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/authority.json"
     },
     {
       "business": "CAS",
       "name": "cas-current-state",
       "path": "/api/cas/current-state.json",
       "purpose": "CAS authority, missions, open decisions and published reports.",
-      "sha256": "13d6c6c14ecf8c94ac28c8eae463448ebb09b3c7a723574a7c17f488396e9cac",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/cas/current-state.json"
+      "sha256": "1a5aa4b6a0de5108ca40dcfc096fe3a3d7c7f44b65af8af89ce3c2301f82b7b4",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
     },
     {
       "business": "BOTH",
       "name": "decisions",
       "path": "/api/decisions.json",
       "purpose": "Open decisions awaiting a ruling, including Steve-only items.",
-      "sha256": "f68492d6e46764218c14ddcb266595f7c8ea5f9dacd201d1cbf8567d5ad7b5ed",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/decisions.json"
+      "sha256": "ec3add65dfd1026845fe77d84445e03fec5eb4c98636d79043d36216db954aad",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json"
     },
     {
       "business": "BOTH",
       "name": "global-status",
       "path": "/api/global-status.json",
       "purpose": "Headline state of both businesses, index freshness and blockers.",
-      "sha256": "9c1b9e32004c5b71327326390455c1419117331e04b0987a35ee3613f69680bf",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/global-status.json"
+      "sha256": "3d67d07f2dc4d7e4164804021a1df0915e78be82153d46f1e76d5ca1c719c176",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
     },
     {
       "business": "BOTH",
       "name": "missions",
       "path": "/api/missions.json",
       "purpose": "Every indexed mission, with active set and status counts.",
-      "sha256": "7b32a7d9f1adaa6e1371a882a73d6daaa1433cf2a197e9c5cea4470e462f46d5",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/missions.json"
+      "sha256": "7f88f3127216a5271abcea3f8a55cf6af5bc070b97bf7c740d7efd1b5f89fc41",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json"
     },
     {
       "business": "BOTH",
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "b4096a14fcb161e67d610bfcfff804c5a5923cdb761f7f02149783ac74cd5d56",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/commander.json"
+      "sha256": "f6cb68c1d313a5cc70f0699d3bd4af0d02c7b41435d16129c98f7205c5288807",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
       "business": "CAS",
       "name": "officer-cso",
       "path": "/api/officers/cso.json",
       "purpose": "Executive feed for GPT Chief Strategy Officer.",
-      "sha256": "2a12e21f37f3184c467aad90833165820e7192d60b7004b2055012930e2ea37e",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/cso.json"
+      "sha256": "f2374fd02aa38b3bea7def36df03c9e65847eae3744225c095a5757278a1aa5b",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
     },
     {
       "business": "TRADING",
       "name": "officer-trading-director",
       "path": "/api/officers/trading-director.json",
       "purpose": "Executive feed for GPT Trading Director / Quant Architect.",
-      "sha256": "f9dcf5521d4d42ca810f75a215928bde095ed469f8d27102476c050beab22de0",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/trading-director.json"
+      "sha256": "164487ae35ba177f46fcee134b9733ce3c3a74cbe3ef432a42e76d70b50d8823",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
     },
     {
       "business": "BOTH",
@@ -82,49 +82,49 @@
       "path": "/api/reports.json",
       "purpose": "Published reports with pre-computed discovery slices.",
       "sha256": "7e73d285ff30c4dbf689d4197b4058601381623c8722a02df66ac2e9a3950660",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/reports.json"
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/reports.json"
     },
     {
       "business": "TRADING",
       "name": "trading-authority",
       "path": "/api/trading/authority.json",
       "purpose": "What currently governs Trading, by domain.",
-      "sha256": "656d3985eb2f1257da3b3c2cdc7f51272e3349b0c687e206b444ff811a49a6eb",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/authority.json"
+      "sha256": "3e76da99f067049822d107d4018c27b8230ab162dc21a62cbef0c66400a8b652",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/authority.json"
     },
     {
       "business": "TRADING",
       "name": "trading-current-state",
       "path": "/api/trading/current-state.json",
       "purpose": "Trading authority, hard gates, research state and published reports.",
-      "sha256": "73b4958a7a3d213467d12573b200245f6c6d5b066e9fec473490e907d4cb2558",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/current-state.json"
+      "sha256": "f8efa066086628c57014ae4ef8e32f0e2fbaa02bc069869d47085955124c6db0",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
     },
     {
       "business": "TRADING",
       "name": "trading-hard-gates",
       "path": "/api/trading/hard-gates.json",
       "purpose": "The five Trading hard gates. Absence of a gate is reported, never omitted.",
-      "sha256": "ee94f4eac0462422f48267bb8fafb65c224d50f6f574f612451627213cb953d6",
-      "updated_at": "2026-08-28T04:19:52+00:00",
-      "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/hard-gates.json"
+      "sha256": "e62db8869d93e44e488d84e74dbf602de62ee1d0a7175edc8da7b8ffac2fcb5a",
+      "updated_at": "2026-08-28T04:26:13+00:00",
+      "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/hard-gates.json"
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-08-28T04:19:52+00:00",
+  "generated_at": "2026-08-28T04:26:13+00:00",
   "methods": [
     "GET"
   ],
   "officers": {
-    "commander": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/commander.json",
-    "cso": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/cso.json",
-    "trading-director": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/trading-director.json"
+    "commander": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json",
+    "cso": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json",
+    "trading-director": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
   },
   "purpose": "Read-only executive state for the Crusader GPT officers. Every endpoint is a static JSON document generated from the local Crusader Command Center. There is no write method and no query string; discovery slices are pre-computed.",
   "read_only": true,
-  "report_pages": "published report HTML is linked from each report record as html_url, relative to https://crusader-executive-api.stevefehr19.chatgpt.site",
+  "report_pages": "published report HTML is linked from each report record as html_url, relative to https://stevefehr19.github.io/crusader-executive-api",
   "version": 1
 }

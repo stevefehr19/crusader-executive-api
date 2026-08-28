@@ -1,149 +1,17 @@
 {
-  "authority": [
-    {
-      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-      "domain": "CLAIMS",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    },
-    {
-      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
-      "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
-      "domain": "DELIVERY",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "f5ce0063de1350d6a19a435301ba678aa027fd81ed3b061d7e56fe5ad91aa181",
-      "document": "CLAUDE.md",
-      "domain": "GOVERNANCE",
-      "effective_date": "2026-08-23",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
-      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
-      "domain": "OUTREACH",
-      "effective_date": "2026-08-21",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
-      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
-      "domain": "PILOT",
-      "effective_date": "2026-08-21",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
-      "document": "PROPOSAL_STANDARDS.md",
-      "domain": "PRICING",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-      "domain": "PRODUCT",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "809698094c4e8d4cfa3c8908b1c4ef4428d1bd05cdbddc5b92c16d0c79876c4d",
-      "document": "rig",
-      "domain": "REFERENCE_IMPLEMENTATION",
-      "effective_date": "2026-08-21",
-      "is_current_authority": false,
-      "owner": "COMMANDER",
-      "requires_ruling": false,
-      "status": "CURRENT_OPERATIONAL_STATE"
-    },
-    {
-      "content_sha256": "2ce5ff523fbccb1608e1707ec29c51bce2d54185c3baf77d43cc9744334d4991",
-      "document": "EXECUTIVE_HANDOFF_PROTOCOL.md",
-      "domain": "REPORTING",
-      "effective_date": "2026-08-23",
-      "is_current_authority": true,
-      "owner": "COMMANDER",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
-      "document": "PROPOSAL_STANDARDS.md",
-      "domain": "SALES",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "026d2e798e1fb66b4f75c655d40ff565786e690ba6758e6f918953d852048dcc",
-      "document": "compliance.md",
-      "domain": "SECURITY",
-      "effective_date": "2026-08-21",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    }
-  ],
+  "authority": [],
   "business": "CAS",
-  "conflicts": [
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    }
-  ],
-  "content_sha256": "05155980f76129c4ffba7b1486f6ce821490f3679533260c392b872fb1381ea6",
-  "count": 12,
+  "conflicts": [],
+  "content_sha256": "36fdbee7f82fb077f71d764be6d0412d0c0adee7b31698056c0b726b1035ad55",
+  "count": 0,
   "endpoint": "/api/cas/authority.json",
-  "generated_at": "2026-08-28T04:19:52+00:00",
+  "generated_at": "2026-08-28T04:26:13+00:00",
   "mutable": false,
   "name": "cas-authority",
   "note": "Authority is resolved by DOMAIN, never inferred from a filename. A CONFLICT_REQUIRES_AUTHORITY row is not permission.",
   "purpose": "What currently governs CAS decisions.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:19:52+00:00",
-  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/cas/authority.json"
+  "updated_at": "2026-08-28T04:26:13+00:00",
+  "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/authority.json"
 }

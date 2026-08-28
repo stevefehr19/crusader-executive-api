@@ -4,193 +4,31 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 5.5,
-    "indexed_at": "2026-08-28T04:14:28+00:00",
-    "meaning": "index is current",
-    "source_changed_since_index": false,
-    "stale_after_minutes": 30,
-    "state": "OK"
+    "age_minutes": null,
+    "indexed_at": null,
+    "note": "this business is not present in the Command Center index",
+    "source_changed_since_index": null,
+    "state": "UNKNOWN"
   },
-  "claims_authority": {
-    "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-    "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-    "domain": "CLAIMS",
-    "effective_date": "2026-08-18",
-    "is_current_authority": true,
-    "owner": "STEVE",
-    "requires_ruling": false,
-    "status": "CURRENT_AUTHORITY"
-  },
-  "commercial_authority": {
-    "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-    "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-    "domain": "COMMERCIAL",
-    "effective_date": null,
-    "is_current_authority": false,
-    "owner": "CSO",
-    "requires_ruling": true,
-    "status": "CONFLICT_REQUIRES_AUTHORITY"
-  },
-  "commercial_authority_set": [
-    {
-      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-      "domain": "CLAIMS",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    },
-    {
-      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
-      "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
-      "domain": "DELIVERY",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
-      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
-      "domain": "OUTREACH",
-      "effective_date": "2026-08-21",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
-      "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
-      "domain": "PILOT",
-      "effective_date": "2026-08-21",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
-      "document": "PROPOSAL_STANDARDS.md",
-      "domain": "PRICING",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-      "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-      "domain": "PRODUCT",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
-      "document": "PROPOSAL_STANDARDS.md",
-      "domain": "SALES",
-      "effective_date": "2026-08-18",
-      "is_current_authority": true,
-      "owner": "STEVE",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    }
-  ],
-  "commercial_conflict": [
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    }
-  ],
-  "content_sha256": "2a12e21f37f3184c467aad90833165820e7192d60b7004b2055012930e2ea37e",
-  "decisions": [
-    {
-      "business": "CAS",
-      "decision_id": "dec-be0e2b99fc81",
-      "officer": "cso",
-      "owner": "CSO",
-      "question": "The rules library repatriated from cas-vault: adopt as CAS doctrine, or retire it?",
-      "raised_at": "2026-08-26T01:03:41+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-20ae86818001",
-      "officer": "cso",
-      "owner": "CSO",
-      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    }
-  ],
+  "claims_authority": null,
+  "commercial_authority": null,
+  "commercial_authority_set": [],
+  "commercial_conflict": [],
+  "content_sha256": "f2374fd02aa38b3bea7def36df03c9e65847eae3744225c095a5757278a1aa5b",
+  "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-08-28T04:19:52+00:00",
-  "missions": [
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-24T17:37:53+00:00",
-      "mission_id": "msn-9362a3d8306b",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "CSO",
-      "status": "OPEN",
-      "title": "CSO commercial review"
-    }
-  ],
+  "generated_at": "2026-08-28T04:26:13+00:00",
+  "missions": [],
   "mutable": false,
   "name": "officer-cso",
   "officer": "GPT Chief Strategy Officer",
-  "pricing_authority": {
-    "content_sha256": "30e190c09234ccd32d665b393397439855cbde2738580006406a3ea957bc0470",
-    "document": "PROPOSAL_STANDARDS.md",
-    "domain": "PRICING",
-    "effective_date": "2026-08-18",
-    "is_current_authority": true,
-    "owner": "STEVE",
-    "requires_ruling": false,
-    "status": "CURRENT_AUTHORITY"
-  },
-  "product_authority": {
-    "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
-    "document": "CAS_PRODUCT_AUTHORITY_v1.md",
-    "domain": "PRODUCT",
-    "effective_date": "2026-08-18",
-    "is_current_authority": true,
-    "owner": "STEVE",
-    "requires_ruling": false,
-    "status": "CURRENT_AUTHORITY"
-  },
+  "pricing_authority": null,
+  "product_authority": null,
   "purpose": "Executive read feed for GPT Chief Strategy Officer.",
   "read_only": true,
   "reports": [],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:19:52+00:00",
-  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/cso.json"
+  "updated_at": "2026-08-28T04:26:13+00:00",
+  "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

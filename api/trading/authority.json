@@ -1,195 +1,14 @@
 {
-  "authority": [
-    {
-      "content_sha256": "71a374cedb3afd7e3dd0d6d41ee7a485fec499122813a3d61e26a42d9ba4846d",
-      "document": "CURRENT_STATE.md",
-      "domain": "CURRENT_RESEARCH_STATE",
-      "effective_date": "2026-08-23",
-      "is_current_authority": false,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_RESEARCH_STATE"
-    },
-    {
-      "content_sha256": "tree:b351e94ebab85b9877a772690815aa18f0f7585221b4a0f6011289003141931f",
-      "document": "research",
-      "domain": "DATA_AUTHORITY",
-      "effective_date": "2026-08-22",
-      "is_current_authority": true,
-      "owner": "DATA_PIPELINE_ENGINEER",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "d3ce7d64e0cb2f3cea02f793b7bb0afea5f4dfb95c9565bfdfd9504f36dbdd40",
-      "document": "WTC_Execution_Corrected_Control_Manifest_v1.json",
-      "domain": "ECC_AUTHORITY",
-      "effective_date": "2026-08-22",
-      "is_current_authority": true,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "220f527da9a680b552f034399cede20a13ba9d56b76756c8eb1751fa9dc94043",
-      "document": "WTC_Reclaim_Confirmation_Research_v1_BRACKETFIX_2026-08-18.pine",
-      "domain": "EXECUTION_ENGINE",
-      "effective_date": "2026-08-22",
-      "is_current_authority": false,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_RESEARCH_STATE"
-    },
-    {
-      "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
-      "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
-      "domain": "EXPERIMENT_AUTHORITY",
-      "effective_date": "2026-08-15",
-      "is_current_authority": false,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "FROZEN_EXPERIMENT"
-    },
-    {
-      "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
-      "document": "CHART_LOCK.md",
-      "domain": "FORWARD_ALERT",
-      "effective_date": "2026-08-22",
-      "is_current_authority": false,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "PROTECTED_STEVE_ONLY"
-    },
-    {
-      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
-      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
-      "domain": "LIVE_TRADING",
-      "effective_date": "2026-08-22",
-      "is_current_authority": false,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "NOT_AUTHORIZED"
-    },
-    {
-      "content_sha256": "244298cfe677cf49a594eaa37a17760c004343c34f803db423e8eb962898e766",
-      "document": "WTC_Reclaim_Measurement_RUNBOOK_v1.md",
-      "domain": "MEASUREMENT_PIPELINE",
-      "effective_date": "2026-08-15",
-      "is_current_authority": true,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "bf7d1f2ad41384baae1f9ec74ffe0b8bf269e26b0cedda2e13f305e88927b67d",
-      "document": "VALIDATION_STANDARD.md",
-      "domain": "OOS_VALIDATION",
-      "effective_date": "2026-08-03",
-      "is_current_authority": true,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
-      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
-      "domain": "PAPER_TRADING",
-      "effective_date": "2026-08-22",
-      "is_current_authority": false,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "NOT_AUTHORIZED"
-    },
-    {
-      "content_sha256": "tree:8b0a1316acd5fee3c4b705ba3c87fa78c9279829ff87bf5bcd5c444929308591",
-      "document": "Scripts",
-      "domain": "PINE_AUTHORITY",
-      "effective_date": "2026-08-22",
-      "is_current_authority": true,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
-      "document": "PROP_FIRM_RULES.md",
-      "domain": "PROP_FIRM_RULES",
-      "effective_date": "2026-08-03",
-      "is_current_authority": false,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "BLOCKING_UNSET"
-    },
-    {
-      "content_sha256": "ec1a3c6c75d97e6db91e36afebecb6808a386c096bc0ed2e54e4d4ae5e33068a",
-      "document": "REPORT_BUS.md",
-      "domain": "REPORTING",
-      "effective_date": "2026-08-23",
-      "is_current_authority": true,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
-      "document": "RISK_RULES.md",
-      "domain": "RISK",
-      "effective_date": "2026-08-03",
-      "is_current_authority": false,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "BLOCKING_UNSET"
-    },
-    {
-      "content_sha256": "bf7d1f2ad41384baae1f9ec74ffe0b8bf269e26b0cedda2e13f305e88927b67d",
-      "document": "VALIDATION_STANDARD.md",
-      "domain": "SEARCH_BURDEN",
-      "effective_date": "2026-08-03",
-      "is_current_authority": true,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "eb6b583faac26c2af9f39e15ecce3493bc161bf357d3261e76922a3fb6380b8a",
-      "document": "AGENTS.md",
-      "domain": "TRADING_GOVERNANCE",
-      "effective_date": "2026-08-26",
-      "is_current_authority": true,
-      "owner": "STEVE_FEHR",
-      "requires_ruling": false,
-      "status": "CURRENT_AUTHORITY"
-    },
-    {
-      "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
-      "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
-      "domain": "TRADING_RESEARCH",
-      "effective_date": "2026-08-22",
-      "is_current_authority": false,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "CURRENT_RESEARCH_STATE"
-    },
-    {
-      "content_sha256": "fd3a87754429379720c6320b17355a1e9c85817b084bff5247ab9a2945252409",
-      "document": "WTC_Reclaim_Confirmation_Research_v1_BASE_fd3a8775.pine",
-      "domain": "WTC_CANONICAL",
-      "effective_date": "2026-08-15",
-      "is_current_authority": false,
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "requires_ruling": false,
-      "status": "FROZEN_EXPERIMENT"
-    }
-  ],
+  "authority": [],
   "banner": "Research only. No live trading, no paper trading, no forward alert action. This surface is read-only and cannot change a gate.",
   "business": "TRADING",
   "conflicts": [],
-  "content_sha256": "656d3985eb2f1257da3b3c2cdc7f51272e3349b0c687e206b444ff811a49a6eb",
-  "count": 18,
+  "content_sha256": "3e76da99f067049822d107d4018c27b8230ab162dc21a62cbef0c66400a8b652",
+  "count": 0,
   "endpoint": "/api/trading/authority.json",
-  "generated_at": "2026-08-28T04:19:52+00:00",
+  "generated_at": "2026-08-28T04:26:13+00:00",
   "hard_gates": {
-    "complete": true,
+    "complete": false,
     "expected": [
       "FORWARD_ALERT",
       "LIVE_TRADING",
@@ -197,73 +16,22 @@
       "PROP_FIRM_RULES",
       "RISK"
     ],
-    "gates": [
-      {
-        "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
-        "document": "CHART_LOCK.md",
-        "domain": "FORWARD_ALERT",
-        "effective_date": "2026-08-22",
-        "is_current_authority": false,
-        "owner": "STEVE_FEHR",
-        "requires_ruling": false,
-        "status": "PROTECTED_STEVE_ONLY"
-      },
-      {
-        "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
-        "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
-        "domain": "LIVE_TRADING",
-        "effective_date": "2026-08-22",
-        "is_current_authority": false,
-        "owner": "STEVE_FEHR",
-        "requires_ruling": false,
-        "status": "NOT_AUTHORIZED"
-      },
-      {
-        "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
-        "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
-        "domain": "PAPER_TRADING",
-        "effective_date": "2026-08-22",
-        "is_current_authority": false,
-        "owner": "STEVE_FEHR",
-        "requires_ruling": false,
-        "status": "NOT_AUTHORIZED"
-      },
-      {
-        "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
-        "document": "PROP_FIRM_RULES.md",
-        "domain": "PROP_FIRM_RULES",
-        "effective_date": "2026-08-03",
-        "is_current_authority": false,
-        "owner": "STEVE_FEHR",
-        "requires_ruling": false,
-        "status": "BLOCKING_UNSET"
-      },
-      {
-        "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
-        "document": "RISK_RULES.md",
-        "domain": "RISK",
-        "effective_date": "2026-08-03",
-        "is_current_authority": false,
-        "owner": "STEVE_FEHR",
-        "requires_ruling": false,
-        "status": "BLOCKING_UNSET"
-      }
-    ],
+    "gates": [],
     "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
-    "missing": [],
-    "summary": {
-      "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
-      "LIVE_TRADING": "NOT_AUTHORIZED",
-      "PAPER_TRADING": "NOT_AUTHORIZED",
-      "PROP_FIRM_RULES": "BLOCKING_UNSET",
-      "RISK": "BLOCKING_UNSET"
-    }
+    "missing": [
+      "FORWARD_ALERT",
+      "LIVE_TRADING",
+      "PAPER_TRADING",
+      "PROP_FIRM_RULES",
+      "RISK"
+    ],
+    "summary": {}
   },
   "mutable": false,
   "name": "trading-authority",
   "purpose": "What currently governs Trading research.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T04:19:52+00:00",
-  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/authority.json"
+  "updated_at": "2026-08-28T04:26:13+00:00",
+  "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/authority.json"
 }

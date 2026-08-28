@@ -134,7 +134,7 @@
     }
   ],
   "business": "CAS",
-  "content_sha256": "3f8ccabeab1d5f129683d406afd09b5e67ac0a0978151b04c69b3d0462720c7d",
+  "content_sha256": "b49a5c6a95e161b8105c8365b5ba60538ad056b9647b768d6aa4065224fa1504",
   "decisions_open": {
     "count": 12,
     "items": [
@@ -264,14 +264,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 0.1,
-    "indexed_at": "2026-08-28T08:41:05+00:00",
+    "age_minutes": 0.3,
+    "indexed_at": "2026-08-28T08:48:16+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-28T08:41:12+00:00",
+  "generated_at": "2026-08-28T08:48:35+00:00",
   "missions": {
     "active": [
       {
@@ -282,7 +282,7 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
       },
       {
@@ -293,7 +293,7 @@
         "officer": "commander",
         "report_to": "COMMANDER",
         "role": "BUILDER",
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
       },
       {
@@ -343,9 +343,9 @@
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLAIMED": 1,
+      "CLAIMED": 3,
       "CLOSED": 18,
-      "OPEN": 5
+      "OPEN": 3
     },
     "withheld": []
   },
@@ -371,7 +371,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-08-28T08:41:11+00:00",
+        "published_at": "2026-08-28T08:48:17+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -396,7 +396,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-08-28T08:41:11+00:00",
+        "published_at": "2026-08-28T08:48:17+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -420,7 +420,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-08-28T08:41:11+00:00",
+        "published_at": "2026-08-28T08:48:17+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -433,6 +433,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-08-28T08:48:17+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

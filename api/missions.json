@@ -8,7 +8,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
     },
     {
@@ -19,7 +19,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
@@ -145,7 +145,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "b229755a357f804c2eebfd9cc0f0826245265be92fe0cafcc7fd1266394aa354",
+  "content_sha256": "4302b7bc65b4bc135dba50d9ffd2b58c03c5301547f78e267a4043079ab67ac0",
   "count": 58,
   "counts_by_business": {
     "CAS": 39,
@@ -153,13 +153,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 26,
-    "CLAIMED": 2,
+    "CLAIMED": 4,
     "CLOSED": 18,
     "COMPLETE": 1,
-    "OPEN": 11
+    "OPEN": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-08-28T08:41:12+00:00",
+  "generated_at": "2026-08-28T08:48:35+00:00",
   "missions": [
     {
       "active": true,
@@ -169,7 +169,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-REVENUE-FIX-2 \u2014 D4 interlock defeated by array order, D5 validate raises, D6 NaN money"
     },
     {
@@ -180,7 +180,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
@@ -805,7 +805,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T08:36:30+00:00",
+  "updated_at": "2026-08-28T08:48:17+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

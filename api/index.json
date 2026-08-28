@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "3438377e4bfa2bb357e96ed0d6d64562b5d91405d4602116045ebbf459e3691c",
+  "content_sha256": "316db23fa46e9e42c71ce7693a83c6b69fe42abdd06a8bd71143519711e5a8f9",
   "count": 12,
   "endpoints": [
     {
@@ -18,8 +18,8 @@
       "name": "cas-current-state",
       "path": "/api/cas/current-state.json",
       "purpose": "CAS authority, missions, open decisions and published reports.",
-      "sha256": "3f8ccabeab1d5f129683d406afd09b5e67ac0a0978151b04c69b3d0462720c7d",
-      "updated_at": "2026-01-01T00:00:00+00:00",
+      "sha256": "b49a5c6a95e161b8105c8365b5ba60538ad056b9647b768d6aa4065224fa1504",
+      "updated_at": "2026-08-28T08:48:17+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
     },
     {
@@ -36,8 +36,8 @@
       "name": "global-status",
       "path": "/api/global-status.json",
       "purpose": "Headline state of both businesses, index freshness and blockers.",
-      "sha256": "69b31c448747cee37e21abaee0d5a46cb8896929573118361e6b06bd3f05bd0c",
-      "updated_at": "2026-01-01T00:00:00+00:00",
+      "sha256": "d94f0d0906991914c7dab0f2b074f0aed203f02a15b1bba0a558dba9ff538636",
+      "updated_at": "2026-08-28T08:48:17+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
     },
     {
@@ -45,8 +45,8 @@
       "name": "missions",
       "path": "/api/missions.json",
       "purpose": "Every indexed mission, with active set and status counts.",
-      "sha256": "b229755a357f804c2eebfd9cc0f0826245265be92fe0cafcc7fd1266394aa354",
-      "updated_at": "2026-08-28T08:36:30+00:00",
+      "sha256": "4302b7bc65b4bc135dba50d9ffd2b58c03c5301547f78e267a4043079ab67ac0",
+      "updated_at": "2026-08-28T08:48:17+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json"
     },
     {
@@ -54,8 +54,8 @@
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "101e6a0c8d2ada8ffc704e9d0ff9e0595aab86c7e63ec7693c8fb7b86662b58b",
-      "updated_at": "2026-08-28T08:41:12+00:00",
+      "sha256": "4cf88fc7ca158845df10e1b93e5e8eee0c530c593fb6e6f9d18fd10e2af59d0d",
+      "updated_at": "2026-08-28T08:48:35+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -64,7 +64,7 @@
       "path": "/api/officers/cso.json",
       "purpose": "Executive feed for GPT Chief Strategy Officer.",
       "sha256": "8a06ece8248a7c3250779605fb7da011a0e02d7406e9ba95169b63f887f88198",
-      "updated_at": "2026-01-01T00:00:00+00:00",
+      "updated_at": "2026-08-28T08:42:42+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
     },
     {
@@ -99,8 +99,8 @@
       "name": "trading-current-state",
       "path": "/api/trading/current-state.json",
       "purpose": "Trading authority, hard gates, research state and published reports.",
-      "sha256": "db9cfeee1dca77b95c6864e3f943c75f9823ead85bd9dd028e1e766befd8d931",
-      "updated_at": "2026-01-01T00:00:00+00:00",
+      "sha256": "a77f8745629153bb16b7734f41d4b2a2bb6cdbc3484c53133c623e3bd487786d",
+      "updated_at": "2026-08-28T08:48:17+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-08-28T08:41:12+00:00",
+  "generated_at": "2026-08-28T08:48:35+00:00",
   "methods": [
     "GET"
   ],

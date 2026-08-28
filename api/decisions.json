@@ -1,0 +1,240 @@
+{
+  "awaiting_steve": [
+    {
+      "business": "CAS",
+      "decision_id": "dec-80f07bcf4fc7",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "cas-vault/ is a second Obsidian vault outside the governed repositories -- retire it or restore it?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-a9cce816b27e",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-b1f467e44b8e",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Forward alert has a recorded expiry and one unlogged firing to back-fill as NOT_OBSERVED. Steve-only. No agent and no MCP caller may act on it.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-117e2e30666f",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Risk/RISK_RULES.md and Risk/PROP_FIRM_RULES.md are BLOCKING_UNSET. No stage advances and no sizing question is answerable while they are unset. Steve-only action.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    }
+  ],
+  "business": "BOTH",
+  "content_sha256": "f68492d6e46764218c14ddcb266595f7c8ea5f9dacd201d1cbf8567d5ad7b5ed",
+  "count": 17,
+  "counts_by_business": {
+    "CAS": 11,
+    "TRADING": 6
+  },
+  "counts_by_owner": {
+    "COMMANDER": 7,
+    "CSO": 2,
+    "STEVE": 2,
+    "STEVE_FEHR": 2,
+    "TRADING_QUANT_ARCHITECT": 4
+  },
+  "decisions": [
+    {
+      "business": "TRADING",
+      "decision_id": "dec-ded3ac1d2cae",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "A second byte-identical copy of the frozen canonical WTC Pine sits outside PINE_AUTHORITY. Retire it, or declare it a permitted mirror?",
+      "raised_at": "2026-08-26T01:03:49+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-1915d73a8b96",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "wt-research-abc and wt-retire-exchange are live git worktrees sitting beside the estate in Claude/Projects, and one of them holds an ACTIVE-status Agent Exchange retirement record that never merged to main.",
+      "raised_at": "2026-08-26T01:03:49+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-be0e2b99fc81",
+      "officer": "cso",
+      "owner": "CSO",
+      "question": "The rules library repatriated from cas-vault: adopt as CAS doctrine, or retire it?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-89974a0b00d6",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Control_Plane/NEXT_HARDENING.md is byte-identical in both businesses with no declared owner",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-80f07bcf4fc7",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "cas-vault/ is a second Obsidian vault outside the governed repositories -- retire it or restore it?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-7304a986bc10",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Thirty CAS Study_Notes documents read as authority but declare themselves DRAFT or PROPOSED with no adoption ruling",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-3c20e1a1a9e6",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "May the CAS estate hold Trading material, and should the five misfiled files be deleted rather than archived?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-8c089e8ffb39",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
+      "raised_at": "2026-08-24T04:27:36+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-cf334efeb06b",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-a9cce816b27e",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-a0c5960a2598",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-4b7a82841a7f",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "scripts/cas_mcp_server.py cannot run on this host",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-20ae86818001",
+      "officer": "cso",
+      "owner": "CSO",
+      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-c37c8daf2477",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-b1f467e44b8e",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Forward alert has a recorded expiry and one unlogged firing to back-fill as NOT_OBSERVED. Steve-only. No agent and no MCP caller may act on it.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-23708f792f06",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-117e2e30666f",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Risk/RISK_RULES.md and Risk/PROP_FIRM_RULES.md are BLOCKING_UNSET. No stage advances and no sizing question is answerable while they are unset. Steve-only action.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    }
+  ],
+  "endpoint": "/api/decisions.json",
+  "generated_at": "2026-08-28T04:19:52+00:00",
+  "mutable": false,
+  "name": "decisions",
+  "purpose": "Open decisions awaiting a ruling, both businesses.",
+  "read_only": true,
+  "source": "Crusader Command Center (read-only projection)",
+  "updated_at": "2026-08-28T04:19:52+00:00",
+  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/decisions.json",
+  "withheld": []
+}

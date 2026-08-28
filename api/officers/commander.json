@@ -1,0 +1,693 @@
+{
+  "active_missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-26T05:11:49+00:00",
+      "mission_id": "msn-484911bb88d9",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "WTC-EXP01-RUNTIME-CENSUS-03 \u2014 Mode A structural runtime gate"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-25T02:56:50+00:00",
+      "mission_id": "msn-4e635f56583e",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "E2E: pine overlap probe"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-25T02:56:49+00:00",
+      "mission_id": "msn-ffaa8b8abb4f",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "E2E: reconcile authority manifest vs table"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-25T02:56:39+00:00",
+      "mission_id": "msn-14348f246f40",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "E2E probe mission"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-25T02:56:31+00:00",
+      "mission_id": "msn-c88b4e217ab8",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "E2E: reconcile authority manifest vs control-plane table"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-25T02:56:31+00:00",
+      "mission_id": "msn-bef8feb1b0f0",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "E2E: pine overlap probe"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-25T02:56:05+00:00",
+      "mission_id": "msn-d18a6c317927",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "E2E-FAIL: repair routing"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-25T02:55:33+00:00",
+      "mission_id": "msn-2c92d55f7d3d",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "E2E-DEP: task B (waits on A)"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-25T02:52:27+00:00",
+      "mission_id": "msn-3cb1cbc43fc4",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "E2E: overlapping scope probe"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-25T02:52:03+00:00",
+      "mission_id": "msn-95f9f8f86e93",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "E2E probe"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-25T02:51:56+00:00",
+      "mission_id": "msn-ead5ae0898da",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "E2E: verify Command Center index reads CAS plane"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T22:37:02+00:00",
+      "mission_id": "msn-6e5a58fbacd7",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Local-first third certification"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T22:36:24+00:00",
+      "mission_id": "msn-a7408bb2f153",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Certification fresh-agent drill"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T17:37:53+00:00",
+      "mission_id": "msn-9362a3d8306b",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "CSO",
+      "status": "OPEN",
+      "title": "CSO commercial review"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T17:37:43+00:00",
+      "mission_id": "msn-52d77ad8d6cd",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "COMMANDER",
+      "status": "OPEN",
+      "title": "Commander state review"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T17:36:07+00:00",
+      "mission_id": "msn-530d07529c55",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Cutover offline acceptance"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T17:35:06+00:00",
+      "mission_id": "msn-e0d170d3d07b",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Cutover offline acceptance"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T17:34:55+00:00",
+      "mission_id": "msn-8b03fcdafbd2",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Cutover offline acceptance"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T07:57:01+00:00",
+      "mission_id": "msn-d4c6e728371f",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Repair second review findings"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-08-24T04:40:55+00:00",
+      "mission_id": "msn-04f55cb41f5d",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Repair independent review findings"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T04:36:37+00:00",
+      "mission_id": "msn-c7720d8c1ebb",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "MCP write-path proof"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T04:29:22+00:00",
+      "mission_id": "msn-f40a9a897e5b",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "WTC research readout"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T04:29:22+00:00",
+      "mission_id": "msn-ac94b40febde",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Independent review"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T04:29:22+00:00",
+      "mission_id": "msn-a72704e4d304",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Authorized Pine snapshot"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-08-24T04:29:22+00:00",
+      "mission_id": "msn-60e8adf42387",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Second quant attempt"
+    }
+  ],
+  "blockers": [
+    {
+      "business": "CAS",
+      "detail": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "id": "COMMERCIAL",
+      "kind": "CONFLICT_REQUIRES_AUTHORITY"
+    },
+    {
+      "business": "TRADING",
+      "detail": "PROP_FIRM_RULES.md",
+      "id": "PROP_FIRM_RULES",
+      "kind": "BLOCKING_UNSET"
+    },
+    {
+      "business": "TRADING",
+      "detail": "RISK_RULES.md",
+      "id": "RISK",
+      "kind": "BLOCKING_UNSET"
+    }
+  ],
+  "business": "BOTH",
+  "businesses_in_scope": [
+    "CAS",
+    "TRADING"
+  ],
+  "cas_state": {
+    "authority_conflicts": [
+      {
+        "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
+        "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+        "domain": "COMMERCIAL",
+        "effective_date": null,
+        "is_current_authority": false,
+        "owner": "CSO",
+        "requires_ruling": true,
+        "status": "CONFLICT_REQUIRES_AUTHORITY"
+      }
+    ],
+    "authority_url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/cas/authority.json",
+    "business": "CAS",
+    "decisions_open_count": 11,
+    "detail_url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/cas/current-state.json",
+    "documents_indexed": 1662,
+    "freshness": {
+      "age_minutes": 5.5,
+      "indexed_at": "2026-08-28T04:14:28+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
+    },
+    "missions": {
+      "active_count": 13,
+      "counts": {
+        "CLOSED": 12,
+        "OPEN": 13
+      }
+    },
+    "mutable": false,
+    "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
+    "reports_published_count": 0
+  },
+  "content_sha256": "b4096a14fcb161e67d610bfcfff804c5a5923cdb761f7f02149783ac74cd5d56",
+  "decisions_open": [
+    {
+      "business": "TRADING",
+      "decision_id": "dec-ded3ac1d2cae",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "A second byte-identical copy of the frozen canonical WTC Pine sits outside PINE_AUTHORITY. Retire it, or declare it a permitted mirror?",
+      "raised_at": "2026-08-26T01:03:49+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-1915d73a8b96",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "wt-research-abc and wt-retire-exchange are live git worktrees sitting beside the estate in Claude/Projects, and one of them holds an ACTIVE-status Agent Exchange retirement record that never merged to main.",
+      "raised_at": "2026-08-26T01:03:49+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-be0e2b99fc81",
+      "officer": "cso",
+      "owner": "CSO",
+      "question": "The rules library repatriated from cas-vault: adopt as CAS doctrine, or retire it?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-89974a0b00d6",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Control_Plane/NEXT_HARDENING.md is byte-identical in both businesses with no declared owner",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-80f07bcf4fc7",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "cas-vault/ is a second Obsidian vault outside the governed repositories -- retire it or restore it?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-7304a986bc10",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Thirty CAS Study_Notes documents read as authority but declare themselves DRAFT or PROPOSED with no adoption ruling",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-3c20e1a1a9e6",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "May the CAS estate hold Trading material, and should the five misfiled files be deleted rather than archived?",
+      "raised_at": "2026-08-26T01:03:41+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-8c089e8ffb39",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
+      "raised_at": "2026-08-24T04:27:36+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-cf334efeb06b",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-a9cce816b27e",
+      "officer": null,
+      "owner": "STEVE",
+      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-a0c5960a2598",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-4b7a82841a7f",
+      "officer": "commander",
+      "owner": "COMMANDER",
+      "question": "scripts/cas_mcp_server.py cannot run on this host",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "CAS",
+      "decision_id": "dec-20ae86818001",
+      "officer": "cso",
+      "owner": "CSO",
+      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "raised_at": "2026-08-24T04:27:00+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-c37c8daf2477",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-b1f467e44b8e",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Forward alert has a recorded expiry and one unlogged firing to back-fill as NOT_OBSERVED. Steve-only. No agent and no MCP caller may act on it.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-23708f792f06",
+      "officer": "trading-director",
+      "owner": "TRADING_QUANT_ARCHITECT",
+      "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": false
+    },
+    {
+      "business": "TRADING",
+      "decision_id": "dec-117e2e30666f",
+      "officer": null,
+      "owner": "STEVE_FEHR",
+      "question": "Risk/RISK_RULES.md and Risk/PROP_FIRM_RULES.md are BLOCKING_UNSET. No stage advances and no sizing question is answerable while they are unset. Steve-only action.",
+      "raised_at": "2026-08-24T04:20:08+00:00",
+      "state": "OPEN",
+      "steve_only": true
+    }
+  ],
+  "endpoint": "/api/officers/commander.json",
+  "generated_at": "2026-08-28T04:19:52+00:00",
+  "global_status": {
+    "authority_source": "local Crusader control planes via the Command Center index",
+    "blockers": [
+      {
+        "business": "CAS",
+        "detail": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+        "id": "COMMERCIAL",
+        "kind": "CONFLICT_REQUIRES_AUTHORITY"
+      },
+      {
+        "business": "TRADING",
+        "detail": "PROP_FIRM_RULES.md",
+        "id": "PROP_FIRM_RULES",
+        "kind": "BLOCKING_UNSET"
+      },
+      {
+        "business": "TRADING",
+        "detail": "RISK_RULES.md",
+        "id": "RISK",
+        "kind": "BLOCKING_UNSET"
+      }
+    ],
+    "businesses": {
+      "CAS": {
+        "authority_conflicts": 1,
+        "decisions_open": 11,
+        "documents_indexed": 1662,
+        "missions_active": 13,
+        "reports_published": 0
+      },
+      "TRADING": {
+        "authority_conflicts": 0,
+        "decisions_open": 6,
+        "documents_indexed": 436,
+        "hard_gates": {
+          "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+          "LIVE_TRADING": "NOT_AUTHORIZED",
+          "PAPER_TRADING": "NOT_AUTHORIZED",
+          "PROP_FIRM_RULES": "BLOCKING_UNSET",
+          "RISK": "BLOCKING_UNSET"
+        },
+        "missions_active": 12,
+        "reports_published": 0
+      }
+    },
+    "decisions_awaiting_steve": 4,
+    "freshness": {
+      "cas": {
+        "age_minutes": 5.5,
+        "indexed_at": "2026-08-28T04:14:28+00:00",
+        "meaning": "index is current",
+        "source_changed_since_index": false,
+        "stale_after_minutes": 30,
+        "state": "OK"
+      },
+      "overall": "OK",
+      "trading": {
+        "age_minutes": 5.5,
+        "indexed_at": "2026-08-28T04:14:28+00:00",
+        "meaning": "index is current",
+        "source_changed_since_index": false,
+        "stale_after_minutes": 30,
+        "state": "OK"
+      }
+    },
+    "mutable": false,
+    "purpose": "Headline operational state of both Crusader businesses."
+  },
+  "mutable": false,
+  "name": "officer-commander",
+  "officer": "GPT Crusader Commander",
+  "purpose": "Executive read feed for GPT Crusader Commander.",
+  "read_only": true,
+  "reports": [],
+  "scope": "both businesses \u2014 implementation, infrastructure, delivery, blockers",
+  "source": "Crusader Command Center (read-only projection)",
+  "trading_state": {
+    "authority_conflicts": [],
+    "authority_url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/authority.json",
+    "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
+    "business": "TRADING",
+    "decisions_open_count": 6,
+    "detail_url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/trading/current-state.json",
+    "documents_indexed": 436,
+    "freshness": {
+      "age_minutes": 5.5,
+      "indexed_at": "2026-08-28T04:14:28+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
+    },
+    "hard_gates": {
+      "complete": true,
+      "expected": [
+        "FORWARD_ALERT",
+        "LIVE_TRADING",
+        "PAPER_TRADING",
+        "PROP_FIRM_RULES",
+        "RISK"
+      ],
+      "gates": [
+        {
+          "content_sha256": "487ce2dbd35e3dc34ac7ba03b2b9cf6ed0d533dcd3d1cfdbf54f50d90372d3ae",
+          "document": "CHART_LOCK.md",
+          "domain": "FORWARD_ALERT",
+          "effective_date": "2026-08-22",
+          "is_current_authority": false,
+          "owner": "STEVE_FEHR",
+          "requires_ruling": false,
+          "status": "PROTECTED_STEVE_ONLY"
+        },
+        {
+          "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+          "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+          "domain": "LIVE_TRADING",
+          "effective_date": "2026-08-22",
+          "is_current_authority": false,
+          "owner": "STEVE_FEHR",
+          "requires_ruling": false,
+          "status": "NOT_AUTHORIZED"
+        },
+        {
+          "content_sha256": "5e250b241152bbecb76046b4b8adb86c71393032b162e54010f75df11e43003a",
+          "document": "WTC_CURRENT_ENGINE_CERTIFICATION_2026-08-22.txt",
+          "domain": "PAPER_TRADING",
+          "effective_date": "2026-08-22",
+          "is_current_authority": false,
+          "owner": "STEVE_FEHR",
+          "requires_ruling": false,
+          "status": "NOT_AUTHORIZED"
+        },
+        {
+          "content_sha256": "a9f583d0caf66e193769c4dafb27cf73f0bb7aeefdc03d65ee066a4aebb7673f",
+          "document": "PROP_FIRM_RULES.md",
+          "domain": "PROP_FIRM_RULES",
+          "effective_date": "2026-08-03",
+          "is_current_authority": false,
+          "owner": "STEVE_FEHR",
+          "requires_ruling": false,
+          "status": "BLOCKING_UNSET"
+        },
+        {
+          "content_sha256": "ce80ac75714b350d0263a92b1e7bf9c85dacd7e4632efe04b7dbc1bad2a9f82e",
+          "document": "RISK_RULES.md",
+          "domain": "RISK",
+          "effective_date": "2026-08-03",
+          "is_current_authority": false,
+          "owner": "STEVE_FEHR",
+          "requires_ruling": false,
+          "status": "BLOCKING_UNSET"
+        }
+      ],
+      "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
+      "missing": [],
+      "summary": {
+        "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+        "LIVE_TRADING": "NOT_AUTHORIZED",
+        "PAPER_TRADING": "NOT_AUTHORIZED",
+        "PROP_FIRM_RULES": "BLOCKING_UNSET",
+        "RISK": "BLOCKING_UNSET"
+      }
+    },
+    "missions": {
+      "active_count": 12,
+      "counts": {
+        "CLAIMED": 1,
+        "COMPLETE": 1,
+        "OPEN": 11
+      }
+    },
+    "mutable": false,
+    "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
+    "reports_published_count": 0
+  },
+  "updated_at": "2026-08-28T04:19:52+00:00",
+  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/officers/commander.json"
+}

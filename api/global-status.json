@@ -1,0 +1,77 @@
+{
+  "authority_source": "local Crusader control planes via the Command Center index",
+  "blockers": [
+    {
+      "business": "CAS",
+      "detail": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "id": "COMMERCIAL",
+      "kind": "CONFLICT_REQUIRES_AUTHORITY"
+    },
+    {
+      "business": "TRADING",
+      "detail": "PROP_FIRM_RULES.md",
+      "id": "PROP_FIRM_RULES",
+      "kind": "BLOCKING_UNSET"
+    },
+    {
+      "business": "TRADING",
+      "detail": "RISK_RULES.md",
+      "id": "RISK",
+      "kind": "BLOCKING_UNSET"
+    }
+  ],
+  "business": "BOTH",
+  "businesses": {
+    "CAS": {
+      "authority_conflicts": 1,
+      "decisions_open": 11,
+      "documents_indexed": 1662,
+      "missions_active": 13,
+      "reports_published": 0
+    },
+    "TRADING": {
+      "authority_conflicts": 0,
+      "decisions_open": 6,
+      "documents_indexed": 436,
+      "hard_gates": {
+        "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
+        "LIVE_TRADING": "NOT_AUTHORIZED",
+        "PAPER_TRADING": "NOT_AUTHORIZED",
+        "PROP_FIRM_RULES": "BLOCKING_UNSET",
+        "RISK": "BLOCKING_UNSET"
+      },
+      "missions_active": 12,
+      "reports_published": 0
+    }
+  },
+  "content_sha256": "9c1b9e32004c5b71327326390455c1419117331e04b0987a35ee3613f69680bf",
+  "decisions_awaiting_steve": 4,
+  "endpoint": "/api/global-status.json",
+  "freshness": {
+    "cas": {
+      "age_minutes": 5.4,
+      "indexed_at": "2026-08-28T04:14:28+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
+    },
+    "overall": "OK",
+    "trading": {
+      "age_minutes": 5.4,
+      "indexed_at": "2026-08-28T04:14:28+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
+      "stale_after_minutes": 30,
+      "state": "OK"
+    }
+  },
+  "generated_at": "2026-08-28T04:19:52+00:00",
+  "mutable": false,
+  "name": "global-status",
+  "purpose": "Headline operational state of both Crusader businesses.",
+  "read_only": true,
+  "source": "Crusader Command Center (read-only projection)",
+  "updated_at": "2026-08-28T04:19:52+00:00",
+  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/global-status.json"
+}

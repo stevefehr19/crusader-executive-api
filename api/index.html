@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crusader Public Executive API</title>
+<style>
+:root{--ground:#eceff3;--panel:#f9fafc;--edge:#c3cad5;--ink:#161a21;--dim:#57616f;--faint:#818b99}
+@media (prefers-color-scheme:dark){:root{--ground:#0e1116;--panel:#161a20;--edge:#2b323c;--ink:#e2e7ee;--dim:#98a3b2;--faint:#6c7684}}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);margin:0;padding:38px 18px 64px;
+ font:15px/1.6 ui-sans-serif,-apple-system,"Helvetica Neue",Arial,sans-serif}
+.wrap{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1{font-size:clamp(23px,4vw,31px);margin:0;font-weight:600;letter-spacing:-.015em}
+h2{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin:14px 0 0}
+p{color:var(--dim);margin:0;max-width:68ch}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--edge);vertical-align:top}
+th{font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint)}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
+a{color:inherit}
+.box{background:var(--panel);border:1px solid var(--edge);border-radius:3px;padding:14px 16px;overflow-x:auto}
+</style></head><body><div class="wrap">
+<h1>Crusader Public Executive API</h1>
+<p>Read-only JSON projections of current Crusader state, generated from the local
+Crusader Command Center. GET only &mdash; there is no write method and no query
+string, and every discovery slice is pre-computed. The local control planes remain
+canonical; this is a sanitized projection and never the source of truth.</p>
+<p>Every document carries <code>generated_at</code> and <code>updated_at</code>.
+If <code>generated_at</code> is old, this is a stale copy &mdash; say so rather
+than presenting it as current.</p>
+
+<h2>Start here</h2>
+<div class="box"><table>
+<tr><th>Feed</th><th>URL</th></tr>
+<tr><td>Machine index</td><td><code><a href="index.json">/api/index.json</a></code></td></tr>
+</table></div>
+
+<h2>Officer feeds</h2>
+<div class="box"><table>
+<tr><th>Officer</th><th>URL</th></tr>
+<tr><td>Crusader Commander</td><td><code><a href="officers/commander.json">/api/officers/commander.json</a></code></td></tr>
+<tr><td>Chief Strategy Officer</td><td><code><a href="officers/cso.json">/api/officers/cso.json</a></code></td></tr>
+<tr><td>Trading Director / Quant Architect</td><td><code><a href="officers/trading-director.json">/api/officers/trading-director.json</a></code></td></tr>
+</table></div>
+
+<h2>All endpoints (12)</h2>
+<div class="box"><table>
+<tr><th>Name</th><th>Business</th><th>Purpose</th><th>URL</th></tr>
+<tr><td><code>cas-authority</code></td><td>CAS</td><td>What currently governs CAS, by domain.</td><td><code><a href="cas/authority.json">/api/cas/authority.json</a></code></td></tr>
+<tr><td><code>cas-current-state</code></td><td>CAS</td><td>CAS authority, missions, open decisions and published reports.</td><td><code><a href="cas/current-state.json">/api/cas/current-state.json</a></code></td></tr>
+<tr><td><code>decisions</code></td><td>BOTH</td><td>Open decisions awaiting a ruling, including Steve-only items.</td><td><code><a href="decisions.json">/api/decisions.json</a></code></td></tr>
+<tr><td><code>global-status</code></td><td>BOTH</td><td>Headline state of both businesses, index freshness and blockers.</td><td><code><a href="global-status.json">/api/global-status.json</a></code></td></tr>
+<tr><td><code>missions</code></td><td>BOTH</td><td>Every indexed mission, with active set and status counts.</td><td><code><a href="missions.json">/api/missions.json</a></code></td></tr>
+<tr><td><code>officer-commander</code></td><td>BOTH</td><td>Executive feed for GPT Crusader Commander.</td><td><code><a href="officers/commander.json">/api/officers/commander.json</a></code></td></tr>
+<tr><td><code>officer-cso</code></td><td>CAS</td><td>Executive feed for GPT Chief Strategy Officer.</td><td><code><a href="officers/cso.json">/api/officers/cso.json</a></code></td></tr>
+<tr><td><code>officer-trading-director</code></td><td>TRADING</td><td>Executive feed for GPT Trading Director / Quant Architect.</td><td><code><a href="officers/trading-director.json">/api/officers/trading-director.json</a></code></td></tr>
+<tr><td><code>reports</code></td><td>BOTH</td><td>Published reports with pre-computed discovery slices.</td><td><code><a href="reports.json">/api/reports.json</a></code></td></tr>
+<tr><td><code>trading-authority</code></td><td>TRADING</td><td>What currently governs Trading, by domain.</td><td><code><a href="trading/authority.json">/api/trading/authority.json</a></code></td></tr>
+<tr><td><code>trading-current-state</code></td><td>TRADING</td><td>Trading authority, hard gates, research state and published reports.</td><td><code><a href="trading/current-state.json">/api/trading/current-state.json</a></code></td></tr>
+<tr><td><code>trading-hard-gates</code></td><td>TRADING</td><td>The five Trading hard gates. Absence of a gate is reported, never omitted.</td><td><code><a href="trading/hard-gates.json">/api/trading/hard-gates.json</a></code></td></tr>
+</table></div>
+<p style="font-size:12px;color:var(--faint)">Built 2026-08-28T04:19:52+00:00. Report pages are
+published separately and only when a report is explicitly classified
+PUBLIC_RELEASABLE.</p>
+</div></body></html>

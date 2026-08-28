@@ -1,0 +1,5 @@
+# Public, read-only executive surface. Nothing here is secret;
+# what may be published is decided by classification before
+# publication, not by hiding a URL.
+User-agent: *
+Allow: /

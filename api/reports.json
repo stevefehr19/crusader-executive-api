@@ -1,0 +1,37 @@
+{
+  "business": "BOTH",
+  "content_sha256": "7e73d285ff30c4dbf689d4197b4058601381623c8722a02df66ac2e9a3950660",
+  "count": 0,
+  "endpoint": "/api/reports.json",
+  "generated_at": "2026-08-28T04:19:52+00:00",
+  "mutable": false,
+  "name": "reports",
+  "publication_gate": "a report appears here only if its own body carries CLASSIFICATION: PUBLIC_RELEASABLE and it passes the publication scanner",
+  "purpose": "Every report published to this portal, newest first, with pre-computed discovery slices.",
+  "read_only": true,
+  "reports": [],
+  "source": "Crusader Command Center (read-only projection)",
+  "synthetic_rule": "title contains SYNTHETIC or ACCEPTANCE TEST, or begins with TEST_ \u2014 declared by the report's own title, not inferred",
+  "updated_at": "2026-08-28T04:19:52+00:00",
+  "url": "https://crusader-executive-api.stevefehr19.chatgpt.site/api/reports.json",
+  "views": {
+    "by_business": {
+      "CAS": [],
+      "TRADING": []
+    },
+    "by_mission": {},
+    "by_officer": {
+      "commander": [],
+      "cso": [],
+      "trading-director": []
+    },
+    "by_review_state": {},
+    "current": [],
+    "last_24h": [],
+    "last_48h": [],
+    "newest": [],
+    "operational": [],
+    "superseded": [],
+    "synthetic": []
+  }
+}

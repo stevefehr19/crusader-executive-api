@@ -62,7 +62,7 @@
       "status": "BLOCKING_UNSET"
     }
   ],
-  "generated_at": "2026-08-28T23:51:17+00:00",
+  "generated_at": "2026-08-29T00:10:40+00:00",
   "meaning": "NOT_AUTHORIZED and PROTECTED_STEVE_ONLY are prohibitions. BLOCKING_UNSET means the rule has never been set and nothing downstream of it may proceed.",
   "missing": [],
   "mutable": false,

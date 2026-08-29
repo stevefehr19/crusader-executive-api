@@ -114,7 +114,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-08-29T00:58:40+00:00",
+  "generated_at": "2026-08-29T01:14:41+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -428,7 +428,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-08-29T00:58:23+00:00",
+      "published_at": "2026-08-29T01:14:25+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -452,7 +452,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-08-29T00:58:23+00:00",
+      "published_at": "2026-08-29T01:14:25+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -648,8 +648,8 @@
     }
   ],
   "trading_freshness": {
-    "age_minutes": 1.3,
-    "indexed_at": "2026-08-29T00:57:22+00:00",
+    "age_minutes": 2.2,
+    "indexed_at": "2026-08-29T01:12:28+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,

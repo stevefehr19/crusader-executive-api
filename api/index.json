@@ -55,7 +55,7 @@
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
       "sha256": "166a27819ddbd0f6e85622c5d549d26b7f708f85deaf04b7a699fd8f10cdb282",
-      "updated_at": "2026-08-29T00:10:40+00:00",
+      "updated_at": "2026-08-29T00:26:41+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-08-29T00:10:40+00:00",
+  "generated_at": "2026-08-29T00:26:41+00:00",
   "methods": [
     "GET"
   ],

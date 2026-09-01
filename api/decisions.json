@@ -42,15 +42,14 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "66c44b58ec259636d65316b7c36973806176874a0eb861e26bdb3cb9d1f4fe35",
-  "count": 16,
+  "content_sha256": "25c0e937f81e5c4c5285339db1d8befe1e574251ea93a7579adee5a055eca4d3",
+  "count": 15,
   "counts_by_business": {
-    "CAS": 12,
+    "CAS": 11,
     "TRADING": 4
   },
   "counts_by_owner": {
     "COMMANDER": 9,
-    "CSO": 1,
     "STEVE": 2,
     "STEVE_FEHR": 2,
     "TRADING_QUANT_ARCHITECT": 2
@@ -167,16 +166,6 @@
       "steve_only": false
     },
     {
-      "business": "CAS",
-      "decision_id": "dec-20ae86818001",
-      "officer": "cso",
-      "owner": "CSO",
-      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
       "business": "TRADING",
       "decision_id": "dec-c37c8daf2477",
       "officer": "trading-director",
@@ -218,13 +207,13 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-08-29T01:46:41+00:00",
+  "generated_at": "2026-09-01T20:29:21+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-08-29T03:22:58+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json",
   "withheld": []
 }

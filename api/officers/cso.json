@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 4.1,
-    "indexed_at": "2026-08-29T01:42:35+00:00",
+    "age_minutes": 0.5,
+    "indexed_at": "2026-09-01T20:28:53+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -22,14 +22,14 @@
     "status": "CURRENT_AUTHORITY"
   },
   "commercial_authority": {
-    "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-    "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+    "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+    "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
     "domain": "COMMERCIAL",
-    "effective_date": null,
-    "is_current_authority": false,
+    "effective_date": "2026-08-29",
+    "is_current_authority": true,
     "owner": "CSO",
-    "requires_ruling": true,
-    "status": "CONFLICT_REQUIRES_AUTHORITY"
+    "requires_ruling": false,
+    "status": "CURRENT_AUTHORITY"
   },
   "commercial_authority_set": [
     {
@@ -43,14 +43,14 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
       "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
+      "effective_date": "2026-08-29",
+      "is_current_authority": true,
       "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
     },
     {
       "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
@@ -113,33 +113,11 @@
       "status": "CURRENT_AUTHORITY"
     }
   ],
-  "commercial_conflict": [
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    }
-  ],
-  "content_sha256": "f5a3888e46b5825597a682e0a55772f40b83191e967d3157af005d14bd9c85bb",
-  "decisions": [
-    {
-      "business": "CAS",
-      "decision_id": "dec-20ae86818001",
-      "officer": "cso",
-      "owner": "CSO",
-      "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    }
-  ],
+  "commercial_conflict": [],
+  "content_sha256": "b8ec82dbee9c5f56bc74a14a266fe358c256866c7597a9cfa6deb394f53c3fac",
+  "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-08-29T01:46:41+00:00",
+  "generated_at": "2026-09-01T20:29:21+00:00",
   "missions": [
     {
       "active": false,
@@ -205,7 +183,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-08-29T01:46:25+00:00",
+      "published_at": "2026-09-01T20:29:06+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -230,7 +208,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-08-29T01:46:25+00:00",
+      "published_at": "2026-09-01T20:29:06+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -255,7 +233,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-08-29T01:46:25+00:00",
+      "published_at": "2026-09-01T20:29:06+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -268,6 +246,6 @@
   ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T23:52:05+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

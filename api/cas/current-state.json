@@ -11,14 +11,14 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
+      "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+      "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
       "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
+      "effective_date": "2026-08-29",
+      "is_current_authority": true,
       "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
+      "requires_ruling": false,
+      "status": "CURRENT_AUTHORITY"
     },
     {
       "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
@@ -31,10 +31,10 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "f5ce0063de1350d6a19a435301ba678aa027fd81ed3b061d7e56fe5ad91aa181",
+      "content_sha256": "99928398042dca98d6a92bacca4afbb025803c78c0294a1408a88b0d324187c5",
       "document": "CLAUDE.md",
       "domain": "GOVERNANCE",
-      "effective_date": "2026-08-23",
+      "effective_date": "2026-08-26",
       "is_current_authority": true,
       "owner": "STEVE",
       "requires_ruling": false,
@@ -81,7 +81,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "809698094c4e8d4cfa3c8908b1c4ef4428d1bd05cdbddc5b92c16d0c79876c4d",
+      "content_sha256": "ed63c9b2c100e9739905559500189beb9ba6335fa1161a32bb11c434029330f8",
       "document": "rig",
       "domain": "REFERENCE_IMPLEMENTATION",
       "effective_date": "2026-08-21",
@@ -91,7 +91,7 @@
       "status": "CURRENT_OPERATIONAL_STATE"
     },
     {
-      "content_sha256": "2ce5ff523fbccb1608e1707ec29c51bce2d54185c3baf77d43cc9744334d4991",
+      "content_sha256": "4d006af4b58b5edf02256f23649b891033ea93c9031edab4588552e39061681e",
       "document": "EXECUTIVE_HANDOFF_PROTOCOL.md",
       "domain": "REPORTING",
       "effective_date": "2026-08-23",
@@ -121,22 +121,11 @@
       "status": "CURRENT_AUTHORITY"
     }
   ],
-  "authority_conflicts": [
-    {
-      "content_sha256": "83270988ddbb772077c099cdb3fd375b5ff3a93656d695b9a4b9e3547825d817",
-      "document": "CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-      "domain": "COMMERCIAL",
-      "effective_date": null,
-      "is_current_authority": false,
-      "owner": "CSO",
-      "requires_ruling": true,
-      "status": "CONFLICT_REQUIRES_AUTHORITY"
-    }
-  ],
+  "authority_conflicts": [],
   "business": "CAS",
-  "content_sha256": "7b85e51aa95fac83ea6f9e95403c2e71c81ba30bcf86fc34c031c11e5adfeee2",
+  "content_sha256": "6ad17d5c2fdaa3b73d024d6b4febbe825e29bb51e95930d072577f466629e0b1",
   "decisions_open": {
-    "count": 12,
+    "count": 11,
     "items": [
       {
         "business": "CAS",
@@ -247,16 +236,6 @@
         "raised_at": "2026-08-24T04:27:00+00:00",
         "state": "OPEN",
         "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-20ae86818001",
-        "officer": "cso",
-        "owner": "CSO",
-        "question": "Adopt or retire CAS_COMMERCIAL_ARCHITECTURE_FINAL_v1.md",
-        "raised_at": "2026-08-24T04:27:00+00:00",
-        "state": "OPEN",
-        "steve_only": false
       }
     ],
     "withheld": []
@@ -264,14 +243,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 4.1,
-    "indexed_at": "2026-08-29T01:42:35+00:00",
+    "age_minutes": 0.5,
+    "indexed_at": "2026-09-01T20:28:53+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-08-29T01:46:41+00:00",
+  "generated_at": "2026-09-01T20:29:21+00:00",
   "missions": {
     "active": [
       {
@@ -326,7 +305,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-08-29T01:46:25+00:00",
+        "published_at": "2026-09-01T20:29:06+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -351,7 +330,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-08-29T01:46:25+00:00",
+        "published_at": "2026-09-01T20:29:06+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -376,7 +355,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-08-29T01:46:25+00:00",
+        "published_at": "2026-09-01T20:29:06+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -400,7 +379,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-08-29T01:46:25+00:00",
+        "published_at": "2026-09-01T20:29:06+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -413,6 +392,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-28T23:52:05+00:00",
+  "updated_at": "2026-09-01T05:29:59+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

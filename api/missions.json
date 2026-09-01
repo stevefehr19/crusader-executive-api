@@ -2,6 +2,39 @@
   "active": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-01T22:35:08+00:00",
+      "mission_id": "msn-ad9d9be6e590",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:29:25+00:00",
+      "mission_id": "msn-dea5a67dc614",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "NQ 15m ORB causal edge discovery - Generation 1"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:27:45+00:00",
+      "mission_id": "msn-20f93742c0d0",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ trend-following causal edge discovery - Gen 1"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-01T15:07:15+00:00",
       "mission_id": "msn-6a0024b849dc",
@@ -90,22 +123,55 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "46e186d09e2876c3427c9fc6bd07e7cf8ec0335aec14f1171dfd94c3b307331a",
-  "count": 61,
+  "content_sha256": "a086586df08ed288a2cc9449cd5bd19362f65b9c1a5b69a457089097dfff3adc",
+  "count": 64,
   "counts_by_business": {
-    "CAS": 39,
-    "TRADING": 22
+    "CAS": 40,
+    "TRADING": 24
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLAIMED": 1,
+    "CLAIMED": 2,
     "CLOSED": 22,
     "COMPLETE": 2,
-    "OPEN": 7
+    "OPEN": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-01T22:25:38+00:00",
+  "generated_at": "2026-09-01T22:41:29+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-01T22:35:08+00:00",
+      "mission_id": "msn-ad9d9be6e590",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:29:25+00:00",
+      "mission_id": "msn-dea5a67dc614",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "NQ 15m ORB causal edge discovery - Generation 1"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:27:45+00:00",
+      "mission_id": "msn-20f93742c0d0",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ trend-following causal edge discovery - Gen 1"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -783,7 +849,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T15:24:27+00:00",
+  "updated_at": "2026-09-01T22:41:22+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

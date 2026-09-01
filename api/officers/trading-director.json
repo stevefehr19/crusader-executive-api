@@ -4,7 +4,7 @@
   "businesses_in_scope": [
     "TRADING"
   ],
-  "content_sha256": "d629a72395e1c2ccf3c7ae89970ced3624126cdbc45a875e9f38d13ce17305af",
+  "content_sha256": "13626ebe0cc0f8e3f528e07927ae40f2475b740a7c40dd27bb14d1d8970524ee",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -114,7 +114,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-09-01T22:25:38+00:00",
+  "generated_at": "2026-09-01T22:41:29+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -187,6 +187,28 @@
     }
   },
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:29:25+00:00",
+      "mission_id": "msn-dea5a67dc614",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "NQ 15m ORB causal edge discovery - Generation 1"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:27:45+00:00",
+      "mission_id": "msn-20f93742c0d0",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ trend-following causal edge discovery - Gen 1"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -450,7 +472,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -474,7 +496,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -670,13 +692,13 @@
     }
   ],
   "trading_freshness": {
-    "age_minutes": 1.7,
-    "indexed_at": "2026-09-01T22:23:59+00:00",
+    "age_minutes": 2.5,
+    "indexed_at": "2026-09-01T22:39:02+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "updated_at": "2026-09-01T15:24:27+00:00",
+  "updated_at": "2026-09-01T22:39:03+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
 }

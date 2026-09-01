@@ -20,13 +20,13 @@
       "authority_conflicts": 0,
       "decisions_open": 11,
       "documents_indexed": 1662,
-      "missions_active": 2,
+      "missions_active": 3,
       "reports_published": 4
     },
     "TRADING": {
       "authority_conflicts": 0,
       "decisions_open": 4,
-      "documents_indexed": 536,
+      "documents_indexed": 549,
       "hard_gates": {
         "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
         "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -34,17 +34,17 @@
         "PROP_FIRM_RULES": "BLOCKING_UNSET",
         "RISK": "BLOCKING_UNSET"
       },
-      "missions_active": 6,
+      "missions_active": 8,
       "reports_published": 2
     }
   },
-  "content_sha256": "e0c8a4e60ee5b34cb6214f13b5ba575a5e778105e2a13f9f4de1fcb34b1b14a6",
+  "content_sha256": "9ddfadf28e9a39599b6597ef9519ad8bcba24261179faa7c76c0054beaad5476",
   "decisions_awaiting_steve": 4,
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
-      "age_minutes": 1.7,
-      "indexed_at": "2026-09-01T22:23:59+00:00",
+      "age_minutes": 0.9,
+      "indexed_at": "2026-09-01T22:40:35+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -52,20 +52,20 @@
     },
     "overall": "OK",
     "trading": {
-      "age_minutes": 1.7,
-      "indexed_at": "2026-09-01T22:23:59+00:00",
+      "age_minutes": 2.5,
+      "indexed_at": "2026-09-01T22:39:02+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-01T22:25:38+00:00",
+  "generated_at": "2026-09-01T22:41:29+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T20:32:59+00:00",
+  "updated_at": "2026-09-01T22:39:03+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

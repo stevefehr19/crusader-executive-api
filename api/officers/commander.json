@@ -2,6 +2,39 @@
   "active_missions": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-01T22:35:08+00:00",
+      "mission_id": "msn-ad9d9be6e590",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:29:25+00:00",
+      "mission_id": "msn-dea5a67dc614",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "NQ 15m ORB causal edge discovery - Generation 1"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:27:45+00:00",
+      "mission_id": "msn-20f93742c0d0",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ trend-following causal edge discovery - Gen 1"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-01T15:07:15+00:00",
       "mission_id": "msn-6a0024b849dc",
@@ -116,26 +149,26 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 1.7,
-      "indexed_at": "2026-09-01T22:23:59+00:00",
+      "age_minutes": 0.9,
+      "indexed_at": "2026-09-01T22:40:35+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     },
     "missions": {
-      "active_count": 2,
+      "active_count": 3,
       "counts": {
         "ABANDONED": 15,
         "CLOSED": 22,
-        "OPEN": 2
+        "OPEN": 3
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "50210cfd870d1a7ee9e5bfc07584dbd63c43cdc25cdf48c20a8a221fc1986efe",
+  "content_sha256": "1d0b2c4161a446acd6b17432c81f9d782f2c48895fe796a08c12b4440563c36a",
   "decisions_open": [
     {
       "business": "CAS",
@@ -289,7 +322,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-01T22:25:38+00:00",
+  "generated_at": "2026-09-01T22:41:29+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -311,13 +344,13 @@
         "authority_conflicts": 0,
         "decisions_open": 11,
         "documents_indexed": 1662,
-        "missions_active": 2,
+        "missions_active": 3,
         "reports_published": 4
       },
       "TRADING": {
         "authority_conflicts": 0,
         "decisions_open": 4,
-        "documents_indexed": 536,
+        "documents_indexed": 549,
         "hard_gates": {
           "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
           "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -325,15 +358,15 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 6,
+        "missions_active": 8,
         "reports_published": 2
       }
     },
     "decisions_awaiting_steve": 4,
     "freshness": {
       "cas": {
-        "age_minutes": 1.7,
-        "indexed_at": "2026-09-01T22:23:59+00:00",
+        "age_minutes": 0.9,
+        "indexed_at": "2026-09-01T22:40:35+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -341,8 +374,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 1.7,
-        "indexed_at": "2026-09-01T22:23:59+00:00",
+        "age_minutes": 2.5,
+        "indexed_at": "2026-09-01T22:39:02+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -373,7 +406,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -398,7 +431,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -423,7 +456,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -447,7 +480,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-01T22:25:32+00:00",
+      "published_at": "2026-09-01T22:41:22+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -467,10 +500,10 @@
     "business": "TRADING",
     "decisions_open_count": 4,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
-    "documents_indexed": 536,
+    "documents_indexed": 549,
     "freshness": {
-      "age_minutes": 1.7,
-      "indexed_at": "2026-09-01T22:23:59+00:00",
+      "age_minutes": 2.5,
+      "indexed_at": "2026-09-01T22:39:02+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -548,18 +581,18 @@
       }
     },
     "missions": {
-      "active_count": 6,
+      "active_count": 8,
       "counts": {
         "ABANDONED": 14,
-        "CLAIMED": 1,
+        "CLAIMED": 2,
         "COMPLETE": 2,
-        "OPEN": 5
+        "OPEN": 6
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-01T22:25:38+00:00",
+  "updated_at": "2026-09-01T22:41:29+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

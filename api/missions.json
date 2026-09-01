@@ -19,7 +19,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "NQ 15m ORB causal edge discovery - Generation 1"
     },
     {
@@ -123,7 +123,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "a086586df08ed288a2cc9449cd5bd19362f65b9c1a5b69a457089097dfff3adc",
+  "content_sha256": "1cc119e7eecb398c6c4528403da1b1267796f14a2c93fdcfd2da8eff210b2798",
   "count": 64,
   "counts_by_business": {
     "CAS": 40,
@@ -131,13 +131,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLAIMED": 2,
+    "CLAIMED": 1,
     "CLOSED": 22,
     "COMPLETE": 2,
-    "OPEN": 9
+    "OPEN": 10
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-01T22:41:29+00:00",
+  "generated_at": "2026-09-01T22:57:41+00:00",
   "missions": [
     {
       "active": true,
@@ -158,7 +158,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "NQ 15m ORB causal edge discovery - Generation 1"
     },
     {
@@ -849,7 +849,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T22:41:22+00:00",
+  "updated_at": "2026-09-01T22:44:04+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

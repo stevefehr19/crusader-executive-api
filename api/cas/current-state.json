@@ -11,7 +11,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+      "content_sha256": "73324b4c5e738243c7a94064d7b064ec455b6ecbc49ebf5860ec6576996ebf0b",
       "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
       "domain": "COMMERCIAL",
       "effective_date": "2026-08-29",
@@ -31,7 +31,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "99928398042dca98d6a92bacca4afbb025803c78c0294a1408a88b0d324187c5",
+      "content_sha256": "6244c561ea22453257c0e92cd7ffd55c50553f9f63f3ac6a96dd4a5db7c25614",
       "document": "CLAUDE.md",
       "domain": "GOVERNANCE",
       "effective_date": "2026-08-26",
@@ -41,7 +41,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "OUTREACH",
       "effective_date": "2026-08-21",
@@ -51,7 +51,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "PILOT",
       "effective_date": "2026-08-21",
@@ -81,7 +81,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "ed63c9b2c100e9739905559500189beb9ba6335fa1161a32bb11c434029330f8",
+      "content_sha256": "283a03788a576014c7eac5ca93f0c4a4da050337f9cb1ab8f6d121b5a6366239",
       "document": "rig",
       "domain": "REFERENCE_IMPLEMENTATION",
       "effective_date": "2026-08-21",
@@ -91,7 +91,7 @@
       "status": "CURRENT_OPERATIONAL_STATE"
     },
     {
-      "content_sha256": "4d006af4b58b5edf02256f23649b891033ea93c9031edab4588552e39061681e",
+      "content_sha256": "96841f2e8d644986ecae57d538b1c0039dc4af219e7acb2f3bc0379248449892",
       "document": "EXECUTIVE_HANDOFF_PROTOCOL.md",
       "domain": "REPORTING",
       "effective_date": "2026-08-23",
@@ -111,7 +111,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "026d2e798e1fb66b4f75c655d40ff565786e690ba6758e6f918953d852048dcc",
+      "content_sha256": "a269b969e66c424707e5309c6333951f288b9df22f62673084dc3a7cf29f706d",
       "document": "compliance.md",
       "domain": "SECURITY",
       "effective_date": "2026-08-21",
@@ -243,14 +243,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 0.9,
-    "indexed_at": "2026-09-01T22:40:35+00:00",
+    "age_minutes": 1.0,
+    "indexed_at": "2026-09-01T22:56:42+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-01T22:41:29+00:00",
+  "generated_at": "2026-09-01T22:57:41+00:00",
   "missions": {
     "active": [
       {
@@ -316,7 +316,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-09-01T22:41:22+00:00",
+        "published_at": "2026-09-01T22:57:33+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -341,7 +341,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-09-01T22:41:22+00:00",
+        "published_at": "2026-09-01T22:57:33+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -366,7 +366,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-09-01T22:41:22+00:00",
+        "published_at": "2026-09-01T22:57:33+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -390,7 +390,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-09-01T22:41:22+00:00",
+        "published_at": "2026-09-01T22:57:33+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",

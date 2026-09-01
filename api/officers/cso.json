@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.9,
-    "indexed_at": "2026-09-01T22:40:35+00:00",
+    "age_minutes": 1.0,
+    "indexed_at": "2026-09-01T22:56:42+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -22,7 +22,7 @@
     "status": "CURRENT_AUTHORITY"
   },
   "commercial_authority": {
-    "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+    "content_sha256": "73324b4c5e738243c7a94064d7b064ec455b6ecbc49ebf5860ec6576996ebf0b",
     "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
     "domain": "COMMERCIAL",
     "effective_date": "2026-08-29",
@@ -43,7 +43,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "61d3ae8044c9204cd236307f9ecae2aa20a6450aecb6f27b52da731be99b615e",
+      "content_sha256": "73324b4c5e738243c7a94064d7b064ec455b6ecbc49ebf5860ec6576996ebf0b",
       "document": "CAS_COMMERCIAL_ARCHITECTURE_v2.md",
       "domain": "COMMERCIAL",
       "effective_date": "2026-08-29",
@@ -63,7 +63,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "OUTREACH",
       "effective_date": "2026-08-21",
@@ -73,7 +73,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "95483ab1a1a49bff1810132944bad57875a1d911699760b364718822b944b48a",
+      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "PILOT",
       "effective_date": "2026-08-21",
@@ -117,7 +117,7 @@
   "content_sha256": "b8ec82dbee9c5f56bc74a14a266fe358c256866c7597a9cfa6deb394f53c3fac",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-01T22:41:29+00:00",
+  "generated_at": "2026-09-01T22:57:41+00:00",
   "missions": [
     {
       "active": false,
@@ -183,7 +183,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-01T22:41:22+00:00",
+      "published_at": "2026-09-01T22:57:33+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -208,7 +208,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-01T22:41:22+00:00",
+      "published_at": "2026-09-01T22:57:33+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -233,7 +233,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-01T22:41:22+00:00",
+      "published_at": "2026-09-01T22:57:33+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",

@@ -4,12 +4,12 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.5,
-    "indexed_at": "2026-09-01T20:28:53+00:00",
-    "meaning": "index is current",
-    "source_changed_since_index": false,
+    "age_minutes": 0.4,
+    "indexed_at": "2026-09-01T20:30:02+00:00",
+    "meaning": "the plane has been written since the index was built",
+    "source_changed_since_index": true,
     "stale_after_minutes": 30,
-    "state": "OK"
+    "state": "DRIFTED"
   },
   "claims_authority": {
     "content_sha256": "7a6226747977a74383b073627789b636178156f613912f112d48500abcc44d96",
@@ -114,10 +114,10 @@
     }
   ],
   "commercial_conflict": [],
-  "content_sha256": "b8ec82dbee9c5f56bc74a14a266fe358c256866c7597a9cfa6deb394f53c3fac",
+  "content_sha256": "20252550fe023375284b39ee9cf3ba62cc0fda8e965d6d83d8f7adcd4c18dea2",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-01T20:29:21+00:00",
+  "generated_at": "2026-09-01T20:30:27+00:00",
   "missions": [
     {
       "active": false,
@@ -183,7 +183,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-01T20:29:06+00:00",
+      "published_at": "2026-09-01T20:30:14+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -208,7 +208,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-01T20:29:06+00:00",
+      "published_at": "2026-09-01T20:30:14+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -233,7 +233,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-01T20:29:06+00:00",
+      "published_at": "2026-09-01T20:30:14+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -246,6 +246,6 @@
   ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-09-01T20:30:27+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

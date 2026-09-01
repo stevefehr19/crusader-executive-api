@@ -31,7 +31,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "6244c561ea22453257c0e92cd7ffd55c50553f9f63f3ac6a96dd4a5db7c25614",
+      "content_sha256": "3325bc38c10719a0496c2a0e13bbe9ab4277eb13fc2f79d0ea94d792b9080e13",
       "document": "CLAUDE.md",
       "domain": "GOVERNANCE",
       "effective_date": "2026-08-26",
@@ -126,7 +126,7 @@
   "content_sha256": "b8dc2a260365ef3ce7c1f27a08ad15b9dd0a98524c02b01b181e4e29c8c84842",
   "count": 12,
   "endpoint": "/api/cas/authority.json",
-  "generated_at": "2026-09-01T23:29:21+00:00",
+  "generated_at": "2026-09-01T23:45:10+00:00",
   "mutable": false,
   "name": "cas-authority",
   "note": "Authority is resolved by DOMAIN, never inferred from a filename. A CONFLICT_REQUIRES_AUTHORITY row is not permission.",

@@ -43,8 +43,8 @@
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
-      "age_minutes": 2.5,
-      "indexed_at": "2026-09-01T23:26:52+00:00",
+      "age_minutes": 0.6,
+      "indexed_at": "2026-09-01T23:44:32+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -52,20 +52,20 @@
     },
     "overall": "OK",
     "trading": {
-      "age_minutes": 4.9,
-      "indexed_at": "2026-09-01T23:24:27+00:00",
+      "age_minutes": 0.6,
+      "indexed_at": "2026-09-01T23:44:32+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-01T23:29:21+00:00",
+  "generated_at": "2026-09-01T23:45:10+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T23:29:14+00:00",
+  "updated_at": "2026-01-01T00:00:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

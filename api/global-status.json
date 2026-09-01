@@ -12,12 +12,6 @@
       "detail": "RISK_RULES.md",
       "id": "RISK",
       "kind": "BLOCKING_UNSET"
-    },
-    {
-      "business": "BOTH",
-      "detail": "the Command Center index is DRIFTED",
-      "id": "command-center-index",
-      "kind": "INDEX_DRIFTED"
     }
   ],
   "business": "BOTH",
@@ -44,34 +38,34 @@
       "reports_published": 2
     }
   },
-  "content_sha256": "c5d79242b86bd0679bbda23f9347ffe4239d3691ff34981ae5a7b478cf053913",
+  "content_sha256": "e0c8a4e60ee5b34cb6214f13b5ba575a5e778105e2a13f9f4de1fcb34b1b14a6",
   "decisions_awaiting_steve": 4,
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
-      "age_minutes": 0.4,
-      "indexed_at": "2026-09-01T20:30:02+00:00",
-      "meaning": "the plane has been written since the index was built",
-      "source_changed_since_index": true,
+      "age_minutes": 0.2,
+      "indexed_at": "2026-09-01T20:33:17+00:00",
+      "meaning": "index is current",
+      "source_changed_since_index": false,
       "stale_after_minutes": 30,
-      "state": "DRIFTED"
+      "state": "OK"
     },
-    "overall": "DRIFTED",
+    "overall": "OK",
     "trading": {
-      "age_minutes": 2.5,
-      "indexed_at": "2026-09-01T20:27:57+00:00",
+      "age_minutes": 0.5,
+      "indexed_at": "2026-09-01T20:32:58+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-01T20:30:28+00:00",
+  "generated_at": "2026-09-01T20:33:30+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T20:30:27+00:00",
+  "updated_at": "2026-09-01T20:32:59+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

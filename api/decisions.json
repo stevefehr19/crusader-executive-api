@@ -11,16 +11,6 @@
       "steve_only": true
     },
     {
-      "business": "CAS",
-      "decision_id": "dec-a9cce816b27e",
-      "officer": null,
-      "owner": "STEVE",
-      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": true
-    },
-    {
       "business": "TRADING",
       "decision_id": "dec-b1f467e44b8e",
       "officer": null,
@@ -42,49 +32,18 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "25c0e937f81e5c4c5285339db1d8befe1e574251ea93a7579adee5a055eca4d3",
-  "count": 15,
+  "content_sha256": "8c54e5ecb59c16bac804664604873dc1604db9087cbf43d7c8a39c646bf9a731",
+  "count": 5,
   "counts_by_business": {
-    "CAS": 11,
+    "CAS": 1,
     "TRADING": 4
   },
   "counts_by_owner": {
-    "COMMANDER": 9,
-    "STEVE": 2,
+    "STEVE": 1,
     "STEVE_FEHR": 2,
     "TRADING_QUANT_ARCHITECT": 2
   },
   "decisions": [
-    {
-      "business": "CAS",
-      "decision_id": "dec-ec4932aa39fe",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The report bus cannot carry four of the eleven fields the reporting standard requires \u2014 branch, SHA, next action and html_path are unrepresentable",
-      "raised_at": "2026-08-28T07:52:09+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-9ebecf54adc7",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The public officer feed shows three reports and is three hours stale \u2014 a GPT officer reading it would conclude nothing happened tonight",
-      "raised_at": "2026-08-28T07:51:36+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-6709a2eb2975",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "Three loaded launchd jobs are failing every run, one of them a ghost with no plist, and git replication of main has been queued and never completing",
-      "raised_at": "2026-08-28T07:50:30+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
     {
       "business": "CAS",
       "decision_id": "dec-420ef66688ce",
@@ -94,76 +53,6 @@
       "raised_at": "2026-08-28T07:48:45+00:00",
       "state": "OPEN",
       "steve_only": true
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-24ed605618cf",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "REFERENCE_IMPLEMENTATION authority hash drifted with a known, benign cause \u2014 re-certification is one action",
-      "raised_at": "2026-08-28T07:22:52+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-1ba3c87b3931",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The dry-run custody gate demands a file the security rule forbids committing \u2014 all nine stages are blocked by a rule contradiction, not by missing evidence",
-      "raised_at": "2026-08-28T07:22:32+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-8c089e8ffb39",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
-      "raised_at": "2026-08-24T04:27:36+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-cf334efeb06b",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-a9cce816b27e",
-      "officer": null,
-      "owner": "STEVE",
-      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": true
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-a0c5960a2598",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-4b7a82841a7f",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "scripts/cas_mcp_server.py cannot run on this host",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
     },
     {
       "business": "TRADING",
@@ -207,13 +96,13 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-09-01T23:13:31+00:00",
+  "generated_at": "2026-09-01T23:29:21+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-08-29T03:22:58+00:00",
+  "updated_at": "2026-09-01T23:19:26+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json",
   "withheld": []
 }

@@ -3,6 +3,28 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-01T23:15:33+00:00",
+      "mission_id": "msn-60c3c248fcde",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T23:12:36+00:00",
+      "mission_id": "msn-0e5d77c5b474",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation infrastructure + fresh-context independent re-audit"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-01T22:56:05+00:00",
       "mission_id": "msn-9bda24d521b6",
       "officer": "trading-director",
@@ -65,17 +87,6 @@
       "role": null,
       "status": "CLAIMED",
       "title": "WTC inversion test - multi-timeframe"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T08:18:03+00:00",
-      "mission_id": "msn-f6b34117804e",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
     },
     {
       "active": true,
@@ -156,61 +167,31 @@
     "authority_conflicts": [],
     "authority_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/authority.json",
     "business": "CAS",
-    "decisions_open_count": 11,
+    "decisions_open_count": 1,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 4.1,
-      "indexed_at": "2026-09-01T23:09:23+00:00",
+      "age_minutes": 2.5,
+      "indexed_at": "2026-09-01T23:26:52+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     },
     "missions": {
-      "active_count": 3,
+      "active_count": 2,
       "counts": {
         "ABANDONED": 15,
-        "CLOSED": 22,
-        "OPEN": 3
+        "CLOSED": 23,
+        "OPEN": 2
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "c9b6f729919c6c9d4d109d12e9fc96bb910bbe701b170093ff06f29182496fc6",
+  "content_sha256": "31b3bc56270ff18136fbd4db48c3891f27c9d0023cb64eb3a0f94011e86dc996",
   "decisions_open": [
-    {
-      "business": "CAS",
-      "decision_id": "dec-ec4932aa39fe",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The report bus cannot carry four of the eleven fields the reporting standard requires \u2014 branch, SHA, next action and html_path are unrepresentable",
-      "raised_at": "2026-08-28T07:52:09+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-9ebecf54adc7",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The public officer feed shows three reports and is three hours stale \u2014 a GPT officer reading it would conclude nothing happened tonight",
-      "raised_at": "2026-08-28T07:51:36+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-6709a2eb2975",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "Three loaded launchd jobs are failing every run, one of them a ghost with no plist, and git replication of main has been queued and never completing",
-      "raised_at": "2026-08-28T07:50:30+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
     {
       "business": "CAS",
       "decision_id": "dec-420ef66688ce",
@@ -220,76 +201,6 @@
       "raised_at": "2026-08-28T07:48:45+00:00",
       "state": "OPEN",
       "steve_only": true
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-24ed605618cf",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "REFERENCE_IMPLEMENTATION authority hash drifted with a known, benign cause \u2014 re-certification is one action",
-      "raised_at": "2026-08-28T07:22:52+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-1ba3c87b3931",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "The dry-run custody gate demands a file the security rule forbids committing \u2014 all nine stages are blocked by a rule contradiction, not by missing evidence",
-      "raised_at": "2026-08-28T07:22:32+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-8c089e8ffb39",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
-      "raised_at": "2026-08-24T04:27:36+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-cf334efeb06b",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-a9cce816b27e",
-      "officer": null,
-      "owner": "STEVE",
-      "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": true
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-a0c5960a2598",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
-    {
-      "business": "CAS",
-      "decision_id": "dec-4b7a82841a7f",
-      "officer": "commander",
-      "owner": "COMMANDER",
-      "question": "scripts/cas_mcp_server.py cannot run on this host",
-      "raised_at": "2026-08-24T04:27:00+00:00",
-      "state": "OPEN",
-      "steve_only": false
     },
     {
       "business": "TRADING",
@@ -333,7 +244,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-01T23:13:31+00:00",
+  "generated_at": "2026-09-01T23:29:21+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -353,15 +264,15 @@
     "businesses": {
       "CAS": {
         "authority_conflicts": 0,
-        "decisions_open": 11,
+        "decisions_open": 1,
         "documents_indexed": 1662,
-        "missions_active": 3,
+        "missions_active": 2,
         "reports_published": 4
       },
       "TRADING": {
         "authority_conflicts": 0,
         "decisions_open": 4,
-        "documents_indexed": 560,
+        "documents_indexed": 563,
         "hard_gates": {
           "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
           "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -369,15 +280,15 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 9,
+        "missions_active": 11,
         "reports_published": 2
       }
     },
-    "decisions_awaiting_steve": 4,
+    "decisions_awaiting_steve": 3,
     "freshness": {
       "cas": {
-        "age_minutes": 4.1,
-        "indexed_at": "2026-09-01T23:09:23+00:00",
+        "age_minutes": 2.5,
+        "indexed_at": "2026-09-01T23:26:52+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -385,8 +296,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 4.1,
-        "indexed_at": "2026-09-01T23:09:23+00:00",
+        "age_minutes": 4.9,
+        "indexed_at": "2026-09-01T23:24:27+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -417,7 +328,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-01T23:13:24+00:00",
+      "published_at": "2026-09-01T23:29:14+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -442,7 +353,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-01T23:13:24+00:00",
+      "published_at": "2026-09-01T23:29:14+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -467,7 +378,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-01T23:13:24+00:00",
+      "published_at": "2026-09-01T23:29:14+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -491,7 +402,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-01T23:13:24+00:00",
+      "published_at": "2026-09-01T23:29:14+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -511,10 +422,10 @@
     "business": "TRADING",
     "decisions_open_count": 4,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
-    "documents_indexed": 560,
+    "documents_indexed": 563,
     "freshness": {
-      "age_minutes": 4.1,
-      "indexed_at": "2026-09-01T23:09:23+00:00",
+      "age_minutes": 4.9,
+      "indexed_at": "2026-09-01T23:24:27+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -592,18 +503,18 @@
       }
     },
     "missions": {
-      "active_count": 9,
+      "active_count": 11,
       "counts": {
         "ABANDONED": 14,
         "CLAIMED": 1,
         "COMPLETE": 2,
-        "OPEN": 8
+        "OPEN": 10
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-01T23:13:31+00:00",
+  "updated_at": "2026-09-01T23:29:21+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

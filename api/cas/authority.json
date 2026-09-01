@@ -21,7 +21,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
+      "content_sha256": "0bcd71c78661ecde0017f388eba9e676d5ddf987f509e64a372d20e10126798a",
       "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
       "domain": "DELIVERY",
       "effective_date": "2026-08-18",
@@ -41,7 +41,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
+      "content_sha256": "677264377e2f5c8b05217208ad8feb9938c21af8e18b3c923abd7f4c55ab7f78",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "OUTREACH",
       "effective_date": "2026-08-21",
@@ -51,7 +51,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
+      "content_sha256": "677264377e2f5c8b05217208ad8feb9938c21af8e18b3c923abd7f4c55ab7f78",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "PILOT",
       "effective_date": "2026-08-21",
@@ -126,7 +126,7 @@
   "content_sha256": "b8dc2a260365ef3ce7c1f27a08ad15b9dd0a98524c02b01b181e4e29c8c84842",
   "count": 12,
   "endpoint": "/api/cas/authority.json",
-  "generated_at": "2026-09-01T23:13:31+00:00",
+  "generated_at": "2026-09-01T23:29:21+00:00",
   "mutable": false,
   "name": "cas-authority",
   "note": "Authority is resolved by DOMAIN, never inferred from a filename. A CONFLICT_REQUIRES_AUTHORITY row is not permission.",

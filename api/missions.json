@@ -3,6 +3,28 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-01T23:15:33+00:00",
+      "mission_id": "msn-60c3c248fcde",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T23:12:36+00:00",
+      "mission_id": "msn-0e5d77c5b474",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation infrastructure + fresh-context independent re-audit"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-01T22:56:05+00:00",
       "mission_id": "msn-9bda24d521b6",
       "officer": "trading-director",
@@ -68,17 +90,6 @@
     },
     {
       "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-28T08:18:03+00:00",
-      "mission_id": "msn-f6b34117804e",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
-    },
-    {
-      "active": true,
       "business": "TRADING",
       "created_at": "2026-08-28T07:22:56+00:00",
       "mission_id": "msn-347d651853e8",
@@ -134,22 +145,44 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "5d4c9728e087d3ce2020a5520ca5865eee5319f6ffab2e8c4c1074c8a7963553",
-  "count": 65,
+  "content_sha256": "42c71b95e78975c01cac14817b35492c7540b9dee27731ddcd83b14113eb60bc",
+  "count": 67,
   "counts_by_business": {
     "CAS": 40,
-    "TRADING": 25
+    "TRADING": 27
   },
   "counts_by_status": {
     "ABANDONED": 29,
     "CLAIMED": 1,
-    "CLOSED": 22,
+    "CLOSED": 23,
     "COMPLETE": 2,
-    "OPEN": 11
+    "OPEN": 12
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-01T23:13:31+00:00",
+  "generated_at": "2026-09-01T23:29:21+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T23:15:33+00:00",
+      "mission_id": "msn-60c3c248fcde",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T23:12:36+00:00",
+      "mission_id": "msn-0e5d77c5b474",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C validation infrastructure + fresh-context independent re-audit"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -250,14 +283,14 @@
       "title": "CAS-OVERNIGHT-MONITOR-FIX-2 \u2014 D2 --now still local, D3 fingerprint false collapse"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-08-28T08:18:03+00:00",
       "mission_id": "msn-f6b34117804e",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "CLOSED",
       "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
     },
     {
@@ -871,7 +904,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T23:09:23+00:00",
+  "updated_at": "2026-09-01T23:29:14+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

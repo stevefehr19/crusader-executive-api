@@ -21,7 +21,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "5b0e0bebb28328a69dcf3ec8dc0c40c52f1e2fde2cabd4c6a5f38385245bd136",
+      "content_sha256": "0bcd71c78661ecde0017f388eba9e676d5ddf987f509e64a372d20e10126798a",
       "document": "CAS_DELIVERY_OPERATING_STANDARD.md",
       "domain": "DELIVERY",
       "effective_date": "2026-08-18",
@@ -41,7 +41,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
+      "content_sha256": "677264377e2f5c8b05217208ad8feb9938c21af8e18b3c923abd7f4c55ab7f78",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "OUTREACH",
       "effective_date": "2026-08-21",
@@ -51,7 +51,7 @@
       "status": "CURRENT_AUTHORITY"
     },
     {
-      "content_sha256": "ec95c124d0543bd1cb59e370fa0d78f22ecfd20cd9289b4fe27ec8bc9edb5f3a",
+      "content_sha256": "677264377e2f5c8b05217208ad8feb9938c21af8e18b3c923abd7f4c55ab7f78",
       "document": "CAS_PRE_PILOT_GATE_EXECUTION_MAP_v1.md",
       "domain": "PILOT",
       "effective_date": "2026-08-21",
@@ -123,40 +123,10 @@
   ],
   "authority_conflicts": [],
   "business": "CAS",
-  "content_sha256": "f89f98f51b391d34d998f79506a5e4967026c306bf3a83adc822a70b512c5105",
+  "content_sha256": "9e2e1f0309c10d03d6f24d19d9ab02a7b3721dc6d362cc72293aa6cf9bcad433",
   "decisions_open": {
-    "count": 11,
+    "count": 1,
     "items": [
-      {
-        "business": "CAS",
-        "decision_id": "dec-ec4932aa39fe",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "The report bus cannot carry four of the eleven fields the reporting standard requires \u2014 branch, SHA, next action and html_path are unrepresentable",
-        "raised_at": "2026-08-28T07:52:09+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-9ebecf54adc7",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "The public officer feed shows three reports and is three hours stale \u2014 a GPT officer reading it would conclude nothing happened tonight",
-        "raised_at": "2026-08-28T07:51:36+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-6709a2eb2975",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "Three loaded launchd jobs are failing every run, one of them a ghost with no plist, and git replication of main has been queued and never completing",
-        "raised_at": "2026-08-28T07:50:30+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
       {
         "business": "CAS",
         "decision_id": "dec-420ef66688ce",
@@ -166,76 +136,6 @@
         "raised_at": "2026-08-28T07:48:45+00:00",
         "state": "OPEN",
         "steve_only": true
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-24ed605618cf",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "REFERENCE_IMPLEMENTATION authority hash drifted with a known, benign cause \u2014 re-certification is one action",
-        "raised_at": "2026-08-28T07:22:52+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-1ba3c87b3931",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "The dry-run custody gate demands a file the security rule forbids committing \u2014 all nine stages are blocked by a rule contradiction, not by missing evidence",
-        "raised_at": "2026-08-28T07:22:32+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-8c089e8ffb39",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "Grant lane:cas-local-first-os a registered lane so the new control plane can be committed",
-        "raised_at": "2026-08-24T04:27:36+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-cf334efeb06b",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "CAS_DELIVERY_OPERATING_STANDARD.md header contradicts Decision Log D-4",
-        "raised_at": "2026-08-24T04:27:00+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-a9cce816b27e",
-        "officer": null,
-        "owner": "STEVE",
-        "question": "FILING_RULES.md makes GitHub reachability a precondition of independent review",
-        "raised_at": "2026-08-24T04:27:00+00:00",
-        "state": "OPEN",
-        "steve_only": true
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-a0c5960a2598",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "AGENT_LANE_REGISTRY.json records no liveness \u2014 six lanes read ACTIVE and none can be falsified",
-        "raised_at": "2026-08-24T04:27:00+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
-      {
-        "business": "CAS",
-        "decision_id": "dec-4b7a82841a7f",
-        "officer": "commander",
-        "owner": "COMMANDER",
-        "question": "scripts/cas_mcp_server.py cannot run on this host",
-        "raised_at": "2026-08-24T04:27:00+00:00",
-        "state": "OPEN",
-        "steve_only": false
       }
     ],
     "withheld": []
@@ -243,14 +143,14 @@
   "documents_indexed": 1662,
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
-    "age_minutes": 4.1,
-    "indexed_at": "2026-09-01T23:09:23+00:00",
+    "age_minutes": 2.5,
+    "indexed_at": "2026-09-01T23:26:52+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-01T23:13:31+00:00",
+  "generated_at": "2026-09-01T23:29:21+00:00",
   "missions": {
     "active": [
       {
@@ -267,17 +167,6 @@
       {
         "active": true,
         "business": "CAS",
-        "created_at": "2026-08-28T08:18:03+00:00",
-        "mission_id": "msn-f6b34117804e",
-        "officer": "commander",
-        "report_to": "COMMANDER",
-        "role": "BUILDER",
-        "status": "OPEN",
-        "title": "CAS-OVERNIGHT-VOICE-FIX-2 \u2014 D1 regression: the oracle fails correct safety speech"
-      },
-      {
-        "active": true,
-        "business": "CAS",
         "created_at": "2026-08-24T17:37:43+00:00",
         "mission_id": "msn-52d77ad8d6cd",
         "officer": "commander",
@@ -289,8 +178,8 @@
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLOSED": 22,
-      "OPEN": 3
+      "CLOSED": 23,
+      "OPEN": 2
     },
     "withheld": []
   },
@@ -316,7 +205,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-09-01T23:13:24+00:00",
+        "published_at": "2026-09-01T23:29:14+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -341,7 +230,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-09-01T23:13:24+00:00",
+        "published_at": "2026-09-01T23:29:14+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -366,7 +255,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-09-01T23:13:24+00:00",
+        "published_at": "2026-09-01T23:29:14+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -390,7 +279,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-09-01T23:13:24+00:00",
+        "published_at": "2026-09-01T23:29:14+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -403,6 +292,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T22:41:22+00:00",
+  "updated_at": "2026-09-01T23:29:14+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

@@ -295,7 +295,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-01T20:30:27+00:00",
+  "generated_at": "2026-09-01T20:30:28+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [

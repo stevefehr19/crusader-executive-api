@@ -3,7 +3,7 @@
   "content_sha256": "a7be9f71773455c41ec6b48780e963c11fd7a1a86ef61ea5499b81463f7de3eb",
   "count": 6,
   "endpoint": "/api/reports.json",
-  "generated_at": "2026-09-01T20:30:27+00:00",
+  "generated_at": "2026-09-01T20:30:28+00:00",
   "mutable": false,
   "name": "reports",
   "publication_gate": "a report appears here only if its own body carries CLASSIFICATION: PUBLIC_RELEASABLE and it passes the publication scanner",

@@ -2,6 +2,17 @@
   "active": [
     {
       "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:56:05+00:00",
+      "mission_id": "msn-9bda24d521b6",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ15 ORB-C independent adversarial certification + frozen validation gate"
+    },
+    {
+      "active": true,
       "business": "CAS",
       "created_at": "2026-09-01T22:35:08+00:00",
       "mission_id": "msn-ad9d9be6e590",
@@ -123,22 +134,33 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "1cc119e7eecb398c6c4528403da1b1267796f14a2c93fdcfd2da8eff210b2798",
-  "count": 64,
+  "content_sha256": "5d4c9728e087d3ce2020a5520ca5865eee5319f6ffab2e8c4c1074c8a7963553",
+  "count": 65,
   "counts_by_business": {
     "CAS": 40,
-    "TRADING": 24
+    "TRADING": 25
   },
   "counts_by_status": {
     "ABANDONED": 29,
     "CLAIMED": 1,
     "CLOSED": 22,
     "COMPLETE": 2,
-    "OPEN": 10
+    "OPEN": 11
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-01T22:57:41+00:00",
+  "generated_at": "2026-09-01T23:13:31+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-01T22:56:05+00:00",
+      "mission_id": "msn-9bda24d521b6",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ15 ORB-C independent adversarial certification + frozen validation gate"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -849,7 +871,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T22:44:04+00:00",
+  "updated_at": "2026-09-01T23:09:23+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

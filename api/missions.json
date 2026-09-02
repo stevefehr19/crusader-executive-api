@@ -48,7 +48,7 @@
     "OPEN": 3
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T16:14:00+00:00",
+  "generated_at": "2026-09-02T16:19:48+00:00",
   "missions": [
     {
       "active": false,

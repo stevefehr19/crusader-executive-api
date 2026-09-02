@@ -2,6 +2,17 @@
   "active": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-02T20:18:28+00:00",
+      "mission_id": "msn-f79f17c7df3f",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "CSO refreshed-schema acceptance receipt"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-02T20:03:55+00:00",
       "mission_id": "msn-a6876351e161",
@@ -24,21 +35,32 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "fbd81bef638a74561310a87c4996fe096aaa9dcabe6ce56628cf80ab74d02743",
-  "count": 69,
+  "content_sha256": "fcae9b8a85d19b11063b9066776160b9cbdb097bd1a34a81705c4d59fecbd6f8",
+  "count": 70,
   "counts_by_business": {
-    "CAS": 40,
+    "CAS": 41,
     "TRADING": 29
   },
   "counts_by_status": {
     "ABANDONED": 29,
     "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 2
+    "OPEN": 3
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T20:15:00+00:00",
+  "generated_at": "2026-09-02T20:21:09+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-02T20:18:28+00:00",
+      "mission_id": "msn-f79f17c7df3f",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "CSO refreshed-schema acceptance receipt"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -804,7 +826,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T20:14:58+00:00",
+  "updated_at": "2026-09-02T20:21:08+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

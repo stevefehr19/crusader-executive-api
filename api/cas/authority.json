@@ -126,7 +126,7 @@
   "content_sha256": "b8dc2a260365ef3ce7c1f27a08ad15b9dd0a98524c02b01b181e4e29c8c84842",
   "count": 12,
   "endpoint": "/api/cas/authority.json",
-  "generated_at": "2026-09-02T09:14:56+00:00",
+  "generated_at": "2026-09-02T09:20:45+00:00",
   "mutable": false,
   "name": "cas-authority",
   "note": "Authority is resolved by DOMAIN, never inferred from a filename. A CONFLICT_REQUIRES_AUTHORITY row is not permission.",

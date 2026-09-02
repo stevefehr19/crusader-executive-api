@@ -1,16 +1,6 @@
 {
   "awaiting_steve": [
     {
-      "business": "CAS",
-      "decision_id": "dec-420ef66688ce",
-      "officer": null,
-      "owner": "STEVE",
-      "question": "The uptime probe was never scheduled \u2014 its launch agent has never been installed, and the plist warning about exactly this cites a prior instance that is also still uninstalled",
-      "raised_at": "2026-08-28T07:48:45+00:00",
-      "state": "OPEN",
-      "steve_only": true
-    },
-    {
       "business": "TRADING",
       "decision_id": "dec-b1f467e44b8e",
       "officer": null,
@@ -32,28 +22,16 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "8c54e5ecb59c16bac804664604873dc1604db9087cbf43d7c8a39c646bf9a731",
-  "count": 5,
+  "content_sha256": "f03110d20d2137b00c0f8c9b7c467559bdf5afe92c5b3b319e39431df467239f",
+  "count": 4,
   "counts_by_business": {
-    "CAS": 1,
     "TRADING": 4
   },
   "counts_by_owner": {
-    "STEVE": 1,
     "STEVE_FEHR": 2,
     "TRADING_QUANT_ARCHITECT": 2
   },
   "decisions": [
-    {
-      "business": "CAS",
-      "decision_id": "dec-420ef66688ce",
-      "officer": null,
-      "owner": "STEVE",
-      "question": "The uptime probe was never scheduled \u2014 its launch agent has never been installed, and the plist warning about exactly this cites a prior instance that is also still uninstalled",
-      "raised_at": "2026-08-28T07:48:45+00:00",
-      "state": "OPEN",
-      "steve_only": true
-    },
     {
       "business": "TRADING",
       "decision_id": "dec-c37c8daf2477",
@@ -96,13 +74,13 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-09-02T04:47:09+00:00",
+  "generated_at": "2026-09-02T04:56:01+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T23:19:26+00:00",
+  "updated_at": "2026-09-02T04:56:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json",
   "withheld": []
 }

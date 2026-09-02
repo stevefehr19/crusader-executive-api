@@ -22,26 +22,15 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "f03110d20d2137b00c0f8c9b7c467559bdf5afe92c5b3b319e39431df467239f",
-  "count": 4,
+  "content_sha256": "8d723960468a1765a1106a2605084247809ab50262fad2071d1c49583097447d",
+  "count": 2,
   "counts_by_business": {
-    "TRADING": 4
+    "TRADING": 2
   },
   "counts_by_owner": {
-    "STEVE_FEHR": 2,
-    "TRADING_QUANT_ARCHITECT": 2
+    "STEVE_FEHR": 2
   },
   "decisions": [
-    {
-      "business": "TRADING",
-      "decision_id": "dec-c37c8daf2477",
-      "officer": "trading-director",
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
-      "raised_at": "2026-08-24T04:20:08+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
     {
       "business": "TRADING",
       "decision_id": "dec-b1f467e44b8e",
@@ -51,16 +40,6 @@
       "raised_at": "2026-08-24T04:20:08+00:00",
       "state": "OPEN",
       "steve_only": true
-    },
-    {
-      "business": "TRADING",
-      "decision_id": "dec-23708f792f06",
-      "officer": "trading-director",
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
-      "raised_at": "2026-08-24T04:20:08+00:00",
-      "state": "OPEN",
-      "steve_only": false
     },
     {
       "business": "TRADING",
@@ -74,13 +53,13 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-09-02T06:53:30+00:00",
+  "generated_at": "2026-09-02T06:56:10+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T04:56:00+00:00",
+  "updated_at": "2026-09-02T06:56:09+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/decisions.json",
   "withheld": []
 }

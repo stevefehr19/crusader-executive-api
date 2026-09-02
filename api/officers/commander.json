@@ -3,17 +3,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-09-02T03:55:27+00:00",
-      "mission_id": "msn-23187fff7c41",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "CLAIMED",
-      "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-09-01T23:15:33+00:00",
       "mission_id": "msn-60c3c248fcde",
       "officer": "trading-director",
@@ -32,28 +21,6 @@
       "role": "BUILDER",
       "status": "OPEN",
       "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T05:10:58+00:00",
-      "mission_id": "msn-69eeeae83d59",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-26T05:11:49+00:00",
-      "mission_id": "msn-484911bb88d9",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC-EXP01-RUNTIME-CENSUS-03 \u2014 Mode A structural runtime gate"
     },
     {
       "active": true,
@@ -94,8 +61,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 3.2,
-      "indexed_at": "2026-09-02T06:50:20+00:00",
+      "age_minutes": 0.0,
+      "indexed_at": "2026-09-02T06:56:08+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -113,18 +80,8 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "18281d89de883c94da5e876b61e7091dcfebddb2cb504db48a0d28d606f87d1a",
+  "content_sha256": "db67a88e38c62a2e88e48ae3458f20bb690fe72199dc052a8c4b14fe41e23032",
   "decisions_open": [
-    {
-      "business": "TRADING",
-      "decision_id": "dec-c37c8daf2477",
-      "officer": "trading-director",
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
-      "raised_at": "2026-08-24T04:20:08+00:00",
-      "state": "OPEN",
-      "steve_only": false
-    },
     {
       "business": "TRADING",
       "decision_id": "dec-b1f467e44b8e",
@@ -134,16 +91,6 @@
       "raised_at": "2026-08-24T04:20:08+00:00",
       "state": "OPEN",
       "steve_only": true
-    },
-    {
-      "business": "TRADING",
-      "decision_id": "dec-23708f792f06",
-      "officer": "trading-director",
-      "owner": "TRADING_QUANT_ARCHITECT",
-      "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
-      "raised_at": "2026-08-24T04:20:08+00:00",
-      "state": "OPEN",
-      "steve_only": false
     },
     {
       "business": "TRADING",
@@ -157,7 +104,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-02T06:53:30+00:00",
+  "generated_at": "2026-09-02T06:56:10+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -184,7 +131,7 @@
       },
       "TRADING": {
         "authority_conflicts": 0,
-        "decisions_open": 4,
+        "decisions_open": 2,
         "documents_indexed": 570,
         "hard_gates": {
           "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
@@ -193,15 +140,15 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 4,
+        "missions_active": 1,
         "reports_published": 2
       }
     },
     "decisions_awaiting_steve": 2,
     "freshness": {
       "cas": {
-        "age_minutes": 3.2,
-        "indexed_at": "2026-09-02T06:50:20+00:00",
+        "age_minutes": 0.0,
+        "indexed_at": "2026-09-02T06:56:08+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -209,8 +156,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 3.2,
-        "indexed_at": "2026-09-02T06:50:20+00:00",
+        "age_minutes": 0.0,
+        "indexed_at": "2026-09-02T06:56:08+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -241,7 +188,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-02T06:53:29+00:00",
+      "published_at": "2026-09-02T06:56:09+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -266,7 +213,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-02T06:53:29+00:00",
+      "published_at": "2026-09-02T06:56:09+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -291,7 +238,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-02T06:53:29+00:00",
+      "published_at": "2026-09-02T06:56:09+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -315,7 +262,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-02T06:53:29+00:00",
+      "published_at": "2026-09-02T06:56:09+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -333,12 +280,12 @@
     "authority_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/authority.json",
     "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
     "business": "TRADING",
-    "decisions_open_count": 4,
+    "decisions_open_count": 2,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
     "documents_indexed": 570,
     "freshness": {
-      "age_minutes": 3.2,
-      "indexed_at": "2026-09-02T06:50:20+00:00",
+      "age_minutes": 0.0,
+      "indexed_at": "2026-09-02T06:56:08+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -416,18 +363,17 @@
       }
     },
     "missions": {
-      "active_count": 4,
+      "active_count": 1,
       "counts": {
         "ABANDONED": 14,
-        "CLAIMED": 1,
-        "COMPLETE": 10,
-        "OPEN": 3
+        "COMPLETE": 13,
+        "OPEN": 1
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-02T06:50:20+00:00",
+  "updated_at": "2026-09-02T06:56:09+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

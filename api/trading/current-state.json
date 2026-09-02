@@ -184,7 +184,7 @@
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "75a2a4d780788807f12e78e2793fa109ca7f33790814d1d6eda629463fd88b65",
+  "content_sha256": "7afe9007ded7cd6177bfb2dab4220f0566640642773a4c2041c09a57e99be146",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -228,18 +228,8 @@
     }
   ],
   "decisions_open": {
-    "count": 4,
+    "count": 2,
     "items": [
-      {
-        "business": "TRADING",
-        "decision_id": "dec-c37c8daf2477",
-        "officer": "trading-director",
-        "owner": "TRADING_QUANT_ARCHITECT",
-        "question": "Which 'WTC Edge Recovery' (2026-08-22) is the report of record -- session 9a29f8d2 or e7a6c955? Both are filed and marked CONFLICT.",
-        "raised_at": "2026-08-24T04:20:08+00:00",
-        "state": "OPEN",
-        "steve_only": false
-      },
       {
         "business": "TRADING",
         "decision_id": "dec-b1f467e44b8e",
@@ -249,16 +239,6 @@
         "raised_at": "2026-08-24T04:20:08+00:00",
         "state": "OPEN",
         "steve_only": true
-      },
-      {
-        "business": "TRADING",
-        "decision_id": "dec-23708f792f06",
-        "officer": "trading-director",
-        "owner": "TRADING_QUANT_ARCHITECT",
-        "question": "Ops/AGENT_LANE_REGISTRY.json lists four lanes as ACTIVE with no agent, no pid and no heartbeat. The file is protected AND held by an ACTIVE lane, so it cannot be corrected without joining the queue it arbitrates. Does the Director retire those lanes now that SQLite claims carry heartbeats?",
-        "raised_at": "2026-08-24T04:20:08+00:00",
-        "state": "OPEN",
-        "steve_only": false
       },
       {
         "business": "TRADING",
@@ -276,14 +256,14 @@
   "documents_indexed": 570,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 3.2,
-    "indexed_at": "2026-09-02T06:50:20+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-09-02T06:56:08+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-02T06:53:30+00:00",
+  "generated_at": "2026-09-02T06:56:10+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -360,17 +340,6 @@
       {
         "active": true,
         "business": "TRADING",
-        "created_at": "2026-09-02T03:55:27+00:00",
-        "mission_id": "msn-23187fff7c41",
-        "officer": "trading-director",
-        "report_to": "TRADING_QUANT_ARCHITECT",
-        "role": null,
-        "status": "CLAIMED",
-        "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
-      },
-      {
-        "active": true,
-        "business": "TRADING",
         "created_at": "2026-09-01T23:15:33+00:00",
         "mission_id": "msn-60c3c248fcde",
         "officer": "trading-director",
@@ -378,35 +347,12 @@
         "role": null,
         "status": "OPEN",
         "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
-      },
-      {
-        "active": true,
-        "business": "TRADING",
-        "created_at": "2026-08-28T05:10:58+00:00",
-        "mission_id": "msn-69eeeae83d59",
-        "officer": "trading-director",
-        "report_to": "TRADING_QUANT_ARCHITECT",
-        "role": null,
-        "status": "OPEN",
-        "title": "WTC overnight execution research - current-engine anatomy and magnifier integrity"
-      },
-      {
-        "active": true,
-        "business": "TRADING",
-        "created_at": "2026-08-26T05:11:49+00:00",
-        "mission_id": "msn-484911bb88d9",
-        "officer": "trading-director",
-        "report_to": "TRADING_QUANT_ARCHITECT",
-        "role": null,
-        "status": "OPEN",
-        "title": "WTC-EXP01-RUNTIME-CENSUS-03 \u2014 Mode A structural runtime gate"
       }
     ],
     "counts": {
       "ABANDONED": 14,
-      "CLAIMED": 1,
-      "COMPLETE": 10,
-      "OPEN": 3
+      "COMPLETE": 13,
+      "OPEN": 1
     },
     "withheld": []
   },
@@ -431,7 +377,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-09-02T06:53:29+00:00",
+        "published_at": "2026-09-02T06:56:09+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -455,7 +401,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-09-02T06:53:29+00:00",
+        "published_at": "2026-09-02T06:56:09+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,
@@ -468,6 +414,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T06:50:20+00:00",
+  "updated_at": "2026-09-02T06:56:09+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

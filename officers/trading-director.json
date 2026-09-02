@@ -1,5 +1,5 @@
 {
-  "built": "2026-09-02T04:40:47+00:00",
+  "built": "2026-09-02T04:46:55+00:00",
   "count": 2,
   "officer": "TRADING_DIRECTOR",
   "reports": [
@@ -29,7 +29,7 @@
       "operational": false,
       "public_url": "/trading/trd-20260826-test_quant_command_center_v1-809f1f55.html",
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-02T04:40:47+00:00",
+      "published_at": "2026-09-02T04:46:55+00:00",
       "recipient": [
         "TRADING_DIRECTOR"
       ],
@@ -62,7 +62,7 @@
       "operational": false,
       "public_url": "/trading/trd-20260826-portal_acceptance_test_synthetic_trading-24994f1f.html",
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-02T04:40:47+00:00",
+      "published_at": "2026-09-02T04:46:55+00:00",
       "recipient": [
         "TRADING_DIRECTOR"
       ],

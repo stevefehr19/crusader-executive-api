@@ -19,7 +19,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
     },
     {
@@ -30,12 +30,12 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Commander state review"
     }
   ],
   "business": "BOTH",
-  "content_sha256": "b8d8d3e5e36606f2698fd7c577af74ef9be5e0846baa52793798e2efe6154bb9",
+  "content_sha256": "193ae9d9430a94b46c7becf37419854cb584e5921ab04c48af85e321966e5d17",
   "count": 68,
   "counts_by_business": {
     "CAS": 40,
@@ -45,10 +45,11 @@
     "ABANDONED": 29,
     "CLOSED": 23,
     "COMPLETE": 13,
-    "OPEN": 3
+    "OPEN": 1,
+    "REPORTED": 2
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T17:57:57+00:00",
+  "generated_at": "2026-09-02T18:03:46+00:00",
   "missions": [
     {
       "active": false,
@@ -102,7 +103,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
     },
     {
@@ -575,7 +576,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Commander state review"
     },
     {
@@ -804,7 +805,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T06:56:09+00:00",
+  "updated_at": "2026-09-02T18:03:44+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

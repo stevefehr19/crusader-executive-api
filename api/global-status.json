@@ -43,8 +43,8 @@
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
-      "age_minutes": 1.6,
-      "indexed_at": "2026-09-02T03:10:22+00:00",
+      "age_minutes": 2.4,
+      "indexed_at": "2026-09-02T03:25:26+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -52,15 +52,15 @@
     },
     "overall": "OK",
     "trading": {
-      "age_minutes": 1.6,
-      "indexed_at": "2026-09-02T03:10:22+00:00",
+      "age_minutes": 2.4,
+      "indexed_at": "2026-09-02T03:25:26+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-02T03:11:57+00:00",
+  "generated_at": "2026-09-02T03:27:46+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",

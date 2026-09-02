@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.0,
-    "indexed_at": "2026-09-02T18:09:32+00:00",
+    "age_minutes": 0.6,
+    "indexed_at": "2026-09-02T18:14:24+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -117,7 +117,7 @@
   "content_sha256": "b8ec82dbee9c5f56bc74a14a266fe358c256866c7597a9cfa6deb394f53c3fac",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-02T18:09:34+00:00",
+  "generated_at": "2026-09-02T18:15:02+00:00",
   "missions": [
     {
       "active": false,

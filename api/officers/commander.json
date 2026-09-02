@@ -39,8 +39,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 0.0,
-      "indexed_at": "2026-09-02T18:09:32+00:00",
+      "age_minutes": 0.6,
+      "indexed_at": "2026-09-02T18:14:24+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -81,7 +81,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-02T18:09:34+00:00",
+  "generated_at": "2026-09-02T18:15:02+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -124,8 +124,8 @@
     "decisions_awaiting_steve": 2,
     "freshness": {
       "cas": {
-        "age_minutes": 0.0,
-        "indexed_at": "2026-09-02T18:09:32+00:00",
+        "age_minutes": 0.6,
+        "indexed_at": "2026-09-02T18:14:24+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -133,7 +133,7 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 0.0,
+        "age_minutes": 5.5,
         "indexed_at": "2026-09-02T18:09:32+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
@@ -261,7 +261,7 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
     "documents_indexed": 570,
     "freshness": {
-      "age_minutes": 0.0,
+      "age_minutes": 5.5,
       "indexed_at": "2026-09-02T18:09:32+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,

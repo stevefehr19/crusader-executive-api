@@ -256,14 +256,14 @@
   "documents_indexed": 570,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 0.0,
+    "age_minutes": 5.5,
     "indexed_at": "2026-09-02T18:09:32+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-02T18:09:34+00:00",
+  "generated_at": "2026-09-02T18:15:02+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [

@@ -19,7 +19,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Trading refreshed-schema acceptance receipt"
     },
     {
@@ -35,7 +35,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "fcae9b8a85d19b11063b9066776160b9cbdb097bd1a34a81705c4d59fecbd6f8",
+  "content_sha256": "1819eddd6172f067ec314cceecd59d6818aa08d2107d7a9f02b51ac33cc5c30e",
   "count": 70,
   "counts_by_business": {
     "CAS": 41,
@@ -45,10 +45,11 @@
     "ABANDONED": 29,
     "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 3
+    "OPEN": 2,
+    "REPORTED": 1
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T20:21:09+00:00",
+  "generated_at": "2026-09-02T20:26:57+00:00",
   "missions": [
     {
       "active": true,
@@ -69,7 +70,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Trading refreshed-schema acceptance receipt"
     },
     {
@@ -826,7 +827,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T20:21:08+00:00",
+  "updated_at": "2026-09-02T20:26:55+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

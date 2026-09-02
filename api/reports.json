@@ -3,7 +3,7 @@
   "content_sha256": "a7be9f71773455c41ec6b48780e963c11fd7a1a86ef61ea5499b81463f7de3eb",
   "count": 6,
   "endpoint": "/api/reports.json",
-  "generated_at": "2026-09-02T19:45:27+00:00",
+  "generated_at": "2026-09-02T19:51:15+00:00",
   "mutable": false,
   "name": "reports",
   "publication_gate": "a report appears here only if its own body carries CLASSIFICATION: PUBLIC_RELEASABLE and it passes the publication scanner",
@@ -25,7 +25,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -50,7 +50,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -75,7 +75,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -99,7 +99,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -123,7 +123,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -147,7 +147,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-02T19:45:26+00:00",
+      "published_at": "2026-09-02T19:51:15+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,

@@ -49,7 +49,7 @@
     "REPORTED": 2
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T21:32:10+00:00",
+  "generated_at": "2026-09-02T21:38:55+00:00",
   "missions": [
     {
       "active": true,

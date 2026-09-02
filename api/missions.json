@@ -10,32 +10,10 @@
       "role": null,
       "status": "OPEN",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-01T22:35:08+00:00",
-      "mission_id": "msn-ad9d9be6e590",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-08-24T17:37:43+00:00",
-      "mission_id": "msn-52d77ad8d6cd",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "COMMANDER",
-      "status": "REPORTED",
-      "title": "Commander state review"
     }
   ],
   "business": "BOTH",
-  "content_sha256": "193ae9d9430a94b46c7becf37419854cb584e5921ab04c48af85e321966e5d17",
+  "content_sha256": "1a0084fc1a2d76ca8af26f32c744c123e2c9c6b7f6a18befc6164f554a4277e6",
   "count": 68,
   "counts_by_business": {
     "CAS": 40,
@@ -43,13 +21,12 @@
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLOSED": 23,
+    "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 1,
-    "REPORTED": 2
+    "OPEN": 1
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T18:03:46+00:00",
+  "generated_at": "2026-09-02T18:09:34+00:00",
   "missions": [
     {
       "active": false,
@@ -96,14 +73,14 @@
       "title": "NQ15 ORB-C independent adversarial certification + frozen validation gate"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-01T22:35:08+00:00",
       "mission_id": "msn-ad9d9be6e590",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "CLOSED",
       "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
     },
     {
@@ -569,14 +546,14 @@
       "title": "CSO commercial review"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-08-24T17:37:43+00:00",
       "mission_id": "msn-52d77ad8d6cd",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "COMMANDER",
-      "status": "REPORTED",
+      "status": "CLOSED",
       "title": "Commander state review"
     },
     {
@@ -805,7 +782,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T18:03:44+00:00",
+  "updated_at": "2026-09-02T18:09:32+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

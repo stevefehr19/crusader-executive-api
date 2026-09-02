@@ -80,28 +80,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-09-01T15:07:15+00:00",
-      "mission_id": "msn-6a0024b849dc",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC entry-mode test - MODE_RECLAIM and MODE_DIRECTIONAL"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-01T04:56:03+00:00",
-      "mission_id": "msn-e2863074fba4",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "CLAIMED",
-      "title": "WTC inversion test - multi-timeframe"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-08-28T07:22:56+00:00",
       "mission_id": "msn-347d651853e8",
       "officer": "trading-director",
@@ -156,7 +134,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "de7c5fd8bc1b58db866a5ca9c736a4bf799228a60902d4ce7fab15c453c3e2b4",
+  "content_sha256": "af878e04fd5b1ca8a5aaa3c6231d277cbd01c8f78ecbd5b8ff2d24a02f711afc",
   "count": 68,
   "counts_by_business": {
     "CAS": 40,
@@ -164,13 +142,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLAIMED": 3,
+    "CLAIMED": 2,
     "CLOSED": 23,
-    "COMPLETE": 2,
-    "OPEN": 11
+    "COMPLETE": 4,
+    "OPEN": 10
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T03:59:25+00:00",
+  "generated_at": "2026-09-02T04:15:15+00:00",
   "missions": [
     {
       "active": true,
@@ -250,25 +228,25 @@
       "title": "NQ trend-following causal edge discovery - Gen 1"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-01T15:07:15+00:00",
       "mission_id": "msn-6a0024b849dc",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "COMPLETE",
       "title": "WTC entry-mode test - MODE_RECLAIM and MODE_DIRECTIONAL"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-01T04:56:03+00:00",
       "mission_id": "msn-e2863074fba4",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "COMPLETE",
       "title": "WTC inversion test - multi-timeframe"
     },
     {
@@ -926,7 +904,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T03:55:35+00:00",
+  "updated_at": "2026-09-02T04:05:37+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

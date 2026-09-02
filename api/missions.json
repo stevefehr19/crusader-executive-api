@@ -19,7 +19,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -32,28 +32,6 @@
       "role": "BUILDER",
       "status": "OPEN",
       "title": "P0-ROUTING-REPAIR \u2014 casctl --to silent recipient drop: parser fix, audited route-repair verb, regression tests, victim reconciliation"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T07:22:56+00:00",
-      "mission_id": "msn-347d651853e8",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC parallel edge improvement - bad-trade forensics and conditional-edge research"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-08-28T07:02:50+00:00",
-      "mission_id": "msn-58327b439139",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "WTC Carry Geometry R2 paired measurement and report"
     },
     {
       "active": true,
@@ -90,7 +68,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "ac31da887d6640691dc8e33f3f1332ae02bdef18e216c1df3ec4065c69d489a3",
+  "content_sha256": "275da24aa91e59f174c91db70a55a3442b107344290b444c62c1ca6b03a1a153",
   "count": 68,
   "counts_by_business": {
     "CAS": 40,
@@ -98,12 +76,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 29,
+    "CLAIMED": 1,
     "CLOSED": 23,
-    "COMPLETE": 8,
-    "OPEN": 8
+    "COMPLETE": 10,
+    "OPEN": 5
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T04:36:26+00:00",
+  "generated_at": "2026-09-02T04:40:47+00:00",
   "missions": [
     {
       "active": true,
@@ -124,7 +103,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -315,14 +294,14 @@
       "title": "CAS-OVERNIGHT-VOICE-PROOF-LINE \u2014 readiness packet"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:22:56+00:00",
       "mission_id": "msn-347d651853e8",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "COMPLETE",
       "title": "WTC parallel edge improvement - bad-trade forensics and conditional-edge research"
     },
     {
@@ -381,14 +360,14 @@
       "title": "CAS-OVERNIGHT-CLAUDE-01 \u2014 revenue operating layer completion"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:02:50+00:00",
       "mission_id": "msn-58327b439139",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "COMPLETE",
       "title": "WTC Carry Geometry R2 paired measurement and report"
     },
     {
@@ -859,7 +838,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T04:25:42+00:00",
+  "updated_at": "2026-09-02T04:40:46+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

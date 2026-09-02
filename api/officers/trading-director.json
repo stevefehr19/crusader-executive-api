@@ -4,7 +4,7 @@
   "businesses_in_scope": [
     "TRADING"
   ],
-  "content_sha256": "83a0f724e1628219c84bf5d9372d14407b39b3ade41e5c5911bdecc994354382",
+  "content_sha256": "822ae9cab7ece946b47c9742f663be9bbd9f2c8ff7f997daa588e3d1d7f6191e",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -114,7 +114,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-09-02T04:36:26+00:00",
+  "generated_at": "2026-09-02T04:40:47+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -206,7 +206,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -287,25 +287,25 @@
       "title": "WTC candidate simulation - pre-registered offline variants on certified replica"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:22:56+00:00",
       "mission_id": "msn-347d651853e8",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "COMPLETE",
       "title": "WTC parallel edge improvement - bad-trade forensics and conditional-edge research"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-08-28T07:02:50+00:00",
       "mission_id": "msn-58327b439139",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "COMPLETE",
       "title": "WTC Carry Geometry R2 paired measurement and report"
     },
     {
@@ -516,7 +516,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-02T04:36:25+00:00",
+      "published_at": "2026-09-02T04:40:47+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -540,7 +540,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-02T04:36:25+00:00",
+      "published_at": "2026-09-02T04:40:47+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -737,12 +737,12 @@
   ],
   "trading_freshness": {
     "age_minutes": 0.0,
-    "indexed_at": "2026-09-02T04:36:24+00:00",
+    "indexed_at": "2026-09-02T04:40:46+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "updated_at": "2026-09-02T04:25:42+00:00",
+  "updated_at": "2026-09-02T04:40:46+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
 }

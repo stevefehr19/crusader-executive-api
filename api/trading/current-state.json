@@ -256,14 +256,14 @@
   "documents_indexed": 570,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 1.9,
-    "indexed_at": "2026-09-02T09:55:32+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-09-02T10:01:40+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-02T09:57:27+00:00",
+  "generated_at": "2026-09-02T10:01:42+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -377,7 +377,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-09-02T09:57:26+00:00",
+        "published_at": "2026-09-02T10:01:41+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -401,7 +401,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-09-02T09:57:26+00:00",
+        "published_at": "2026-09-02T10:01:41+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,

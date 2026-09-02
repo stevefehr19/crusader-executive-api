@@ -8,7 +8,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "CSO refreshed-schema acceptance receipt"
     },
     {
@@ -35,7 +35,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "1819eddd6172f067ec314cceecd59d6818aa08d2107d7a9f02b51ac33cc5c30e",
+  "content_sha256": "5f1e797fd6803505d120b92ed0b720a05258235fd5fd7bd3a6453f2df45a47c3",
   "count": 70,
   "counts_by_business": {
     "CAS": 41,
@@ -45,11 +45,11 @@
     "ABANDONED": 29,
     "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 2,
-    "REPORTED": 1
+    "OPEN": 1,
+    "REPORTED": 2
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T20:26:57+00:00",
+  "generated_at": "2026-09-02T20:33:05+00:00",
   "missions": [
     {
       "active": true,
@@ -59,7 +59,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "CSO refreshed-schema acceptance receipt"
     },
     {
@@ -827,7 +827,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T20:26:55+00:00",
+  "updated_at": "2026-09-02T20:33:04+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

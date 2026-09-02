@@ -8,7 +8,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Trading refreshed-schema acceptance receipt"
     },
     {
@@ -51,7 +51,7 @@
     "documents_indexed": 1662,
     "freshness": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-02T20:08:50+00:00",
+      "indexed_at": "2026-09-02T20:14:58+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -68,7 +68,7 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "21a1c138bf58796864b2311dcf06a71ab3435220d439b06110123574bca1ef03",
+  "content_sha256": "425942d8011fd7e823b15f252e3278910e970827649b936e8ac124710d7f1f7c",
   "decisions_open": [
     {
       "business": "TRADING",
@@ -92,7 +92,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-02T20:08:52+00:00",
+  "generated_at": "2026-09-02T20:15:00+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -136,7 +136,7 @@
     "freshness": {
       "cas": {
         "age_minutes": 0.0,
-        "indexed_at": "2026-09-02T20:08:50+00:00",
+        "indexed_at": "2026-09-02T20:14:58+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -145,7 +145,7 @@
       "overall": "OK",
       "trading": {
         "age_minutes": 0.0,
-        "indexed_at": "2026-09-02T20:08:50+00:00",
+        "indexed_at": "2026-09-02T20:14:58+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -176,7 +176,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-02T20:08:51+00:00",
+      "published_at": "2026-09-02T20:14:59+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -201,7 +201,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-02T20:08:51+00:00",
+      "published_at": "2026-09-02T20:14:59+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -226,7 +226,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-02T20:08:51+00:00",
+      "published_at": "2026-09-02T20:14:59+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -250,7 +250,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-02T20:08:51+00:00",
+      "published_at": "2026-09-02T20:14:59+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -273,7 +273,7 @@
     "documents_indexed": 577,
     "freshness": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-02T20:08:50+00:00",
+      "indexed_at": "2026-09-02T20:14:58+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -354,15 +354,14 @@
       "active_count": 2,
       "counts": {
         "ABANDONED": 14,
-        "CLAIMED": 1,
         "COMPLETE": 13,
-        "OPEN": 1
+        "OPEN": 2
       }
     },
     "mutable": false,
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-02T20:08:50+00:00",
+  "updated_at": "2026-09-02T20:14:58+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

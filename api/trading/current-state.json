@@ -184,7 +184,7 @@
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "34c2f5c003cf7cbf51f16af25501861faec89609925d0387bb54c465d16c40c3",
+  "content_sha256": "e82e701027ef1f623b9934f31a58ad3a891515cdfcaf264ce18135f93f4ddd22",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -276,14 +276,14 @@
   "documents_indexed": 563,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 3.1,
-    "indexed_at": "2026-09-02T03:40:30+00:00",
+    "age_minutes": 3.9,
+    "indexed_at": "2026-09-02T03:55:34+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-02T03:43:36+00:00",
+  "generated_at": "2026-09-02T03:59:25+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -360,12 +360,23 @@
       {
         "active": true,
         "business": "TRADING",
+        "created_at": "2026-09-02T03:55:27+00:00",
+        "mission_id": "msn-23187fff7c41",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "CLAIMED",
+        "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
+      },
+      {
+        "active": true,
+        "business": "TRADING",
         "created_at": "2026-09-01T23:15:33+00:00",
         "mission_id": "msn-60c3c248fcde",
         "officer": "trading-director",
         "report_to": "TRADING_QUANT_ARCHITECT",
         "role": null,
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
       },
       {
@@ -481,9 +492,9 @@
     ],
     "counts": {
       "ABANDONED": 14,
-      "CLAIMED": 1,
+      "CLAIMED": 3,
       "COMPLETE": 2,
-      "OPEN": 10
+      "OPEN": 9
     },
     "withheld": []
   },
@@ -508,7 +519,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-09-02T03:43:30+00:00",
+        "published_at": "2026-09-02T03:59:19+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -532,7 +543,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-09-02T03:43:30+00:00",
+        "published_at": "2026-09-02T03:59:19+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,
@@ -545,6 +556,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-09-02T03:55:35+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

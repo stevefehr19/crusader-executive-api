@@ -3,12 +3,23 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-02T03:55:27+00:00",
+      "mission_id": "msn-23187fff7c41",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-01T23:15:33+00:00",
       "mission_id": "msn-60c3c248fcde",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -145,22 +156,33 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "42c71b95e78975c01cac14817b35492c7540b9dee27731ddcd83b14113eb60bc",
-  "count": 67,
+  "content_sha256": "de7c5fd8bc1b58db866a5ca9c736a4bf799228a60902d4ce7fab15c453c3e2b4",
+  "count": 68,
   "counts_by_business": {
     "CAS": 40,
-    "TRADING": 27
+    "TRADING": 28
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLAIMED": 1,
+    "CLAIMED": 3,
     "CLOSED": 23,
     "COMPLETE": 2,
-    "OPEN": 12
+    "OPEN": 11
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T03:43:36+00:00",
+  "generated_at": "2026-09-02T03:59:25+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-02T03:55:27+00:00",
+      "mission_id": "msn-23187fff7c41",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -169,7 +191,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -904,7 +926,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-01T23:29:14+00:00",
+  "updated_at": "2026-09-02T03:55:35+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

@@ -3,6 +3,17 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-02T20:03:55+00:00",
+      "mission_id": "msn-a6876351e161",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Trading refreshed-schema acceptance receipt"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-01T23:15:33+00:00",
       "mission_id": "msn-60c3c248fcde",
       "officer": "trading-director",
@@ -13,21 +24,33 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "1a0084fc1a2d76ca8af26f32c744c123e2c9c6b7f6a18befc6164f554a4277e6",
-  "count": 68,
+  "content_sha256": "f3873c3aae634c0afd51801d1e60f14c9e37df387cef7f12f418212a08836d94",
+  "count": 69,
   "counts_by_business": {
     "CAS": 40,
-    "TRADING": 28
+    "TRADING": 29
   },
   "counts_by_status": {
     "ABANDONED": 29,
+    "CLAIMED": 1,
     "CLOSED": 25,
     "COMPLETE": 13,
     "OPEN": 1
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-02T20:03:03+00:00",
+  "generated_at": "2026-09-02T20:08:52+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-02T20:03:55+00:00",
+      "mission_id": "msn-a6876351e161",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Trading refreshed-schema acceptance receipt"
+    },
     {
       "active": false,
       "business": "TRADING",
@@ -782,7 +805,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-02T18:09:32+00:00",
+  "updated_at": "2026-09-02T20:08:50+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

@@ -2,6 +2,17 @@
   "active": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T23:00:28+00:00",
+      "mission_id": "msn-178030326c81",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Acceptance A 20260903T230027Z: Commander \u2192 Claude"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-03T22:44:30+00:00",
       "mission_id": "msn-cb805613e0b7",
@@ -19,7 +30,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Diagnose and reconcile stale ORB-C TradingView controller"
     },
     {
@@ -63,7 +74,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -354,10 +365,10 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "c06904cc335900460501144609d36079e776587ccf00574de86249dbcd5cb2f2",
-  "count": 104,
+  "content_sha256": "eb0d20b8c16633accbb377d7c0d98cb3d69b4684628a2e6960cc27fdf37d54c7",
+  "count": 105,
   "counts_by_business": {
-    "CAS": 60,
+    "CAS": 61,
     "TRADING": 44
   },
   "counts_by_status": {
@@ -365,12 +376,23 @@
     "CLAIMED": 1,
     "CLOSED": 26,
     "COMPLETE": 13,
-    "OPEN": 20,
+    "OPEN": 21,
     "REPORTED": 11
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T22:54:41+00:00",
+  "generated_at": "2026-09-03T23:00:31+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T23:00:28+00:00",
+      "mission_id": "msn-178030326c81",
+      "officer": "commander",
+      "report_to": "COMMANDER",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Acceptance A 20260903T230027Z: Commander \u2192 Claude"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -390,7 +412,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Diagnose and reconcile stale ORB-C TradingView controller"
     },
     {
@@ -445,7 +467,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -1521,7 +1543,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T22:48:30+00:00",
+  "updated_at": "2026-09-03T23:00:29+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

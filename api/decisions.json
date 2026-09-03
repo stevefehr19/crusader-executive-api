@@ -53,7 +53,7 @@
     }
   ],
   "endpoint": "/api/decisions.json",
-  "generated_at": "2026-09-03T13:58:23+00:00",
+  "generated_at": "2026-09-03T14:04:31+00:00",
   "mutable": false,
   "name": "decisions",
   "purpose": "Open decisions awaiting a ruling, both businesses.",

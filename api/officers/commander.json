@@ -3,6 +3,17 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-03T00:30:42+00:00",
+      "mission_id": "msn-60c5d7c6726d",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "ORB-C post-replication adversarial review and prospective gate repair"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-02T22:32:29+00:00",
       "mission_id": "msn-6df102a1ff49",
       "officer": "trading-director",
@@ -83,8 +94,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json",
     "documents_indexed": 1662,
     "freshness": {
-      "age_minutes": 1.2,
-      "indexed_at": "2026-09-03T00:29:19+00:00",
+      "age_minutes": 0.0,
+      "indexed_at": "2026-09-03T00:36:20+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -102,7 +113,7 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "21bbd6d1300d98e935e7358b830c527f77f83eadd46579b810858d9d2cc9c439",
+  "content_sha256": "f7adcc4a075a2132e36970f75790a1c112f30559f10c7e389f4d6e74ff7d3df5",
   "decisions_open": [
     {
       "business": "TRADING",
@@ -126,7 +137,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-03T00:30:33+00:00",
+  "generated_at": "2026-09-03T00:36:21+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -162,15 +173,15 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 4,
+        "missions_active": 5,
         "reports_published": 2
       }
     },
     "decisions_awaiting_steve": 2,
     "freshness": {
       "cas": {
-        "age_minutes": 1.2,
-        "indexed_at": "2026-09-03T00:29:19+00:00",
+        "age_minutes": 0.0,
+        "indexed_at": "2026-09-03T00:36:20+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -178,8 +189,8 @@
       },
       "overall": "OK",
       "trading": {
-        "age_minutes": 1.2,
-        "indexed_at": "2026-09-03T00:29:19+00:00",
+        "age_minutes": 0.0,
+        "indexed_at": "2026-09-03T00:36:20+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -210,7 +221,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-03T00:29:58+00:00",
+      "published_at": "2026-09-03T00:36:21+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -235,7 +246,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-03T00:29:58+00:00",
+      "published_at": "2026-09-03T00:36:21+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -260,7 +271,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-03T00:29:58+00:00",
+      "published_at": "2026-09-03T00:36:21+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -284,7 +295,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-03T00:29:58+00:00",
+      "published_at": "2026-09-03T00:36:21+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -306,8 +317,8 @@
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
     "documents_indexed": 587,
     "freshness": {
-      "age_minutes": 1.2,
-      "indexed_at": "2026-09-03T00:29:19+00:00",
+      "age_minutes": 0.0,
+      "indexed_at": "2026-09-03T00:36:20+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -385,12 +396,12 @@
       }
     },
     "missions": {
-      "active_count": 4,
+      "active_count": 5,
       "counts": {
         "ABANDONED": 14,
         "CLAIMED": 1,
         "COMPLETE": 13,
-        "OPEN": 2,
+        "OPEN": 3,
         "REPORTED": 1
       }
     },
@@ -398,6 +409,6 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-02T23:37:10+00:00",
+  "updated_at": "2026-09-03T00:36:20+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

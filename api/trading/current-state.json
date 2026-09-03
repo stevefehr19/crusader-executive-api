@@ -184,7 +184,7 @@
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "dd2185b82b7beddcea8cafc1c90fc9c144c1a7ef91fc32d16018c35381d21bc2",
+  "content_sha256": "3c567641641f600dfc44f5b87f20690d2e9f9d5098096245aed91daed7bba512",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -253,17 +253,17 @@
     ],
     "withheld": []
   },
-  "documents_indexed": 588,
+  "documents_indexed": 591,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
     "age_minutes": 0.0,
-    "indexed_at": "2026-09-03T20:20:08+00:00",
+    "indexed_at": "2026-09-03T20:36:00+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-03T20:20:10+00:00",
+  "generated_at": "2026-09-03T20:36:02+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -337,6 +337,17 @@
   },
   "missions": {
     "active": [
+      {
+        "active": true,
+        "business": "TRADING",
+        "created_at": "2026-09-03T20:21:16+00:00",
+        "mission_id": "msn-4ce0a9246b5b",
+        "officer": "trading-director",
+        "report_to": "TRADING_QUANT_ARCHITECT",
+        "role": null,
+        "status": "CLAIMED",
+        "title": "ORB-C TradingView single-controller strategy installation"
+      },
       {
         "active": true,
         "business": "TRADING",
@@ -461,7 +472,7 @@
     ],
     "counts": {
       "ABANDONED": 15,
-      "CLAIMED": 1,
+      "CLAIMED": 2,
       "COMPLETE": 13,
       "OPEN": 8,
       "REPORTED": 2
@@ -489,7 +500,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-09-03T20:20:09+00:00",
+        "published_at": "2026-09-03T20:36:01+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -513,7 +524,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-09-03T20:20:09+00:00",
+        "published_at": "2026-09-03T20:36:01+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,
@@ -526,6 +537,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T19:24:10+00:00",
+  "updated_at": "2026-09-03T20:36:00+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

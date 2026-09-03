@@ -8,7 +8,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "LIVE acceptance v2 \u2014 CSO to Claude"
     },
     {
@@ -288,7 +288,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "f7afc7e44d9a37c535a0fc2f1eb15055eec7a47c5f199ffc3c8a7bbf1ce79db3",
+  "content_sha256": "5fec05659bbe58762c7cd9e22cee95817e4d4d73f51c50ab8fa37848d2d20ded",
   "count": 97,
   "counts_by_business": {
     "CAS": 58,
@@ -296,14 +296,14 @@
   },
   "counts_by_status": {
     "ABANDONED": 33,
-    "CLAIMED": 3,
+    "CLAIMED": 2,
     "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 14,
+    "OPEN": 15,
     "REPORTED": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T19:12:36+00:00",
+  "generated_at": "2026-09-03T19:18:24+00:00",
   "missions": [
     {
       "active": true,
@@ -313,7 +313,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "LIVE acceptance v2 \u2014 CSO to Claude"
     },
     {
@@ -1378,7 +1378,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T19:12:34+00:00",
+  "updated_at": "2026-09-03T19:18:22+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

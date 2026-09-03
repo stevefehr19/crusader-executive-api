@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "a20c940f16bf9a7dbfda34d8cdfe2e241ac924c533f6c9d6125435c7a443b664",
+  "content_sha256": "d7fe664c6c9d3b0c00dc77b3610aa8a7312f617077849045c089a3abadb76ba2",
   "count": 12,
   "endpoints": [
     {
@@ -18,8 +18,8 @@
       "name": "cas-current-state",
       "path": "/api/cas/current-state.json",
       "purpose": "CAS authority, missions, open decisions and published reports.",
-      "sha256": "f2af5fe17f1029c7e5276bc0dd269ec718452f35a243c288fc256290dc6f38c0",
-      "updated_at": "2026-09-03T19:12:34+00:00",
+      "sha256": "7611552632c5bc5b65c2a5170185a851b0ebccbf8e1ea2627b5eb5fc7323b26a",
+      "updated_at": "2026-09-03T19:18:22+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
     },
     {
@@ -45,8 +45,8 @@
       "name": "missions",
       "path": "/api/missions.json",
       "purpose": "Every indexed mission, with active set and status counts.",
-      "sha256": "f7afc7e44d9a37c535a0fc2f1eb15055eec7a47c5f199ffc3c8a7bbf1ce79db3",
-      "updated_at": "2026-09-03T19:12:34+00:00",
+      "sha256": "5fec05659bbe58762c7cd9e22cee95817e4d4d73f51c50ab8fa37848d2d20ded",
+      "updated_at": "2026-09-03T19:18:22+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json"
     },
     {
@@ -54,8 +54,8 @@
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "e2f89e7998899f7caa1c101025c7dd6bda227b4f3491634c3400380c0ad68bf8",
-      "updated_at": "2026-09-03T19:12:34+00:00",
+      "sha256": "6efd376d4e92621561adc423ddf4d0175fe0fa20861dae3f78776152419f7b0f",
+      "updated_at": "2026-09-03T19:18:22+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -63,8 +63,8 @@
       "name": "officer-cso",
       "path": "/api/officers/cso.json",
       "purpose": "Executive feed for GPT Chief Strategy Officer.",
-      "sha256": "796048f61570d50444858b456875ff38ac2691798b53e1b7725eb649b7b7fbbb",
-      "updated_at": "2026-09-03T19:12:34+00:00",
+      "sha256": "6ed00365e240a1a0f4a99e88908c498f44bf87260999d325b9cf632e5b19696a",
+      "updated_at": "2026-09-03T19:18:22+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-09-03T19:12:36+00:00",
+  "generated_at": "2026-09-03T19:18:24+00:00",
   "methods": [
     "GET"
   ],

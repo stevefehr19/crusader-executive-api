@@ -1,5 +1,5 @@
 {
-  "built": "2026-09-03T19:12:35+00:00",
+  "built": "2026-09-03T19:18:23+00:00",
   "latest": {
     "agent": "Quant Architect",
     "author_role": "quant-test-lane",
@@ -26,7 +26,7 @@
     "operational": false,
     "public_url": "/trading/trd-20260826-test_quant_command_center_v1-809f1f55.html",
     "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-    "published_at": "2026-09-03T19:12:35+00:00",
+    "published_at": "2026-09-03T19:18:23+00:00",
     "recipient": [
       "TRADING_DIRECTOR"
     ],

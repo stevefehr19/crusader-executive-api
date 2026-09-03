@@ -303,7 +303,7 @@
     "REPORTED": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T20:08:31+00:00",
+  "generated_at": "2026-09-03T20:14:20+00:00",
   "missions": [
     {
       "active": true,

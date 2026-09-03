@@ -8,7 +8,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Acceptance C 20260903T203225Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -321,7 +321,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "2fe6c5b74dd17cedbf016924acf09a5cae776c8c71aefcc4231e2fe95f85c69e",
+  "content_sha256": "2bcc9417b085d0ea29a162d12858cc8cf51ec3790ec830a91c4ad1718ac5140d",
   "count": 101,
   "counts_by_business": {
     "CAS": 60,
@@ -329,14 +329,14 @@
   },
   "counts_by_status": {
     "ABANDONED": 33,
-    "CLAIMED": 3,
+    "CLAIMED": 2,
     "CLOSED": 26,
     "COMPLETE": 13,
-    "OPEN": 17,
+    "OPEN": 18,
     "REPORTED": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T20:59:41+00:00",
+  "generated_at": "2026-09-03T21:05:31+00:00",
   "missions": [
     {
       "active": true,
@@ -346,7 +346,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Acceptance C 20260903T203225Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -1455,7 +1455,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T20:59:40+00:00",
+  "updated_at": "2026-09-03T21:05:30+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

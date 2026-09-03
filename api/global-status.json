@@ -20,7 +20,7 @@
       "authority_conflicts": 0,
       "decisions_open": 0,
       "documents_indexed": 1662,
-      "missions_active": 3,
+      "missions_active": 2,
       "reports_published": 4
     },
     "TRADING": {
@@ -38,13 +38,13 @@
       "reports_published": 2
     }
   },
-  "content_sha256": "8e61a6123836f709e2db07d4a9fca1424ca7c9e02c9820de23ce1e2efc319e99",
+  "content_sha256": "f887fe6d4dc576ee0906c891664057cbc1d33cfc3eb4102b7d6c94fde3a1480a",
   "decisions_awaiting_steve": 2,
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-03T00:59:32+00:00",
+      "indexed_at": "2026-09-03T01:05:41+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -53,19 +53,19 @@
     "overall": "OK",
     "trading": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-03T00:59:32+00:00",
+      "indexed_at": "2026-09-03T01:05:41+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-03T00:59:34+00:00",
+  "generated_at": "2026-09-03T01:05:43+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T00:53:44+00:00",
+  "updated_at": "2026-09-03T01:05:41+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

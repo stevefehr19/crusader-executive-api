@@ -3,13 +3,24 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-09-03T00:52:54+00:00",
-      "mission_id": "msn-38f5b3a5be5f",
+      "created_at": "2026-09-03T01:04:43+00:00",
+      "mission_id": "msn-39f9cf6778a7",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
       "status": "OPEN",
-      "title": "Event dispatcher post-commit CAS report signal"
+      "title": "Inspect Command Center health"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T01:04:27+00:00",
+      "mission_id": "msn-45ba777adf90",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Inspect Trading control-plane health"
     },
     {
       "active": true,
@@ -21,28 +32,6 @@
       "role": null,
       "status": "CLAIMED",
       "title": "Event dispatcher post-commit Trading report signal"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T00:42:36+00:00",
-      "mission_id": "msn-b7413dd73efe",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "Inspect current Trading control-plane health"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T00:42:26+00:00",
-      "mission_id": "msn-e2261ca20fa4",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "Inspect Command Center health (read-only)"
     },
     {
       "active": true,
@@ -112,32 +101,54 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "ae52119f5272c75708212043bbac2b4aacb4be48b441375f0093ade31cbf9fde",
-  "count": 77,
+  "content_sha256": "b0379d9f996ed12a293ca0f9bc02611d99a9835ebb1f9d645d91ee6d96e23788",
+  "count": 79,
   "counts_by_business": {
-    "CAS": 43,
-    "TRADING": 34
+    "CAS": 44,
+    "TRADING": 35
   },
   "counts_by_status": {
-    "ABANDONED": 29,
-    "CLAIMED": 2,
+    "ABANDONED": 32,
+    "CLAIMED": 3,
     "CLOSED": 25,
     "COMPLETE": 13,
-    "OPEN": 5,
-    "REPORTED": 3
+    "OPEN": 4,
+    "REPORTED": 2
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T00:59:34+00:00",
+  "generated_at": "2026-09-03T01:05:43+00:00",
   "missions": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:04:43+00:00",
+      "mission_id": "msn-39f9cf6778a7",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Inspect Command Center health"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T01:04:27+00:00",
+      "mission_id": "msn-45ba777adf90",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Inspect Trading control-plane health"
+    },
+    {
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T00:52:54+00:00",
       "mission_id": "msn-38f5b3a5be5f",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "Event dispatcher post-commit CAS report signal"
     },
     {
@@ -152,25 +163,25 @@
       "title": "Event dispatcher post-commit Trading report signal"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T00:42:36+00:00",
       "mission_id": "msn-b7413dd73efe",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "Inspect current Trading control-plane health"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T00:42:26+00:00",
       "mission_id": "msn-e2261ca20fa4",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Inspect Command Center health (read-only)"
     },
     {
@@ -982,7 +993,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T00:53:44+00:00",
+  "updated_at": "2026-09-03T01:05:41+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

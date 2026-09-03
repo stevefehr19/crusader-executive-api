@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.1,
-    "indexed_at": "2026-09-03T23:29:55+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-09-03T23:35:46+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -114,10 +114,10 @@
     }
   ],
   "commercial_conflict": [],
-  "content_sha256": "473d5d4708590e5e35e3d0ac401580175df29d5dc9b450c9726f908f205905d8",
+  "content_sha256": "82c56691272071a7a80bc72c73c0eed3206a918cd9deafbbba5536381c9f484e",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-03T23:29:57+00:00",
+  "generated_at": "2026-09-03T23:35:48+00:00",
   "missions": [
     {
       "active": true,
@@ -127,7 +127,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T230027Z: CSO \u2192 Claude"
     },
     {
@@ -138,7 +138,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T203225Z: CSO \u2192 Claude"
     },
     {
@@ -149,7 +149,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v2 \u2014 CSO to Claude"
     },
     {
@@ -164,14 +164,14 @@
       "title": "LIVE acceptance \u2014 CSO to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T18:45:43+00:00",
       "mission_id": "msn-e6c1cd8b8c51",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE negative acceptance \u2014 Claude unavailable"
     },
     {
@@ -186,14 +186,14 @@
       "title": "CAS cinematic site \u2014 System and How It Moves copy options"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:20:31+00:00",
       "mission_id": "msn-e5a89af07879",
       "officer": "cso",
       "report_to": "CSO",
       "role": "QA",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Verify deployed event bridge acceptance"
     },
     {
@@ -208,58 +208,58 @@
       "title": "Validate Command Center health from host context"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:15:16+00:00",
       "mission_id": "msn-e50b52405963",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Restore Command Center health listener"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:13:38+00:00",
       "mission_id": "msn-99b932f542e0",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Validate Command Center health from host context"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:10:11+00:00",
       "mission_id": "msn-cf779fee57c1",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Diagnose unreachable Command Center health endpoint"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:08:05+00:00",
       "mission_id": "msn-87cd5837d770",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Inspect Command Center health"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:04:43+00:00",
       "mission_id": "msn-39f9cf6778a7",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Inspect Command Center health"
     },
     {
@@ -285,14 +285,14 @@
       "title": "Inspect Command Center health (read-only)"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-02T20:18:28+00:00",
       "mission_id": "msn-f79f17c7df3f",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "CSO refreshed-schema acceptance receipt"
     },
     {
@@ -359,7 +359,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-03T23:29:56+00:00",
+      "published_at": "2026-09-03T23:35:47+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -384,7 +384,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-03T23:29:56+00:00",
+      "published_at": "2026-09-03T23:35:47+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -409,7 +409,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-03T23:29:56+00:00",
+      "published_at": "2026-09-03T23:35:47+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -422,6 +422,6 @@
   ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:12:27+00:00",
+  "updated_at": "2026-09-03T23:35:46+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

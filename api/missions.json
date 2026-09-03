@@ -30,7 +30,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T230027Z: CSO \u2192 Claude"
     },
     {
@@ -74,7 +74,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance C 20260903T203225Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -85,7 +85,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T203225Z: CSO \u2192 Claude"
     },
     {
@@ -107,7 +107,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v2 \u2014 CSO to Claude"
     },
     {
@@ -118,7 +118,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v3 \u2014 Quant to Claude"
     },
     {
@@ -151,7 +151,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v4 \u2014 Commander to Claude"
     },
     {
@@ -201,17 +201,6 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-09-03T18:45:43+00:00",
-      "mission_id": "msn-e6c1cd8b8c51",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE negative acceptance \u2014 Claude unavailable"
-    },
-    {
-      "active": true,
-      "business": "CAS",
       "created_at": "2026-09-03T17:51:32+00:00",
       "mission_id": "msn-87fc611d5a2e",
       "officer": "cso",
@@ -230,72 +219,6 @@
       "role": null,
       "status": "OPEN",
       "title": "ORB-C frozen forward-validation contract repair"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:20:31+00:00",
-      "mission_id": "msn-e5a89af07879",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "QA",
-      "status": "REPORTED",
-      "title": "Verify deployed event bridge acceptance"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:15:16+00:00",
-      "mission_id": "msn-e50b52405963",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "OPERATIONS",
-      "status": "REPORTED",
-      "title": "Restore Command Center health listener"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:13:38+00:00",
-      "mission_id": "msn-99b932f542e0",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "OPERATIONS",
-      "status": "REPORTED",
-      "title": "Validate Command Center health from host context"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:10:11+00:00",
-      "mission_id": "msn-cf779fee57c1",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "OPERATIONS",
-      "status": "REPORTED",
-      "title": "Diagnose unreachable Command Center health endpoint"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:08:05+00:00",
-      "mission_id": "msn-87cd5837d770",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "Inspect Command Center health"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T01:04:43+00:00",
-      "mission_id": "msn-39f9cf6778a7",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "Inspect Command Center health"
     },
     {
       "active": true,
@@ -343,17 +266,6 @@
     },
     {
       "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-02T20:18:28+00:00",
-      "mission_id": "msn-f79f17c7df3f",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "REPORTED",
-      "title": "CSO refreshed-schema acceptance receipt"
-    },
-    {
-      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-02T20:03:55+00:00",
       "mission_id": "msn-a6876351e161",
@@ -376,22 +288,22 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "3718f69afe3eb37b1d7e21d99dfcf6efdb52516a74d347dcdb6d324945097b09",
+  "content_sha256": "2c1043f4b3596f31a9a8f19849277d28de8da3887eacefd3aa1b36124870d1b1",
   "count": 108,
   "counts_by_business": {
     "CAS": 62,
     "TRADING": 46
   },
   "counts_by_status": {
-    "ABANDONED": 34,
+    "ABANDONED": 42,
     "CLAIMED": 1,
     "CLOSED": 27,
     "COMPLETE": 13,
-    "OPEN": 21,
-    "REPORTED": 12
+    "OPEN": 14,
+    "REPORTED": 11
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T23:29:57+00:00",
+  "generated_at": "2026-09-03T23:35:48+00:00",
   "missions": [
     {
       "active": true,
@@ -423,7 +335,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T230027Z: CSO \u2192 Claude"
     },
     {
@@ -478,7 +390,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance C 20260903T203225Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -489,7 +401,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Acceptance B 20260903T203225Z: CSO \u2192 Claude"
     },
     {
@@ -522,7 +434,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v2 \u2014 CSO to Claude"
     },
     {
@@ -533,7 +445,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v3 \u2014 Quant to Claude"
     },
     {
@@ -566,7 +478,7 @@
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "LIVE acceptance v4 \u2014 Commander to Claude"
     },
     {
@@ -614,14 +526,14 @@
       "title": "LIVE acceptance \u2014 Commander to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T18:45:43+00:00",
       "mission_id": "msn-e6c1cd8b8c51",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE negative acceptance \u2014 Claude unavailable"
     },
     {
@@ -647,14 +559,14 @@
       "title": "ORB-C frozen forward-validation contract repair"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:20:31+00:00",
       "mission_id": "msn-e5a89af07879",
       "officer": "cso",
       "report_to": "CSO",
       "role": "QA",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Verify deployed event bridge acceptance"
     },
     {
@@ -669,58 +581,58 @@
       "title": "Validate Command Center health from host context"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:15:16+00:00",
       "mission_id": "msn-e50b52405963",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Restore Command Center health listener"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:13:38+00:00",
       "mission_id": "msn-99b932f542e0",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Validate Command Center health from host context"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:10:11+00:00",
       "mission_id": "msn-cf779fee57c1",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Diagnose unreachable Command Center health endpoint"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:08:05+00:00",
       "mission_id": "msn-87cd5837d770",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Inspect Command Center health"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:04:43+00:00",
       "mission_id": "msn-39f9cf6778a7",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Inspect Command Center health"
     },
     {
@@ -812,14 +724,14 @@
       "title": "ORB-C visual research indicator on TradingView (Steve-authorized)"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-02T20:18:28+00:00",
       "mission_id": "msn-f79f17c7df3f",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "CSO refreshed-schema acceptance receipt"
     },
     {
@@ -1587,7 +1499,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:18:16+00:00",
+  "updated_at": "2026-09-03T23:35:46+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

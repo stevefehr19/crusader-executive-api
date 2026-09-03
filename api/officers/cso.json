@@ -5,7 +5,7 @@
   ],
   "cas_freshness": {
     "age_minutes": 0.0,
-    "indexed_at": "2026-09-03T01:18:11+00:00",
+    "indexed_at": "2026-09-03T01:24:01+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -114,20 +114,31 @@
     }
   ],
   "commercial_conflict": [],
-  "content_sha256": "8894fa5c4463f34f42f2f5289d51f43f02c631bbdbfb3063b35984d1f4dfa4c4",
+  "content_sha256": "436db531f9934f12c313994d3c9d3a98f07b5ce3b0af0ec6c89a592d6d15260c",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-03T01:18:13+00:00",
+  "generated_at": "2026-09-03T01:24:03+00:00",
   "missions": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:20:31+00:00",
+      "mission_id": "msn-e5a89af07879",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "QA",
+      "status": "REPORTED",
+      "title": "Verify deployed event bridge acceptance"
+    },
+    {
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T01:17:26+00:00",
       "mission_id": "msn-345b02bbe3f8",
       "officer": "cso",
       "report_to": "CSO",
       "role": "QA",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "Validate Command Center health from host context"
     },
     {
@@ -282,7 +293,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-03T01:18:12+00:00",
+      "published_at": "2026-09-03T01:24:02+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -307,7 +318,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-03T01:18:12+00:00",
+      "published_at": "2026-09-03T01:24:02+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -332,7 +343,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-03T01:18:12+00:00",
+      "published_at": "2026-09-03T01:24:02+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -345,6 +356,6 @@
   ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T01:18:11+00:00",
+  "updated_at": "2026-09-03T01:24:01+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

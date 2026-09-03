@@ -44,7 +44,7 @@
   "freshness": {
     "cas": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-03T16:57:18+00:00",
+      "indexed_at": "2026-09-03T17:03:27+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -53,14 +53,14 @@
     "overall": "OK",
     "trading": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-03T16:57:18+00:00",
+      "indexed_at": "2026-09-03T17:03:27+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-03T16:57:20+00:00",
+  "generated_at": "2026-09-03T17:03:28+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",

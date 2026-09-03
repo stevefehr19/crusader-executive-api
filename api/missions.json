@@ -2,6 +2,28 @@
   "active": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T00:52:54+00:00",
+      "mission_id": "msn-38f5b3a5be5f",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Event dispatcher post-commit CAS report signal"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T00:52:13+00:00",
+      "mission_id": "msn-5e63331ebd2f",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Event dispatcher post-commit Trading report signal"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-03T00:42:36+00:00",
       "mission_id": "msn-b7413dd73efe",
@@ -19,7 +41,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Inspect Command Center health (read-only)"
     },
     {
@@ -90,23 +112,45 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "963ee6a1061c016f89bb7fcf6e500c9d12af0535eb6a899e40cb3cf3c3e17ebb",
-  "count": 75,
+  "content_sha256": "ae52119f5272c75708212043bbac2b4aacb4be48b441375f0093ade31cbf9fde",
+  "count": 77,
   "counts_by_business": {
-    "CAS": 42,
-    "TRADING": 33
+    "CAS": 43,
+    "TRADING": 34
   },
   "counts_by_status": {
     "ABANDONED": 29,
-    "CLAIMED": 1,
+    "CLAIMED": 2,
     "CLOSED": 25,
     "COMPLETE": 13,
     "OPEN": 5,
-    "REPORTED": 2
+    "REPORTED": 3
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T00:47:58+00:00",
+  "generated_at": "2026-09-03T00:53:46+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T00:52:54+00:00",
+      "mission_id": "msn-38f5b3a5be5f",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "Event dispatcher post-commit CAS report signal"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T00:52:13+00:00",
+      "mission_id": "msn-5e63331ebd2f",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Event dispatcher post-commit Trading report signal"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -126,7 +170,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Inspect Command Center health (read-only)"
     },
     {
@@ -938,7 +982,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T00:47:57+00:00",
+  "updated_at": "2026-09-03T00:53:44+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

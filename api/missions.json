@@ -3,6 +3,28 @@
     {
       "active": true,
       "business": "CAS",
+      "created_at": "2026-09-03T19:11:12+00:00",
+      "mission_id": "msn-5aebde6febee",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "CLAIMED",
+      "title": "LIVE acceptance v2 \u2014 CSO to Claude"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T19:10:51+00:00",
+      "mission_id": "msn-4920aadc0834",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "LIVE acceptance v3 \u2014 Quant to Claude"
+    },
+    {
+      "active": true,
+      "business": "CAS",
       "created_at": "2026-09-03T19:02:39+00:00",
       "mission_id": "msn-bfadce6db430",
       "officer": "cso",
@@ -266,23 +288,45 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "1b7845ccba0ddc66fcc9a22173272dec9c8d08e5e4bf79af9256173a088ae3b2",
-  "count": 95,
+  "content_sha256": "f7afc7e44d9a37c535a0fc2f1eb15055eec7a47c5f199ffc3c8a7bbf1ce79db3",
+  "count": 97,
   "counts_by_business": {
-    "CAS": 57,
-    "TRADING": 38
+    "CAS": 58,
+    "TRADING": 39
   },
   "counts_by_status": {
     "ABANDONED": 33,
-    "CLAIMED": 1,
+    "CLAIMED": 3,
     "CLOSED": 25,
     "COMPLETE": 13,
     "OPEN": 14,
     "REPORTED": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T19:06:46+00:00",
+  "generated_at": "2026-09-03T19:12:36+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T19:11:12+00:00",
+      "mission_id": "msn-5aebde6febee",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "CLAIMED",
+      "title": "LIVE acceptance v2 \u2014 CSO to Claude"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T19:10:51+00:00",
+      "mission_id": "msn-4920aadc0834",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "LIVE acceptance v3 \u2014 Quant to Claude"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -1334,7 +1378,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T19:06:45+00:00",
+  "updated_at": "2026-09-03T19:12:34+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

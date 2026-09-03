@@ -3,6 +3,17 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-03T23:15:43+00:00",
+      "mission_id": "msn-4eebf68357c7",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Install ORB-C through existing local TradingView MCP"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-03T23:12:10+00:00",
       "mission_id": "msn-72aacec94942",
       "officer": "trading-director",
@@ -85,7 +96,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -365,11 +376,11 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "d7ffc69e779f06ae3a6d6f3a63c6598865e45cab909b13e8d9e2fc9ac416ecf7",
-  "count": 107,
+  "content_sha256": "3718f69afe3eb37b1d7e21d99dfcf6efdb52516a74d347dcdb6d324945097b09",
+  "count": 108,
   "counts_by_business": {
     "CAS": 62,
-    "TRADING": 45
+    "TRADING": 46
   },
   "counts_by_status": {
     "ABANDONED": 34,
@@ -377,11 +388,22 @@
     "CLOSED": 27,
     "COMPLETE": 13,
     "OPEN": 21,
-    "REPORTED": 11
+    "REPORTED": 12
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T23:12:29+00:00",
+  "generated_at": "2026-09-03T23:18:18+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T23:15:43+00:00",
+      "mission_id": "msn-4eebf68357c7",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Install ORB-C through existing local TradingView MCP"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -489,7 +511,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -1565,7 +1587,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:12:27+00:00",
+  "updated_at": "2026-09-03T23:18:16+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

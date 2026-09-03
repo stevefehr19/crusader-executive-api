@@ -2,13 +2,24 @@
   "active": [
     {
       "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T23:12:10+00:00",
+      "mission_id": "msn-72aacec94942",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Acceptance C 20260903T231209Z: Quant \u2192 Claude (offline research)"
+    },
+    {
+      "active": true,
       "business": "CAS",
       "created_at": "2026-09-03T23:06:35+00:00",
       "mission_id": "msn-8acdefd25cfd",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Acceptance B 20260903T230027Z: CSO \u2192 Claude"
     },
     {
@@ -19,7 +30,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C visual research dossier with graphics"
     },
     {
@@ -74,7 +85,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -354,23 +365,34 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "1fef703f2c90a8a36bfbb8b76861687eeae8cc15ee66b11051a487262faa78e8",
-  "count": 106,
+  "content_sha256": "d7ffc69e779f06ae3a6d6f3a63c6598865e45cab909b13e8d9e2fc9ac416ecf7",
+  "count": 107,
   "counts_by_business": {
     "CAS": 62,
-    "TRADING": 44
+    "TRADING": 45
   },
   "counts_by_status": {
     "ABANDONED": 34,
-    "CLAIMED": 2,
+    "CLAIMED": 1,
     "CLOSED": 27,
     "COMPLETE": 13,
-    "OPEN": 19,
+    "OPEN": 21,
     "REPORTED": 11
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T23:06:40+00:00",
+  "generated_at": "2026-09-03T23:12:29+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T23:12:10+00:00",
+      "mission_id": "msn-72aacec94942",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Acceptance C 20260903T231209Z: Quant \u2192 Claude (offline research)"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -379,7 +401,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Acceptance B 20260903T230027Z: CSO \u2192 Claude"
     },
     {
@@ -401,7 +423,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "ORB-C visual research dossier with graphics"
     },
     {
@@ -467,7 +489,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
@@ -1543,7 +1565,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:06:38+00:00",
+  "updated_at": "2026-09-03T23:12:27+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

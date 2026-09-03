@@ -123,7 +123,7 @@
   ],
   "authority_conflicts": [],
   "business": "CAS",
-  "content_sha256": "e2bb3fa704295372240da3660d99d25cb7ae5d56a136e12792c390a5b0f2ef7a",
+  "content_sha256": "157a39bab7644751415994e5b9a5ab0ea8f0cb822c8a5f60ee49e3074ebbbcb9",
   "decisions_open": {
     "count": 0,
     "items": [],
@@ -133,15 +133,48 @@
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
     "age_minutes": 0.0,
-    "indexed_at": "2026-09-03T01:11:32+00:00",
+    "indexed_at": "2026-09-03T01:18:11+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-03T01:11:34+00:00",
+  "generated_at": "2026-09-03T01:18:13+00:00",
   "missions": {
     "active": [
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-09-03T01:17:26+00:00",
+        "mission_id": "msn-345b02bbe3f8",
+        "officer": "cso",
+        "report_to": "CSO",
+        "role": "QA",
+        "status": "OPEN",
+        "title": "Validate Command Center health from host context"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-09-03T01:15:16+00:00",
+        "mission_id": "msn-e50b52405963",
+        "officer": "cso",
+        "report_to": "CSO",
+        "role": "OPERATIONS",
+        "status": "REPORTED",
+        "title": "Restore Command Center health listener"
+      },
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-09-03T01:13:38+00:00",
+        "mission_id": "msn-99b932f542e0",
+        "officer": "cso",
+        "report_to": "CSO",
+        "role": "OPERATIONS",
+        "status": "REPORTED",
+        "title": "Validate Command Center health from host context"
+      },
       {
         "active": true,
         "business": "CAS",
@@ -150,7 +183,7 @@
         "officer": "cso",
         "report_to": "CSO",
         "role": "OPERATIONS",
-        "status": "OPEN",
+        "status": "REPORTED",
         "title": "Diagnose unreachable Command Center health endpoint"
       },
       {
@@ -191,7 +224,7 @@
       "ABANDONED": 17,
       "CLOSED": 25,
       "OPEN": 1,
-      "REPORTED": 3
+      "REPORTED": 6
     },
     "withheld": []
   },
@@ -217,7 +250,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-09-03T01:11:34+00:00",
+        "published_at": "2026-09-03T01:18:12+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -242,7 +275,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-09-03T01:11:34+00:00",
+        "published_at": "2026-09-03T01:18:12+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -267,7 +300,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-09-03T01:11:34+00:00",
+        "published_at": "2026-09-03T01:18:12+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -291,7 +324,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-09-03T01:11:34+00:00",
+        "published_at": "2026-09-03T01:18:12+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -304,6 +337,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T01:11:33+00:00",
+  "updated_at": "2026-09-03T01:18:11+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

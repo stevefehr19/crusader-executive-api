@@ -3,12 +3,45 @@
     {
       "active": true,
       "business": "CAS",
+      "created_at": "2026-09-03T01:17:26+00:00",
+      "mission_id": "msn-345b02bbe3f8",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "QA",
+      "status": "OPEN",
+      "title": "Validate Command Center health from host context"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:15:16+00:00",
+      "mission_id": "msn-e50b52405963",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "OPERATIONS",
+      "status": "REPORTED",
+      "title": "Restore Command Center health listener"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:13:38+00:00",
+      "mission_id": "msn-99b932f542e0",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "OPERATIONS",
+      "status": "REPORTED",
+      "title": "Validate Command Center health from host context"
+    },
+    {
+      "active": true,
+      "business": "CAS",
       "created_at": "2026-09-03T01:10:11+00:00",
       "mission_id": "msn-cf779fee57c1",
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Diagnose unreachable Command Center health endpoint"
     },
     {
@@ -123,10 +156,10 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "0c4b751bc33d78638bbbc1a7f474d67c2082c163d2020160fc88f57387192e00",
-  "count": 81,
+  "content_sha256": "01065ead8167d03087ee506cd78ab2dde2315a03d6934248fd80e1cc6214af3d",
+  "count": 84,
   "counts_by_business": {
-    "CAS": 46,
+    "CAS": 49,
     "TRADING": 35
   },
   "counts_by_status": {
@@ -135,11 +168,44 @@
     "CLOSED": 25,
     "COMPLETE": 13,
     "OPEN": 4,
-    "REPORTED": 5
+    "REPORTED": 8
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T01:11:34+00:00",
+  "generated_at": "2026-09-03T01:18:13+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:17:26+00:00",
+      "mission_id": "msn-345b02bbe3f8",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "QA",
+      "status": "OPEN",
+      "title": "Validate Command Center health from host context"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:15:16+00:00",
+      "mission_id": "msn-e50b52405963",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "OPERATIONS",
+      "status": "REPORTED",
+      "title": "Restore Command Center health listener"
+    },
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T01:13:38+00:00",
+      "mission_id": "msn-99b932f542e0",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "OPERATIONS",
+      "status": "REPORTED",
+      "title": "Validate Command Center health from host context"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -148,7 +214,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "OPERATIONS",
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Diagnose unreachable Command Center health endpoint"
     },
     {
@@ -1037,7 +1103,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T01:11:33+00:00",
+  "updated_at": "2026-09-03T01:18:11+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

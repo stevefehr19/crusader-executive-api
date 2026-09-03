@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "bd031562f9f0035cdc94332ad78b420a50f6a3249fd5402126a069277ca53d7a",
+  "content_sha256": "201555ce173f0526954515248e6c150db7bda979c7d75353949d8a640c380cfb",
   "count": 12,
   "endpoints": [
     {
@@ -18,8 +18,8 @@
       "name": "cas-current-state",
       "path": "/api/cas/current-state.json",
       "purpose": "CAS authority, missions, open decisions and published reports.",
-      "sha256": "00c39e6fd6f493ed046b9a65dc7d741a0ba166758de69a9c7a747e2365e0a48d",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "49c318cfcfb7948f7bf1bcc920d75affe3a1e4bc231083e5564692e87ff9bf7c",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
     },
     {
@@ -36,8 +36,8 @@
       "name": "global-status",
       "path": "/api/global-status.json",
       "purpose": "Headline state of both businesses, index freshness and blockers.",
-      "sha256": "3ed67759a8debe13a19ad0d1a250dcab3554cc68dd3d69cb53ca5fba7c205e37",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "e231a5bb1fab9683751592115119589ac2fbd807528e35e6ad75ecdf40ed6f64",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
     },
     {
@@ -45,8 +45,8 @@
       "name": "missions",
       "path": "/api/missions.json",
       "purpose": "Every indexed mission, with active set and status counts.",
-      "sha256": "eb0d20b8c16633accbb377d7c0d98cb3d69b4684628a2e6960cc27fdf37d54c7",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "1fef703f2c90a8a36bfbb8b76861687eeae8cc15ee66b11051a487262faa78e8",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json"
     },
     {
@@ -54,8 +54,8 @@
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "a56a25be184ee188ab83ffc21b70bb7c53462c27502ad4c4a46effe482861b64",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "b6b815cef5a1bb2da77b97a23fc38e40adc72fced723e4dcde5d5175b430d16e",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -63,8 +63,8 @@
       "name": "officer-cso",
       "path": "/api/officers/cso.json",
       "purpose": "Executive feed for GPT Chief Strategy Officer.",
-      "sha256": "4e954e9506b4a69bbfb2479ef721f099588b7d1019748699ede7c2e15adef16a",
-      "updated_at": "2026-09-03T20:59:40+00:00",
+      "sha256": "4e12fd468abf8db57632633cc7b17bb65ca9d0d332c8968052db44e7dfd99704",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
     },
     {
@@ -72,8 +72,8 @@
       "name": "officer-trading-director",
       "path": "/api/officers/trading-director.json",
       "purpose": "Executive feed for GPT Trading Director / Quant Architect.",
-      "sha256": "84fcd92817faae69ceb8cf195a495d52843a91ef8e85538c69e17f1df59ad12f",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "916a7ca8c33eca674cfc0a64a28446170f2f24db48fde46b83e0fa529dc0c8cb",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
     },
     {
@@ -99,8 +99,8 @@
       "name": "trading-current-state",
       "path": "/api/trading/current-state.json",
       "purpose": "Trading authority, hard gates, research state and published reports.",
-      "sha256": "2bce5bdec53f9f7e30e2c7d49296959115b8af0e52d1da836bf4e65ce2ff0761",
-      "updated_at": "2026-09-03T23:00:29+00:00",
+      "sha256": "85ad335882cd5b736cb503a5266ffe10bf787d718ce5d38ba7ae744fb24bcb64",
+      "updated_at": "2026-09-03T23:06:38+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-09-03T23:00:31+00:00",
+  "generated_at": "2026-09-03T23:06:40+00:00",
   "methods": [
     "GET"
   ],

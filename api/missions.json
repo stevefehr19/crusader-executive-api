@@ -8,7 +8,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C validation harness conformance to frozen forward contract (Addendum 3 C1-C4)"
     },
     {
@@ -173,7 +173,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C frozen forward-validation contract repair"
     },
     {
@@ -272,7 +272,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C post-replication adversarial review and prospective gate repair"
     },
     {
@@ -332,7 +332,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "095d477993345c74ed20fe4e149372ef2f740052554896ee906182fbf076e010",
+  "content_sha256": "8b991c7ee96c980699e20563afc5e7a84c8d8475a63e81bdda93023f4b219baa",
   "count": 102,
   "counts_by_business": {
     "CAS": 60,
@@ -340,14 +340,14 @@
   },
   "counts_by_status": {
     "ABANDONED": 33,
-    "CLAIMED": 4,
+    "CLAIMED": 1,
     "CLOSED": 26,
     "COMPLETE": 13,
-    "OPEN": 17,
+    "OPEN": 20,
     "REPORTED": 9
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T21:35:40+00:00",
+  "generated_at": "2026-09-03T21:48:24+00:00",
   "missions": [
     {
       "active": true,
@@ -357,7 +357,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C validation harness conformance to frozen forward contract (Addendum 3 C1-C4)"
     },
     {
@@ -533,7 +533,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C frozen forward-validation contract repair"
     },
     {
@@ -676,7 +676,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "ORB-C post-replication adversarial review and prospective gate repair"
     },
     {
@@ -1477,7 +1477,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T21:35:39+00:00",
+  "updated_at": "2026-09-03T21:48:21+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

@@ -187,7 +187,7 @@
   "content_sha256": "656d3985eb2f1257da3b3c2cdc7f51272e3349b0c687e206b444ff811a49a6eb",
   "count": 18,
   "endpoint": "/api/trading/authority.json",
-  "generated_at": "2026-09-03T21:12:01+00:00",
+  "generated_at": "2026-09-03T21:17:50+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [

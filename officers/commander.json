@@ -1,5 +1,5 @@
 {
-  "built": "2026-09-03T14:41:47+00:00",
+  "built": "2026-09-03T14:47:35+00:00",
   "count": 4,
   "officer": "COMMANDER",
   "reports": [
@@ -17,7 +17,7 @@
       "operational": true,
       "public_url": "/cas/rpt-cbcda8d18af0.html",
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-03T14:41:47+00:00",
+      "published_at": "2026-09-03T14:47:35+00:00",
       "recipient": [
         "COMMANDER",
         "CSO"
@@ -58,7 +58,7 @@
       "operational": true,
       "public_url": "/cas/rpt-5b2c633579b2.html",
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-03T14:41:47+00:00",
+      "published_at": "2026-09-03T14:47:35+00:00",
       "recipient": [
         "COMMANDER",
         "CSO"
@@ -105,7 +105,7 @@
       "operational": false,
       "public_url": "/cas/rpt-9d3161c43e6e.html",
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-03T14:41:47+00:00",
+      "published_at": "2026-09-03T14:47:35+00:00",
       "recipient": [
         "COMMANDER",
         "CSO"
@@ -140,7 +140,7 @@
       "operational": false,
       "public_url": "/cas/rpt-ca5e3895becc.html",
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-03T14:41:47+00:00",
+      "published_at": "2026-09-03T14:47:35+00:00",
       "recipient": [
         "COMMANDER"
       ],

@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.0,
-    "indexed_at": "2026-09-03T18:42:01+00:00",
+    "age_minutes": 0.4,
+    "indexed_at": "2026-09-03T18:48:09+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -114,11 +114,22 @@
     }
   ],
   "commercial_conflict": [],
-  "content_sha256": "02ffff126e177dd76ff0b9ec47fcb4a483a08f83b05ba58042e8bf9e7a336e04",
+  "content_sha256": "2cd9801ada9be61266538c9c5590e9544c2eba15e0f3d3b45f882fc6a15af19e",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-03T18:42:02+00:00",
+  "generated_at": "2026-09-03T18:48:29+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-03T18:45:43+00:00",
+      "mission_id": "msn-e6c1cd8b8c51",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "OPEN",
+      "title": "LIVE negative acceptance \u2014 Claude unavailable"
+    },
     {
       "active": true,
       "business": "CAS",
@@ -304,7 +315,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-03T18:42:02+00:00",
+      "published_at": "2026-09-03T18:48:10+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -329,7 +340,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-03T18:42:02+00:00",
+      "published_at": "2026-09-03T18:48:10+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -354,7 +365,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-03T18:42:02+00:00",
+      "published_at": "2026-09-03T18:48:10+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -367,6 +378,6 @@
   ],
   "scope": "CAS only \u2014 Product Authority, Pricing Authority, commercial architecture",
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T17:57:05+00:00",
+  "updated_at": "2026-09-03T18:48:10+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/cso.json"
 }

@@ -184,7 +184,7 @@
   "authority_conflicts": [],
   "banner": "Trading is RESEARCH ONLY. LIVE_TRADING and PAPER_TRADING are NOT_AUTHORIZED and FORWARD_ALERT is PROTECTED_STEVE_ONLY. Nothing on this surface can change that.",
   "business": "TRADING",
-  "content_sha256": "c924412348f1e24effc25b29cdddf8e848d3d9c99095e1c39ce6e6270433a806",
+  "content_sha256": "90160afe330d56e045a79595f0735e28a214bd7b1e50fca4463f83bcfda3d059",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -256,14 +256,14 @@
   "documents_indexed": 607,
   "endpoint": "/api/trading/current-state.json",
   "freshness": {
-    "age_minutes": 0.0,
-    "indexed_at": "2026-09-04T00:05:21+00:00",
+    "age_minutes": 0.1,
+    "indexed_at": "2026-09-04T00:11:12+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-04T00:05:23+00:00",
+  "generated_at": "2026-09-04T00:11:15+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -345,7 +345,7 @@
         "officer": "trading-director",
         "report_to": "TRADING_QUANT_ARCHITECT",
         "role": null,
-        "status": "OPEN",
+        "status": "CLAIMED",
         "title": "Recover stuck ORB-C worker and execute TradingView install"
       },
       {
@@ -356,7 +356,7 @@
         "officer": "trading-director",
         "report_to": "TRADING_QUANT_ARCHITECT",
         "role": null,
-        "status": "CLAIMED",
+        "status": "OPEN",
         "title": "Install ORB-C through existing local TradingView MCP"
       },
       {
@@ -380,17 +380,6 @@
         "role": null,
         "status": "REPORTED",
         "title": "ORB-C visual research dossier with graphics"
-      },
-      {
-        "active": true,
-        "business": "TRADING",
-        "created_at": "2026-09-03T22:44:08+00:00",
-        "mission_id": "msn-c44509d17380",
-        "officer": "trading-director",
-        "report_to": "TRADING_QUANT_ARCHITECT",
-        "role": null,
-        "status": "OPEN",
-        "title": "Diagnose and reconcile stale ORB-C TradingView controller"
       },
       {
         "active": true,
@@ -488,7 +477,7 @@
         "officer": "trading-director",
         "report_to": "TRADING_QUANT_ARCHITECT",
         "role": null,
-        "status": "OPEN",
+        "status": "REPORTED",
         "title": "Event dispatcher post-commit Trading report signal"
       },
       {
@@ -537,11 +526,11 @@
       }
     ],
     "counts": {
-      "ABANDONED": 16,
+      "ABANDONED": 18,
       "CLAIMED": 1,
       "COMPLETE": 13,
-      "OPEN": 8,
-      "REPORTED": 9
+      "OPEN": 6,
+      "REPORTED": 10
     },
     "withheld": []
   },
@@ -566,7 +555,7 @@
           "trading-director"
         ],
         "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-        "published_at": "2026-09-04T00:05:22+00:00",
+        "published_at": "2026-09-04T00:11:13+00:00",
         "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
         "repository": "AI Trading",
         "review_state": null,
@@ -590,7 +579,7 @@
           "trading-director"
         ],
         "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-        "published_at": "2026-09-04T00:05:22+00:00",
+        "published_at": "2026-09-04T00:11:13+00:00",
         "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
         "repository": null,
         "review_state": null,
@@ -603,6 +592,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T00:05:21+00:00",
+  "updated_at": "2026-09-04T00:11:13+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
 }

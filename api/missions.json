@@ -8,7 +8,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "Recover stuck ORB-C worker and execute TradingView install"
     },
     {
@@ -19,7 +19,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Install ORB-C through existing local TradingView MCP"
     },
     {
@@ -54,17 +54,6 @@
       "role": null,
       "status": "REPORTED",
       "title": "ORB-C visual research dossier with graphics"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T22:44:08+00:00",
-      "mission_id": "msn-c44509d17380",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "Diagnose and reconcile stale ORB-C TradingView controller"
     },
     {
       "active": true,
@@ -250,7 +239,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Event dispatcher post-commit Trading report signal"
     },
     {
@@ -299,23 +288,34 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "6ab286fbc9e94e70ff5fb486146799593fb7163166a8f890bf35cb79c219ab1f",
-  "count": 109,
+  "content_sha256": "d2c28822b58366c6006bd2ae40b194867a5b8948040334a5a4fcd24e476c74dd",
+  "count": 110,
   "counts_by_business": {
     "CAS": 62,
-    "TRADING": 47
+    "TRADING": 48
   },
   "counts_by_status": {
-    "ABANDONED": 42,
+    "ABANDONED": 44,
     "CLAIMED": 1,
     "CLOSED": 27,
     "COMPLETE": 13,
-    "OPEN": 13,
-    "REPORTED": 13
+    "OPEN": 11,
+    "REPORTED": 14
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-04T00:05:23+00:00",
+  "generated_at": "2026-09-04T00:11:15+00:00",
   "missions": [
+    {
+      "active": false,
+      "business": "TRADING",
+      "created_at": "2026-09-04T00:08:22+00:00",
+      "mission_id": "msn-e5021b656e2e",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "ABANDONED",
+      "title": "Execute ORB-C directly through local TradingView MCP"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -324,7 +324,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "CLAIMED",
       "title": "Recover stuck ORB-C worker and execute TradingView install"
     },
     {
@@ -335,7 +335,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Install ORB-C through existing local TradingView MCP"
     },
     {
@@ -383,14 +383,14 @@
       "title": "ORB-C visual research dossier with graphics"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T22:44:08+00:00",
       "mission_id": "msn-c44509d17380",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "Diagnose and reconcile stale ORB-C TradingView controller"
     },
     {
@@ -687,7 +687,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Event dispatcher post-commit Trading report signal"
     },
     {
@@ -1521,7 +1521,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T00:05:21+00:00",
+  "updated_at": "2026-09-04T00:11:13+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

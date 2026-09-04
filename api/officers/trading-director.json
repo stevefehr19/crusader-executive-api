@@ -4,7 +4,7 @@
   "businesses_in_scope": [
     "TRADING"
   ],
-  "content_sha256": "cd371b37f0d9d06f86e8b450062a8756ceeee5135414992b45d6ca42690d2825",
+  "content_sha256": "93403232ce121f4a54d3d868d845e2fc6e57c592c23bef2ad88e176540d9b72e",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -94,7 +94,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-09-03T23:59:31+00:00",
+  "generated_at": "2026-09-04T00:05:23+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -170,6 +170,17 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-03T23:59:43+00:00",
+      "mission_id": "msn-1f5fe713e5d4",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Recover stuck ORB-C worker and execute TradingView install"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-03T23:15:43+00:00",
       "mission_id": "msn-4eebf68357c7",
       "officer": "trading-director",
@@ -197,7 +208,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "ORB-C visual research dossier with graphics"
     },
     {
@@ -694,7 +705,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-03T23:59:30+00:00",
+      "published_at": "2026-09-04T00:05:22+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -718,7 +729,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-03T23:59:30+00:00",
+      "published_at": "2026-09-04T00:05:22+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -914,13 +925,13 @@
     }
   ],
   "trading_freshness": {
-    "age_minutes": 0.1,
-    "indexed_at": "2026-09-03T23:59:27+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-09-04T00:05:21+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "updated_at": "2026-09-03T23:53:36+00:00",
+  "updated_at": "2026-09-04T00:05:21+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
 }

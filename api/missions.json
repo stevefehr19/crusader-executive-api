@@ -3,6 +3,17 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-03T23:59:43+00:00",
+      "mission_id": "msn-1f5fe713e5d4",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Recover stuck ORB-C worker and execute TradingView install"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-03T23:15:43+00:00",
       "mission_id": "msn-4eebf68357c7",
       "officer": "trading-director",
@@ -41,7 +52,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "ORB-C visual research dossier with graphics"
     },
     {
@@ -288,11 +299,11 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "7fa863b2ae88697c59e705252ecc4cfa20c226b14869e9fc565cf678fa9cd5dd",
-  "count": 108,
+  "content_sha256": "6ab286fbc9e94e70ff5fb486146799593fb7163166a8f890bf35cb79c219ab1f",
+  "count": 109,
   "counts_by_business": {
     "CAS": 62,
-    "TRADING": 46
+    "TRADING": 47
   },
   "counts_by_status": {
     "ABANDONED": 42,
@@ -300,11 +311,22 @@
     "CLOSED": 27,
     "COMPLETE": 13,
     "OPEN": 13,
-    "REPORTED": 12
+    "REPORTED": 13
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-03T23:59:31+00:00",
+  "generated_at": "2026-09-04T00:05:23+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-03T23:59:43+00:00",
+      "mission_id": "msn-1f5fe713e5d4",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Recover stuck ORB-C worker and execute TradingView install"
+    },
     {
       "active": true,
       "business": "TRADING",
@@ -357,7 +379,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "ORB-C visual research dossier with graphics"
     },
     {
@@ -1499,7 +1521,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:53:36+00:00",
+  "updated_at": "2026-09-04T00:05:21+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

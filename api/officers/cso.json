@@ -4,8 +4,8 @@
     "CAS"
   ],
   "cas_freshness": {
-    "age_minutes": 0.1,
-    "indexed_at": "2026-09-04T01:28:06+00:00",
+    "age_minutes": 0.0,
+    "indexed_at": "2026-09-04T01:33:58+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
@@ -117,7 +117,7 @@
   "content_sha256": "9ca1c43172b78e019c734a8c475c0435d340c9a7f06a77ad011c82d2e8e55f75",
   "decisions": [],
   "endpoint": "/api/officers/cso.json",
-  "generated_at": "2026-09-04T01:28:11+00:00",
+  "generated_at": "2026-09-04T01:34:00+00:00",
   "missions": [
     {
       "active": false,
@@ -392,7 +392,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-04T01:28:10+00:00",
+      "published_at": "2026-09-04T01:33:59+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -417,7 +417,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-04T01:28:10+00:00",
+      "published_at": "2026-09-04T01:33:59+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -442,7 +442,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-04T01:28:10+00:00",
+      "published_at": "2026-09-04T01:33:59+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",

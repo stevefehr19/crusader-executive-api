@@ -8,7 +8,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "REPORTED",
       "title": "Recover pre-rebuild CAS chatbot and AI receptionist integration"
     },
     {
@@ -310,7 +310,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "e5431e3f3cb5a895fd028586a0e770c09b052d4a6dc77a91549da6cf614e21b1",
+  "content_sha256": "faa71d499297bd913c50aba40b8bcbc5b6b32188937877d6027595b79dcaa446",
   "count": 112,
   "counts_by_business": {
     "CAS": 63,
@@ -318,14 +318,14 @@
   },
   "counts_by_status": {
     "ABANDONED": 44,
-    "CLAIMED": 2,
+    "CLAIMED": 1,
     "CLOSED": 27,
     "COMPLETE": 13,
     "OPEN": 10,
-    "REPORTED": 16
+    "REPORTED": 17
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-04T00:22:59+00:00",
+  "generated_at": "2026-09-04T00:28:51+00:00",
   "missions": [
     {
       "active": true,
@@ -335,7 +335,7 @@
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "CLAIMED",
+      "status": "REPORTED",
       "title": "Recover pre-rebuild CAS chatbot and AI receptionist integration"
     },
     {
@@ -1565,7 +1565,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T00:18:22+00:00",
+  "updated_at": "2026-09-04T00:28:49+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

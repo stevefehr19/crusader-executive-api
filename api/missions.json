@@ -2,13 +2,35 @@
   "active": [
     {
       "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-04T00:14:36+00:00",
+      "mission_id": "msn-ef724423e7db",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "CLAIMED",
+      "title": "Recover pre-rebuild CAS chatbot and AI receptionist integration"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T00:12:23+00:00",
+      "mission_id": "msn-cf0f825f97e8",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Authorized TradingView relaunch and ORB-C changeover"
+    },
+    {
+      "active": true,
       "business": "TRADING",
       "created_at": "2026-09-03T23:59:43+00:00",
       "mission_id": "msn-1f5fe713e5d4",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Recover stuck ORB-C worker and execute TradingView install"
     },
     {
@@ -19,7 +41,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Install ORB-C through existing local TradingView MCP"
     },
     {
@@ -288,23 +310,45 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "d2c28822b58366c6006bd2ae40b194867a5b8948040334a5a4fcd24e476c74dd",
-  "count": 110,
+  "content_sha256": "6f5125483d6a54ac443945bcf874d02c65c4ed0e3ad602c6101b00a8160d829f",
+  "count": 112,
   "counts_by_business": {
-    "CAS": 62,
-    "TRADING": 48
+    "CAS": 63,
+    "TRADING": 49
   },
   "counts_by_status": {
     "ABANDONED": 44,
-    "CLAIMED": 1,
+    "CLAIMED": 2,
     "CLOSED": 27,
     "COMPLETE": 13,
     "OPEN": 11,
-    "REPORTED": 14
+    "REPORTED": 15
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-04T00:11:15+00:00",
+  "generated_at": "2026-09-04T00:17:07+00:00",
   "missions": [
+    {
+      "active": true,
+      "business": "CAS",
+      "created_at": "2026-09-04T00:14:36+00:00",
+      "mission_id": "msn-ef724423e7db",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "CLAIMED",
+      "title": "Recover pre-rebuild CAS chatbot and AI receptionist integration"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T00:12:23+00:00",
+      "mission_id": "msn-cf0f825f97e8",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "CLAIMED",
+      "title": "Authorized TradingView relaunch and ORB-C changeover"
+    },
     {
       "active": false,
       "business": "TRADING",
@@ -324,7 +368,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "OPEN",
       "title": "Recover stuck ORB-C worker and execute TradingView install"
     },
     {
@@ -335,7 +379,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "REPORTED",
       "title": "Install ORB-C through existing local TradingView MCP"
     },
     {
@@ -1521,7 +1565,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T00:11:13+00:00",
+  "updated_at": "2026-09-04T00:17:03+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

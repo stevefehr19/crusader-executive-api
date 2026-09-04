@@ -123,7 +123,7 @@
   ],
   "authority_conflicts": [],
   "business": "CAS",
-  "content_sha256": "ac07a947a7b925aafdd7286d315a12155a9b98ded2d39857bd5172e4bae244c7",
+  "content_sha256": "ab63e2d883d481e951bc519112f9ac6262db556c9fbc036462546c5924032e22",
   "decisions_open": {
     "count": 0,
     "items": [],
@@ -133,15 +133,26 @@
   "endpoint": "/api/cas/current-state.json",
   "freshness": {
     "age_minutes": 0.1,
-    "indexed_at": "2026-09-04T00:11:12+00:00",
+    "indexed_at": "2026-09-04T00:17:03+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "generated_at": "2026-09-04T00:11:15+00:00",
+  "generated_at": "2026-09-04T00:17:07+00:00",
   "missions": {
     "active": [
+      {
+        "active": true,
+        "business": "CAS",
+        "created_at": "2026-09-04T00:14:36+00:00",
+        "mission_id": "msn-ef724423e7db",
+        "officer": "cso",
+        "report_to": "CSO",
+        "role": "BUILDER",
+        "status": "CLAIMED",
+        "title": "Recover pre-rebuild CAS chatbot and AI receptionist integration"
+      },
       {
         "active": true,
         "business": "CAS",
@@ -244,6 +255,7 @@
     ],
     "counts": {
       "ABANDONED": 26,
+      "CLAIMED": 1,
       "CLOSED": 27,
       "OPEN": 5,
       "REPORTED": 4
@@ -272,7 +284,7 @@
           "cso"
         ],
         "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-        "published_at": "2026-09-04T00:11:13+00:00",
+        "published_at": "2026-09-04T00:17:05+00:00",
         "report_id": "rpt-cbcda8d18af0",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -297,7 +309,7 @@
           "cso"
         ],
         "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-        "published_at": "2026-09-04T00:11:13+00:00",
+        "published_at": "2026-09-04T00:17:05+00:00",
         "report_id": "rpt-5b2c633579b2",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -322,7 +334,7 @@
           "cso"
         ],
         "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-        "published_at": "2026-09-04T00:11:13+00:00",
+        "published_at": "2026-09-04T00:17:05+00:00",
         "report_id": "rpt-9d3161c43e6e",
         "repository": "AI Business",
         "review_state": "UNREVIEWED",
@@ -346,7 +358,7 @@
           "commander"
         ],
         "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-        "published_at": "2026-09-04T00:11:13+00:00",
+        "published_at": "2026-09-04T00:17:05+00:00",
         "report_id": "rpt-ca5e3895becc",
         "repository": null,
         "review_state": "UNREVIEWED",
@@ -359,6 +371,6 @@
     ]
   },
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-03T23:35:46+00:00",
+  "updated_at": "2026-09-04T00:17:03+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/cas/current-state.json"
 }

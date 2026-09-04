@@ -30,7 +30,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "REPORTED",
       "title": "Authorized TradingView relaunch and ORB-C changeover"
     },
     {
@@ -321,7 +321,7 @@
     }
   ],
   "business": "BOTH",
-  "content_sha256": "2f39d647bec94e9a0696c080688a10e13dc8a52e8aa1270a6a7cf6667df0c4ec",
+  "content_sha256": "11aaa0f6faff7f87f9fc2b017e4f3e6c020ba0cda755d5e1e8841bd7661609ee",
   "count": 113,
   "counts_by_business": {
     "CAS": 64,
@@ -329,14 +329,13 @@
   },
   "counts_by_status": {
     "ABANDONED": 44,
-    "CLAIMED": 1,
     "CLOSED": 27,
     "COMPLETE": 13,
     "OPEN": 11,
-    "REPORTED": 17
+    "REPORTED": 18
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-04T00:34:40+00:00",
+  "generated_at": "2026-09-04T00:40:30+00:00",
   "missions": [
     {
       "active": true,
@@ -368,7 +367,7 @@
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "CLAIMED",
+      "status": "REPORTED",
       "title": "Authorized TradingView relaunch and ORB-C changeover"
     },
     {
@@ -1587,7 +1586,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T00:34:38+00:00",
+  "updated_at": "2026-09-04T00:40:28+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

@@ -146,28 +146,6 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-09-03T19:02:39+00:00",
-      "mission_id": "msn-bfadce6db430",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 CSO to Claude"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T19:01:07+00:00",
-      "mission_id": "msn-c92d77af3ec6",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "LIVE acceptance v2 \u2014 Quant to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
       "created_at": "2026-09-03T18:59:49+00:00",
       "mission_id": "msn-719f89801aaa",
       "officer": "commander",
@@ -175,72 +153,6 @@
       "role": "BUILDER",
       "status": "REPORTED",
       "title": "LIVE acceptance v4 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T18:55:51+00:00",
-      "mission_id": "msn-442e7aba914a",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 Quant to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:54:20+00:00",
-      "mission_id": "msn-fc4466982d6b",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance v3 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:52:06+00:00",
-      "mission_id": "msn-ca9bd8733df3",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance v2 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:47:08+00:00",
-      "mission_id": "msn-453820df59a8",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T17:51:32+00:00",
-      "mission_id": "msn-87fc611d5a2e",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "CAS cinematic site \u2014 System and How It Moves copy options"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T17:50:45+00:00",
-      "mission_id": "msn-fd15a4aada51",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "ORB-C frozen forward-validation contract repair"
     },
     {
       "active": true,
@@ -278,17 +190,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-09-02T22:32:29+00:00",
-      "mission_id": "msn-6df102a1ff49",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "NQ opening-gap causal edge discovery - Gen 1 (offline)"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-09-02T20:03:55+00:00",
       "mission_id": "msn-a6876351e161",
       "officer": "trading-director",
@@ -296,17 +197,6 @@
       "role": null,
       "status": "REPORTED",
       "title": "Trading refreshed-schema acceptance receipt"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-01T23:15:33+00:00",
-      "mission_id": "msn-60c3c248fcde",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     }
   ],
   "blockers": [
@@ -337,18 +227,17 @@
     "documents_indexed": 1662,
     "freshness": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-04T01:16:24+00:00",
+      "indexed_at": "2026-09-04T01:22:15+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     },
     "missions": {
-      "active_count": 10,
+      "active_count": 5,
       "counts": {
-        "ABANDONED": 27,
+        "ABANDONED": 33,
         "CLOSED": 27,
-        "OPEN": 5,
         "REPORTED": 5
       }
     },
@@ -356,7 +245,7 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 4
   },
-  "content_sha256": "fd94fc54f4db8094f9ec22e28cf725480489db8d52d4e032cbd5afe0f99010e5",
+  "content_sha256": "4960423b8ce315884395da590f4894382976a4748559f51251842cb0c1fc8be5",
   "decisions_open": [
     {
       "business": "TRADING",
@@ -380,7 +269,7 @@
     }
   ],
   "endpoint": "/api/officers/commander.json",
-  "generated_at": "2026-09-04T01:16:26+00:00",
+  "generated_at": "2026-09-04T01:22:16+00:00",
   "global_status": {
     "authority_source": "local Crusader control planes via the Command Center index",
     "blockers": [
@@ -402,13 +291,13 @@
         "authority_conflicts": 0,
         "decisions_open": 0,
         "documents_indexed": 1662,
-        "missions_active": 10,
+        "missions_active": 5,
         "reports_published": 4
       },
       "TRADING": {
         "authority_conflicts": 0,
         "decisions_open": 2,
-        "documents_indexed": 607,
+        "documents_indexed": 609,
         "hard_gates": {
           "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
           "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -416,7 +305,7 @@
           "PROP_FIRM_RULES": "BLOCKING_UNSET",
           "RISK": "BLOCKING_UNSET"
         },
-        "missions_active": 18,
+        "missions_active": 13,
         "reports_published": 2
       }
     },
@@ -424,7 +313,7 @@
     "freshness": {
       "cas": {
         "age_minutes": 0.0,
-        "indexed_at": "2026-09-04T01:16:24+00:00",
+        "indexed_at": "2026-09-04T01:22:15+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -433,7 +322,7 @@
       "overall": "OK",
       "trading": {
         "age_minutes": 0.0,
-        "indexed_at": "2026-09-04T01:16:24+00:00",
+        "indexed_at": "2026-09-04T01:22:15+00:00",
         "meaning": "index is current",
         "source_changed_since_index": false,
         "stale_after_minutes": 30,
@@ -464,7 +353,7 @@
         "cso"
       ],
       "publication_sha256": "ede978e4c7753dda777f23c5c4db1b8b44f3459e1e0b8443958c6d01622616f1",
-      "published_at": "2026-09-04T01:16:25+00:00",
+      "published_at": "2026-09-04T01:22:15+00:00",
       "report_id": "rpt-cbcda8d18af0",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -489,7 +378,7 @@
         "cso"
       ],
       "publication_sha256": "7297432e06aac5894dd9e8f84a4435e38f1915f2f3ba1b22efab05970999a9ca",
-      "published_at": "2026-09-04T01:16:25+00:00",
+      "published_at": "2026-09-04T01:22:15+00:00",
       "report_id": "rpt-5b2c633579b2",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -514,7 +403,7 @@
         "cso"
       ],
       "publication_sha256": "ffca7e0b6dc3afbd8cf156af30b27469de848d71753aac36b06e50f7d4a6bd0d",
-      "published_at": "2026-09-04T01:16:25+00:00",
+      "published_at": "2026-09-04T01:22:15+00:00",
       "report_id": "rpt-9d3161c43e6e",
       "repository": "AI Business",
       "review_state": "UNREVIEWED",
@@ -538,7 +427,7 @@
         "commander"
       ],
       "publication_sha256": "a013d9470d40564918b4744f758b4ff940d0ef5c5e5bd3e51271d431a838d534",
-      "published_at": "2026-09-04T01:16:25+00:00",
+      "published_at": "2026-09-04T01:22:15+00:00",
       "report_id": "rpt-ca5e3895becc",
       "repository": null,
       "review_state": "UNREVIEWED",
@@ -558,10 +447,10 @@
     "business": "TRADING",
     "decisions_open_count": 2,
     "detail_url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json",
-    "documents_indexed": 607,
+    "documents_indexed": 609,
     "freshness": {
       "age_minutes": 0.0,
-      "indexed_at": "2026-09-04T01:16:24+00:00",
+      "indexed_at": "2026-09-04T01:22:15+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -639,11 +528,10 @@
       }
     },
     "missions": {
-      "active_count": 18,
+      "active_count": 13,
       "counts": {
-        "ABANDONED": 18,
+        "ABANDONED": 23,
         "COMPLETE": 13,
-        "OPEN": 5,
         "REPORTED": 13
       }
     },
@@ -651,6 +539,6 @@
     "note": "Summary. The full authority, mission, decision and report lists for this business are at detail_url; the Commander's own cross-business lists are at the top level of this document.",
     "reports_published_count": 2
   },
-  "updated_at": "2026-09-04T01:16:24+00:00",
+  "updated_at": "2026-09-04T01:22:11+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
 }

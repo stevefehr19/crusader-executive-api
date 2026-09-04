@@ -146,28 +146,6 @@
     {
       "active": true,
       "business": "CAS",
-      "created_at": "2026-09-03T19:02:39+00:00",
-      "mission_id": "msn-bfadce6db430",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 CSO to Claude"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T19:01:07+00:00",
-      "mission_id": "msn-c92d77af3ec6",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "LIVE acceptance v2 \u2014 Quant to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
       "created_at": "2026-09-03T18:59:49+00:00",
       "mission_id": "msn-719f89801aaa",
       "officer": "commander",
@@ -175,72 +153,6 @@
       "role": "BUILDER",
       "status": "REPORTED",
       "title": "LIVE acceptance v4 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T18:55:51+00:00",
-      "mission_id": "msn-442e7aba914a",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 Quant to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:54:20+00:00",
-      "mission_id": "msn-fc4466982d6b",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance v3 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:52:06+00:00",
-      "mission_id": "msn-ca9bd8733df3",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance v2 \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T18:47:08+00:00",
-      "mission_id": "msn-453820df59a8",
-      "officer": "commander",
-      "report_to": "COMMANDER",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "LIVE acceptance \u2014 Commander to Claude"
-    },
-    {
-      "active": true,
-      "business": "CAS",
-      "created_at": "2026-09-03T17:51:32+00:00",
-      "mission_id": "msn-87fc611d5a2e",
-      "officer": "cso",
-      "report_to": "CSO",
-      "role": "BUILDER",
-      "status": "OPEN",
-      "title": "CAS cinematic site \u2014 System and How It Moves copy options"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-03T17:50:45+00:00",
-      "mission_id": "msn-fd15a4aada51",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "ORB-C frozen forward-validation contract repair"
     },
     {
       "active": true,
@@ -278,17 +190,6 @@
     {
       "active": true,
       "business": "TRADING",
-      "created_at": "2026-09-02T22:32:29+00:00",
-      "mission_id": "msn-6df102a1ff49",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "NQ opening-gap causal edge discovery - Gen 1 (offline)"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
       "created_at": "2026-09-02T20:03:55+00:00",
       "mission_id": "msn-a6876351e161",
       "officer": "trading-director",
@@ -296,36 +197,35 @@
       "role": null,
       "status": "REPORTED",
       "title": "Trading refreshed-schema acceptance receipt"
-    },
-    {
-      "active": true,
-      "business": "TRADING",
-      "created_at": "2026-09-01T23:15:33+00:00",
-      "mission_id": "msn-60c3c248fcde",
-      "officer": "trading-director",
-      "report_to": "TRADING_QUANT_ARCHITECT",
-      "role": null,
-      "status": "OPEN",
-      "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     }
   ],
   "business": "BOTH",
-  "content_sha256": "97e45d8e6ae13650a2b85e4a5b8d50c27b65da3f021ec854b2c6bed9df488f2f",
-  "count": 113,
+  "content_sha256": "ea576c2a59bdafa21659e34a73ed0ac2e3d58e0e49ab2bc54d36c718e5841b17",
+  "count": 114,
   "counts_by_business": {
-    "CAS": 64,
+    "CAS": 65,
     "TRADING": 49
   },
   "counts_by_status": {
-    "ABANDONED": 45,
+    "ABANDONED": 56,
     "CLOSED": 27,
     "COMPLETE": 13,
-    "OPEN": 10,
     "REPORTED": 18
   },
   "endpoint": "/api/missions.json",
-  "generated_at": "2026-09-04T01:16:26+00:00",
+  "generated_at": "2026-09-04T01:22:16+00:00",
   "missions": [
+    {
+      "active": false,
+      "business": "CAS",
+      "created_at": "2026-09-04T01:19:56+00:00",
+      "mission_id": "msn-b21489e1d12a",
+      "officer": "cso",
+      "report_to": "CSO",
+      "role": "BUILDER",
+      "status": "ABANDONED",
+      "title": "Verify and reconnect existing CAS AI receptionist configuration"
+    },
     {
       "active": false,
       "business": "CAS",
@@ -525,25 +425,25 @@
       "title": "LIVE acceptance v3 \u2014 Quant to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T19:02:39+00:00",
       "mission_id": "msn-bfadce6db430",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance \u2014 CSO to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T19:01:07+00:00",
       "mission_id": "msn-c92d77af3ec6",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance v2 \u2014 Quant to Claude"
     },
     {
@@ -558,47 +458,47 @@
       "title": "LIVE acceptance v4 \u2014 Commander to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T18:55:51+00:00",
       "mission_id": "msn-442e7aba914a",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance \u2014 Quant to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T18:54:20+00:00",
       "mission_id": "msn-fc4466982d6b",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance v3 \u2014 Commander to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T18:52:06+00:00",
       "mission_id": "msn-ca9bd8733df3",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance v2 \u2014 Commander to Claude"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T18:47:08+00:00",
       "mission_id": "msn-453820df59a8",
       "officer": "commander",
       "report_to": "COMMANDER",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "LIVE acceptance \u2014 Commander to Claude"
     },
     {
@@ -613,25 +513,25 @@
       "title": "LIVE negative acceptance \u2014 Claude unavailable"
     },
     {
-      "active": true,
+      "active": false,
       "business": "CAS",
       "created_at": "2026-09-03T17:51:32+00:00",
       "mission_id": "msn-87fc611d5a2e",
       "officer": "cso",
       "report_to": "CSO",
       "role": "BUILDER",
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "CAS cinematic site \u2014 System and How It Moves copy options"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T17:50:45+00:00",
       "mission_id": "msn-fd15a4aada51",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "ORB-C frozen forward-validation contract repair"
     },
     {
@@ -778,14 +678,14 @@
       "title": "ORB-C post-replication adversarial review and prospective gate repair"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-02T22:32:29+00:00",
       "mission_id": "msn-6df102a1ff49",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "NQ opening-gap causal edge discovery - Gen 1 (offline)"
     },
     {
@@ -833,14 +733,14 @@
       "title": "ORB-C continuation: data custody staffing, independent-review packet, mission reconciliation"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-01T23:15:33+00:00",
       "mission_id": "msn-60c3c248fcde",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "OPEN",
+      "status": "ABANDONED",
       "title": "ORB-C validation data accumulation - certified NQ post-2026-08-27 harvest"
     },
     {
@@ -1575,7 +1475,7 @@
   "purpose": "Every mission the Command Center index holds, both businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-04T01:16:24+00:00",
+  "updated_at": "2026-09-04T01:22:11+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/missions.json",
   "withheld": []
 }

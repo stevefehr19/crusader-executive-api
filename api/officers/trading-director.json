@@ -4,7 +4,7 @@
   "businesses_in_scope": [
     "TRADING"
   ],
-  "content_sha256": "ffd451f4b8a4c5d8b60cb3ca27c5b7a6404ffb6b3555b1e43832e21fd1357e4a",
+  "content_sha256": "0703ff3390f7414e23716a677819f726dcc39de723777540e8aa8d7d1a0abd58",
   "current_experiment": {
     "content_sha256": "71993e89fd69f0af76cfe274368a530acc3dd5f66abc9b1e05b272b8975c50fa",
     "document": "WTC_Reclaim_NQ5m_Experiment_v1.md",
@@ -94,7 +94,7 @@
       "title": "EXP-01 observability correlation and next bounded ruling"
     }
   ],
-  "generated_at": "2026-09-04T02:45:51+00:00",
+  "generated_at": "2026-09-07T06:58:34+00:00",
   "hard_gates": {
     "complete": true,
     "expected": [
@@ -170,6 +170,215 @@
     {
       "active": true,
       "business": "TRADING",
+      "created_at": "2026-09-04T04:08:39+00:00",
+      "mission_id": "msn-7a11bf9d0678",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Reconcile corrected NQ program material custody"
+    },
+    {
+      "active": false,
+      "business": "TRADING",
+      "created_at": "2026-09-04T04:07:05+00:00",
+      "mission_id": "msn-d8c5996cdb01",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "ABANDONED",
+      "title": "Index and reconcile corrected NQ program custody"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T04:04:21+00:00",
+      "mission_id": "msn-bfb13560d724",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent re-review corrected integrated NQ program"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:57:18+00:00",
+      "mission_id": "msn-6bd60c8e28c6",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Correct integrated NQ program with modern ORB-C evidence"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:50:15+00:00",
+      "mission_id": "msn-ad67baef537e",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent review integrated NQ program report"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:45:19+00:00",
+      "mission_id": "msn-ef0ad047a482",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "Deep-history and modern-regime validation of NQ candidates"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:33:30+00:00",
+      "mission_id": "msn-7f2b2a40978c",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Integrate NQ massive search leaderboard and final research report"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:33:00+00:00",
+      "mission_id": "msn-545adc1e3d06",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent re-review corrected Lane B"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:31:29+00:00",
+      "mission_id": "msn-130d1ea90d08",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent re-review corrected Lane A"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:24:53+00:00",
+      "mission_id": "msn-1abeafc13d14",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "OPEN",
+      "title": "NQ massive strategy continuation \u2014 GEN2 validation, lane repairs, pairings and TradingView"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:17:49+00:00",
+      "mission_id": "msn-5636e4a8d2cf",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Repair and rerun Lane A after independent review"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:17:16+00:00",
+      "mission_id": "msn-9b3d56d4b554",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Repair and rerun Lane B after independent review"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:11:23+00:00",
+      "mission_id": "msn-9246b3c3a776",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent review Lane A opening gap session"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:11:22+00:00",
+      "mission_id": "msn-12893e89b00e",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent review Lane B trend volatility reclaim"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:11:20+00:00",
+      "mission_id": "msn-ea055e0813a9",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Independent review NQ pairing inventory"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T03:01:50+00:00",
+      "mission_id": "msn-1773c74e0ae4",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "Internal QA of NQ inventory pairing provenance"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T02:48:39+00:00",
+      "mission_id": "msn-8686b6580600",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "NQ massive search lane A opening gap session reversion"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T02:48:34+00:00",
+      "mission_id": "msn-fce90687975b",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "NQ program inventory and independent portfolio pairing"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
+      "created_at": "2026-09-04T02:48:34+00:00",
+      "mission_id": "msn-16c8cc3e852b",
+      "officer": "trading-director",
+      "report_to": "TRADING_QUANT_ARCHITECT",
+      "role": null,
+      "status": "REPORTED",
+      "title": "NQ massive search lane B trend volatility reclaim"
+    },
+    {
+      "active": true,
+      "business": "TRADING",
       "created_at": "2026-09-04T00:12:23+00:00",
       "mission_id": "msn-cf0f825f97e8",
       "officer": "trading-director",
@@ -212,14 +421,14 @@
       "title": "Install ORB-C through existing local TradingView MCP"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T23:12:10+00:00",
       "mission_id": "msn-72aacec94942",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Acceptance C 20260903T231209Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -256,14 +465,14 @@
       "title": "ORB-C validation harness conformance to frozen forward contract (Addendum 3 C1-C4)"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T20:55:54+00:00",
       "mission_id": "msn-0cb0721b753d",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Acceptance C 20260903T203225Z: Quant \u2192 Claude (offline research)"
     },
     {
@@ -278,14 +487,14 @@
       "title": "ORB-C TradingView single-controller strategy installation"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-03T19:10:51+00:00",
       "mission_id": "msn-4920aadc0834",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "LIVE acceptance v3 \u2014 Quant to Claude"
     },
     {
@@ -388,14 +597,14 @@
       "title": "ORB-C visual research indicator on TradingView (Steve-authorized)"
     },
     {
-      "active": true,
+      "active": false,
       "business": "TRADING",
       "created_at": "2026-09-02T20:03:55+00:00",
       "mission_id": "msn-a6876351e161",
       "officer": "trading-director",
       "report_to": "TRADING_QUANT_ARCHITECT",
       "role": null,
-      "status": "REPORTED",
+      "status": "ABANDONED",
       "title": "Trading refreshed-schema acceptance receipt"
     },
     {
@@ -727,7 +936,7 @@
         "trading-director"
       ],
       "publication_sha256": "44c8dd751c93507eb6018631445d6f461050b22882c3805af556713e206a61c7",
-      "published_at": "2026-09-04T02:45:50+00:00",
+      "published_at": "2026-09-07T06:58:32+00:00",
       "report_id": "TRD-20260826-test_quant_command_center_v1-809f1f55",
       "repository": "AI Trading",
       "review_state": null,
@@ -751,7 +960,7 @@
         "trading-director"
       ],
       "publication_sha256": "3409bb005aecff5186890237bf71f27db7e626407a51dd94618b27a6288e9134",
-      "published_at": "2026-09-04T02:45:50+00:00",
+      "published_at": "2026-09-07T06:58:32+00:00",
       "report_id": "TRD-20260826-portal_acceptance_test_synthetic_trading-24994f1f",
       "repository": null,
       "review_state": null,
@@ -947,13 +1156,13 @@
     }
   ],
   "trading_freshness": {
-    "age_minutes": 0.0,
-    "indexed_at": "2026-09-04T02:45:49+00:00",
+    "age_minutes": 0.1,
+    "indexed_at": "2026-09-07T06:58:30+00:00",
     "meaning": "index is current",
     "source_changed_since_index": false,
     "stale_after_minutes": 30,
     "state": "OK"
   },
-  "updated_at": "2026-01-01T00:00:00+00:00",
+  "updated_at": "2026-09-06T02:13:03+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/trading-director.json"
 }

@@ -3,6 +3,24 @@
   "blockers": [
     {
       "business": "TRADING",
+      "detail": "Deep-history and modern-regime validation of NQ candidates",
+      "failure_code": "INTEGRITY_VIOLATION",
+      "id": "msn-ef0ad047a482",
+      "kind": "MISSION_BLOCKED",
+      "operational_status": "FAILED_EXTERNAL",
+      "resolution": "OWNER RECONCILIATION REQUIRED; history retained"
+    },
+    {
+      "business": "TRADING",
+      "detail": "NQ massive strategy continuation \u2014 GEN2 validation, lane repairs, pairings and TradingView",
+      "failure_code": "INTEGRITY_VIOLATION",
+      "id": "msn-1abeafc13d14",
+      "kind": "MISSION_BLOCKED",
+      "operational_status": "FAILED_EXTERNAL",
+      "resolution": "OWNER RECONCILIATION REQUIRED; history retained"
+    },
+    {
+      "business": "TRADING",
       "detail": "PROP_FIRM_RULES.md",
       "id": "PROP_FIRM_RULES",
       "kind": "BLOCKING_UNSET"
@@ -26,7 +44,7 @@
     "TRADING": {
       "authority_conflicts": 0,
       "decisions_open": 2,
-      "documents_indexed": 7651,
+      "documents_indexed": 7656,
       "hard_gates": {
         "FORWARD_ALERT": "PROTECTED_STEVE_ONLY",
         "LIVE_TRADING": "NOT_AUTHORIZED",
@@ -38,13 +56,13 @@
       "reports_published": 2
     }
   },
-  "content_sha256": "d7ee574017b5888bd3561f2b6eb54394b270b8d35e87f88dd760bdf46841353a",
+  "content_sha256": "9bf5831ba81f4703b55a194b431bc6c377443b6e4a783452f1c873002e88ca45",
   "decisions_awaiting_steve": 2,
   "endpoint": "/api/global-status.json",
   "freshness": {
     "cas": {
       "age_minutes": 0.1,
-      "indexed_at": "2026-09-12T20:59:00+00:00",
+      "indexed_at": "2026-09-12T21:08:12+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
@@ -53,19 +71,19 @@
     "overall": "OK",
     "trading": {
       "age_minutes": 0.1,
-      "indexed_at": "2026-09-12T20:59:00+00:00",
+      "indexed_at": "2026-09-12T21:08:12+00:00",
       "meaning": "index is current",
       "source_changed_since_index": false,
       "stale_after_minutes": 30,
       "state": "OK"
     }
   },
-  "generated_at": "2026-09-12T20:59:06+00:00",
+  "generated_at": "2026-09-12T21:08:17+00:00",
   "mutable": false,
   "name": "global-status",
   "purpose": "Headline operational state of both Crusader businesses.",
   "read_only": true,
   "source": "Crusader Command Center (read-only projection)",
-  "updated_at": "2026-09-12T20:37:45+00:00",
+  "updated_at": "2026-09-12T21:08:16+00:00",
   "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
 }

@@ -1,7 +1,7 @@
 {
   "api": "crusader-public-executive-api",
   "authority": "The local Crusader control planes remain canonical. This API is a sanitized projection and is never the source of truth.",
-  "content_sha256": "96afb9ee16586ff21c855945e95a1c1056d709e7a218d10cc360e6e8aa96f138",
+  "content_sha256": "8f5a6d20e55264d01e36f6b76abc6668c55bb2bf770d8fb545b620f4b59a94a5",
   "count": 12,
   "endpoints": [
     {
@@ -36,8 +36,8 @@
       "name": "global-status",
       "path": "/api/global-status.json",
       "purpose": "Headline state of both businesses, index freshness and blockers.",
-      "sha256": "86d12a1424a945c7f895e4f6920acde51d4c861c8d85e5d89ff326e791846d11",
-      "updated_at": "2026-09-12T19:58:30+00:00",
+      "sha256": "b274dcdd9e3f0a22acd8b1a8bc589de97dcffc141677633db07821461cc0a01e",
+      "updated_at": "2026-09-12T20:25:40+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/global-status.json"
     },
     {
@@ -54,8 +54,8 @@
       "name": "officer-commander",
       "path": "/api/officers/commander.json",
       "purpose": "Executive feed for GPT Crusader Commander.",
-      "sha256": "0863193d459ca41f45fe2cac74b4c8bc9ce5c77a4c5fc65e4fd23e7662106dca",
-      "updated_at": "2026-09-12T19:58:30+00:00",
+      "sha256": "5fcbe71b42eb89ab7b3ae103e1a3c4d28f0c35d63029bf99b504f40811d88413",
+      "updated_at": "2026-09-12T20:25:40+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/officers/commander.json"
     },
     {
@@ -99,8 +99,8 @@
       "name": "trading-current-state",
       "path": "/api/trading/current-state.json",
       "purpose": "Trading authority, hard gates, research state and published reports.",
-      "sha256": "abbf85b997515fabd702659185dddbe78a2937c28ee2867887fccd895cef21d7",
-      "updated_at": "2026-09-12T19:58:30+00:00",
+      "sha256": "cd0e2085a184c32366a60e85035fb952b092d524006fa1d851fdf2fa309fc2fb",
+      "updated_at": "2026-09-12T20:25:40+00:00",
       "url": "https://stevefehr19.github.io/crusader-executive-api/api/trading/current-state.json"
     },
     {
@@ -114,7 +114,7 @@
     }
   ],
   "freshness_contract": "Every document carries generated_at (when this copy was built) and updated_at (when its content last changed). global-status.json carries the Command Center index freshness for both businesses. If generated_at is old, this is a stale COPY: say so rather than presenting it as current, and ask Steve to run the publish step.",
-  "generated_at": "2026-09-12T20:19:28+00:00",
+  "generated_at": "2026-09-12T20:25:41+00:00",
   "methods": [
     "GET"
   ],

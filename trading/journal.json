@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-14T20:41:00Z",
+  "timezone": "America/Vancouver",
+  "feed_status": "PROVISIONAL_SEED",
+  "source": "TradingView screenshot + manual reconciliation",
+  "refresh_seconds": 15,
+  "trades": [
+    {
+      "trade_id": "2026-09-14-PMS15-001",
+      "date": "2026-09-14",
+      "strategy": "PMS15 Neighbor12",
+      "sleeve": "PMS15",
+      "side": "SHORT",
+      "qty": 1,
+      "contract": "NQ",
+      "entry_price": null,
+      "exit_price": null,
+      "pnl_usd": 1250,
+      "exit_reason": "PMS endpoint open",
+      "status": "PROVISIONAL",
+      "lane": "FORWARD_SIMULATED",
+      "source": "TradingView screenshot"
+    },
+    {
+      "trade_id": "2026-09-14-LAST30-001",
+      "date": "2026-09-14",
+      "strategy": "LAST30 ONFH",
+      "sleeve": "LAST30",
+      "side": "SHORT",
+      "qty": 1,
+      "contract": "NQ",
+      "entry_price": null,
+      "exit_price": null,
+      "pnl_usd": 1950,
+      "exit_reason": "ONFH RTH close",
+      "status": "PROVISIONAL",
+      "lane": "FORWARD_SIMULATED",
+      "source": "TradingView screenshot"
+    }
+  ]
+}
